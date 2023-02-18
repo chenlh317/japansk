@@ -1,8 +1,8 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: 日语歌词摘抄
-author: Linghua
+title: 东洋歌词摘钞
+author: 陈凌骅
 logo: logo.png
 
 # Force re-execution of notebooks on each build.
