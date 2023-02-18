@@ -7,6 +7,7 @@ root: intro
 parts:
   - caption: By artist
     chapters:
+      - file: by_artist/kawai_naoko
       - file: by_artist/yamaguchi_momoe
 
   - caption: By opus
