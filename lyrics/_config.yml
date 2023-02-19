@@ -2,7 +2,7 @@
 # Learn more at https://jupyterbook.org/customize/config.html
 
 title: 东洋歌词摘钞
-author: 陈凌骅
+author: mir.AI
 logo: logo.png
 
 # Force re-execution of notebooks on each build.
