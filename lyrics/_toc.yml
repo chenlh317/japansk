@@ -7,6 +7,7 @@ root: intro
 parts:
   - caption: By artist
     chapters:
+      - file: by_artist/iwazaki_hiromi
       - file: by_artist/kawai_naoko
       - file: by_artist/yamaguchi_momoe
 
@@ -14,6 +15,7 @@ parts:
     chapters:
       - file: by_opus/anime
       - file: by_opus/higurasi_no_naku_koro_ni
+      - file: by_opus/gundam_seed
       - file: by_opus/love_hina
       - file: by_opus/tsuki_ga_kirei
 
