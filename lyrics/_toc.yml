@@ -2,13 +2,14 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
-root: intro
+root: index
 
 parts:
   - caption: By artist
     chapters:
       - file: by_artist/iwazaki_hiromi
       - file: by_artist/kawai_naoko
+      - file: by_artist/nakajima_miyuki
       - file: by_artist/sakai_noriko
       - file: by_artist/yamaguchi_momoe
 
