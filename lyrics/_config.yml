@@ -3,7 +3,7 @@
 
 title: 东洋歌词摘钞
 author: mir.AI
-logo: logo.png
+logo: pics/logo.png
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
@@ -30,4 +30,4 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
-  favicon: tokyo_tower_favicon-32x32.png
+  favicon: pics/tokyo_tower_favicon-32x32.png
