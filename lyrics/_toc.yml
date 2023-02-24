@@ -23,6 +23,6 @@ parts:
       - file: by_opus/love_hina
       - file: by_opus/tsuki_ga_kirei
 
-  - caption: Template
+  - caption: Manual
     chapters:
-    - file: template/template
+    - file: manual/manual

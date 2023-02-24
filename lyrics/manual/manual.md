@@ -1,9 +1,25 @@
 
-# Template
+# Manual
 
-* https://zh.wikipedia.org/wiki/%E6%9C%88%E8%89%B2%E7%9C%9F%E7%BE%8E
+## Copy
 
-## 初恋
+Chrome plug-in: 
+[Simple allow copy](https://chrome.google.com/webstore/detail/simple-allow-copy/aefehdhdciieocakfobpaaolhipkcpgc).
+
+## Build
+
+[Jupyter Book](https://jupyterbook.org/en/stable/intro.html)
+
+## Deploy
+
+[ghp-import](https://jupyterbook.org/en/stable/publish/gh-pages.html#option-2-automatically-push-your-build-files-with-ghp-import).
+Command: ``ghp-import -n -p -f _build/html``
+
+## Publish
+
+[GitHug Pages](https://pages.github.com/)
+
+## Template - 初恋
 
 * 東山奈央
 * https://www.bilibili.com/read/cv5759633
