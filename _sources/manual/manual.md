@@ -13,7 +13,7 @@ Chrome plug-in:
 ## Deploy
 
 [ghp-import](https://jupyterbook.org/en/stable/publish/gh-pages.html#option-2-automatically-push-your-build-files-with-ghp-import).
-Command: ``ghp-import -n -p -f _build/html``
+Command: ``ghp-import -n -p -f lyrics/_build/html``
 
 ## Publish
 
