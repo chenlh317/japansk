@@ -83,6 +83,11 @@
 * 石川ひとみ
 * https://www.uta-net.com/song/85113/
 
+歌詞の意味を考察:
+
+* https://kamoshika01.com/20248.html
+* https://utaten.com/specialArticle/index/7559
+
 貴方は もう忘れたかしら<br>
 赤い手拭 マフラーにして<br>
 二人で行った 横丁の風呂屋<br>
