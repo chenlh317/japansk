@@ -11,6 +11,7 @@ parts:
       - file: by_artist/kawai_naoko
       - file: by_artist/nakajima_miyuki
       - file: by_artist/sakai_noriko
+      - file: by_artist/sada_masashi
       - file: by_artist/yamaguchi_momoe
 
   - caption: By opus
@@ -20,6 +21,7 @@ parts:
       - file: by_opus/itsuwa_mayumi
       - file: by_opus/love_hina
       - file: by_opus/tsuki_ga_kirei
+      - file: by_opus/white_album_2
 
   - caption: By type
     chapters:
@@ -28,6 +30,6 @@ parts:
       - file: by_type/ghibli
       - file: by_type/uta
 
-  - caption: Manual
+  - caption: Wiki
     chapters:
-    - file: manual/manual
+    - file: wiki/manual
