@@ -11,6 +11,7 @@ parts:
       - file: by_opus/itsuwa_mayumi
       - file: by_artist/kawai_naoko
       - file: by_artist/nakajima_miyuki
+      - file: by_artist/nakamori_akina
       - file: by_artist/sakai_noriko
       - file: by_artist/sada_masashi
       - file: by_artist/yamaguchi_momoe
