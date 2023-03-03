@@ -226,3 +226,55 @@ my way 重なるよ<br>
 今日の日は さようなら<br>
 またあう日まで<br>
 またあう日まで<br>
+
+
+## Love Destiny
+
+* 堀江由衣
+* シスタープリンセス オープニング
+* 作詞/曲：伊藤千夏
+* https://www.uta-net.com/song/51082/
+
+アイタイ LoveLoveLoveLoveのに<br>
+アエナイ LoveLoveLove 今夜は<br>
+窓を打つ雨より激しい嵐に揺れてる<br>
+アエナイ LoveLoveLoveLoveから<br>
+もっと愛 LoveLove つのるよ<br>
+燃え尽きてもいい これが最後の真実<br>
+
+初めての出会いは平凡だったけど<br>
+会う度に過去の誰よりも惹かれてく<br>
+こんな気持ちの訳 うまく言えないけど<br>
+運命の恋と 人は呼ぶのでしょう<br>
+ひとみ 閉じたら ふたりになれる<br>
+今たとえ この部屋ひとりでも<br>
+It's my only destiny<br>
+
+アイタイ LoveLoveLoveLoveのに<br>
+アエナイ LoveLoveLove 今夜は<br>
+勝手にあふれてく激情を止められない<br>
+だから LoveLoveLove アイタイ<br>
+だけど LoveLoveLove アエナイ<br>
+もう戻れはしない これが最後の真実<br>
+
+誰かを思う時 苦しくなるなんてね<br>
+これまでの自分が 次々に崩れてく<br>
+ポーズとは裏腹 巻き込まれてゆく感じ<br>
+見えない力で 引き寄せられてゆく<br>
+ひとみ そらさず ふたりになれた<br>
+あの夜の鼓動 忘れない<br>
+It's my last destiny<br>
+
+アイタイ LoveLoveLoveLoveのに<br>
+アエナイ LoveLoveLove 今夜は<br>
+窓を打つ雨より激しい嵐に揺れてる<br>
+アエナイ LoveLoveLoveLoveから<br>
+もっと愛 LoveLove つのるよ<br>
+燃え尽きてもいい これが最後の真実<br>
+
+ねえ不思議 彼を想って泣ける夜があるって<br>
+まるで Love Song<br>
+
+だから LoveLoveLove アイタイ<br>
+だけど LoveLoveLove アエナイ<br>
+もう戻れはしない これが最後の真実<br>
