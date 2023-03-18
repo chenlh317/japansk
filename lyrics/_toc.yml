@@ -12,6 +12,7 @@ parts:
       - file: by_artist/kawai_naoko
       - file: by_artist/nakajima_miyuki
       - file: by_artist/nakamori_akina
+      - file: by_artist/natsugawa_rimi
       - file: by_artist/sakai_noriko
       - file: by_artist/sada_masashi
       - file: by_artist/yamaguchi_momoe
@@ -22,6 +23,7 @@ parts:
       - file: by_opus/gundam_seed
       - file: by_opus/love_hina
       - file: by_opus/tsuki_ga_kirei
+      - file: by_opus/tsuzumiya_haruhi
       - file: by_opus/white_album_2
 
   - caption: By type
