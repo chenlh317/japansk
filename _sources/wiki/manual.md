@@ -8,12 +8,15 @@ Chrome plug-in:
 
 ## Build
 
-[Jupyter Book](https://jupyterbook.org/en/stable/intro.html)
+[Jupyter Book](https://jupyterbook.org/en/stable/intro.html).
+Command: `jb build lyrics`
 
 ## Deploy
 
 [ghp-import](https://jupyterbook.org/en/stable/publish/gh-pages.html#option-2-automatically-push-your-build-files-with-ghp-import).
-Command: ``ghp-import -n -p -f lyrics/_build/html``
+Command: `ghp-import -n -p -f lyrics/_build/html`
+
+Then sync both `master` and `gh-pages` branches.
 
 ## Publish
 
