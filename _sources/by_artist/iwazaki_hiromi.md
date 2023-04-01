@@ -179,3 +179,26 @@
 打たれながら どこまでも<br>
 ひとりきりで歩きたい<br>
 想い出を抱いて...<br>
+
+Depuis quelques jours je vis dans le silence<br>
+Des quatres murs de mon amour<br>
+Depuis ton départ l'ombre de ton absence<br>
+Me poursuit chaque nuit et me fuit chaque jour<br>
+
+Je ne vois plus personne j'ai fait le vide autour de moi<br>
+Je ne comprends plus rien parce que je ne suis rien sans toi<br>
+J'ai renoncé à tout parce que je n'ai plus d'illusions<br>
+De notre amour écoute la chanson<br>
+
+Non je ne pourrai jamais vivre sans toi<br>
+Je ne pourrai pas, ne pars pas, j'en mourrai<br>
+Un instant sans toi et je n'existe pas<br>
+Mais mon amour ne me quitte pas<br>
+Mon amour je t'attendrai toute ma vie<br>
+Reste près de moi reviens je t'en supplie<br>
+J'ai besoin de toi je veux vivre pour toi<br>
+Oh mon amour ne me quitte pas<br>
+
+Ils se sont séparés sur le quai d'un gare<br>
+Ils se sont éloignés dans un dernier regard<br>
+Oh je t'aime ne me quitte pas<br>
