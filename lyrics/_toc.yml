@@ -7,8 +7,8 @@ root: index
 parts:
   - caption: By artist
     chapters:
+      - file: by_artist/itsuwa_mayumi
       - file: by_artist/iwazaki_hiromi
-      - file: by_opus/itsuwa_mayumi
       - file: by_artist/kawai_naoko
       - file: by_artist/nakajima_miyuki
       - file: by_artist/nakamori_akina
@@ -22,6 +22,7 @@ parts:
       - file: by_opus/higurasi_no_naku_koro_ni
       - file: by_opus/gundam_seed
       - file: by_opus/love_hina
+      - file: by_opus/monogatari_series
       - file: by_opus/tsuki_ga_kirei
       - file: by_opus/tsuzumiya_haruhi
       - file: by_opus/white_album_2
