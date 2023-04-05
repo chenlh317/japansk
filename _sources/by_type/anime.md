@@ -86,6 +86,7 @@
 
 * 中孝介
 * 源氏物語千年紀 Genji エンディング
+* https://www.uta-net.com/song/77702/
 
 せめて一度くらい<br>
 振り向いて欲しかった<br>
@@ -156,7 +157,7 @@
 
 ## 今日の日はさようなら
 
-* https://www.utamap.com/showkasi.php?surl=36805
+* https://www.uta-net.com/song/1614/
 
 いつまでも 絶えることなく<br>
 友達でいよう<br>
