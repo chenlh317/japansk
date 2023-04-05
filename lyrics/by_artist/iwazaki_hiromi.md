@@ -202,3 +202,39 @@ Oh mon amour ne me quitte pas<br>
 Ils se sont séparés sur le quai d'un gare<br>
 Ils se sont éloignés dans un dernier regard<br>
 Oh je t'aime ne me quitte pas<br>
+
+
+## 甘い生活
+
+* 野口五郎
+* https://www.uta-net.com/song/348/
+* [歌詞の意味を徹底解釈](https://otokake.com/matome/hrwt1X)
+
+あなたと揃いの モーニング・カップは<br>
+このまま誰かにあげよか<br>
+二人で暮すと はがきで通知を<br>
+出した日は帰らない<br>
+愛があればそれでいいと<br>
+甘い夢をはじめたが<br>
+
+今では二人からだ<br>
+寄せても愛は哀しい<br>
+何かがこわれ去った<br>
+ひとときの甘い生活よ<br>
+
+土曜の夜には あなたを誘って<br>
+町まで飲みにも行ったよ<br>
+なじみのお店も この町はなれりゃ<br>
+もう二度と来ないだろ<br>
+壁の傷はここにベッド<br>
+入れた時につけたもの<br>
+
+今ではそんなことも<br>
+心に痛い想い出<br>
+何かがこわれ去った<br>
+ひとときの甘い生活よ<br>
+
+今では二人からだ<br>
+寄せても愛は哀しい<br>
+何かがこわれ去った<br>
+ひとときの甘い生活よ<br>
