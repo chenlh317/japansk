@@ -22,7 +22,7 @@ Then sync both `master` and `gh-pages` branches.
 
 [GitHug Pages](https://pages.github.com/)
 
-## Template - 初恋
+## Template
 
 * 東山奈央
 * https://www.bilibili.com/read/cv5759633
