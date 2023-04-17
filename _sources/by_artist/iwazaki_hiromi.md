@@ -106,6 +106,7 @@
 ## すみれ色の涙
 
 * https://www.uta-net.com/song/2760/
+* 解釈: https://bandshijin.com/sumireirononamida/
 
 すみれって すみれって<br>
 ブルーな恋人どうしが<br>
