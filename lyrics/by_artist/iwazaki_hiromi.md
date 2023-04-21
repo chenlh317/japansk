@@ -45,7 +45,6 @@
 ## れんげ草の恋
 
 * https://www.uta-net.com/movie/84792/
-* 歌詞の意味: https://plaza.rakuten.co.jp/katuppe/diary/202111090000/
 
 わかってました そうよ私は<br>
 忘れられた訳じゃありません<br>
@@ -107,6 +106,7 @@
 
 * https://www.uta-net.com/song/2760/
 * 解釈: https://bandshijin.com/sumireirononamida/
+* 歌詞の意味: https://plaza.rakuten.co.jp/katuppe/diary/202111100000/
 
 すみれって すみれって<br>
 ブルーな恋人どうしが<br>

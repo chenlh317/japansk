@@ -273,3 +273,58 @@ It's my last destiny<br>
 悲しむならば 悲しむならば 私の心白く変われる<br>
 貴方の事も私の事も 全ての事もまだ知らないの<br>
 重い目蓋を開けたのならば すべて壊すのなら黒になれ!!!<br>
+
+
+## 渡月橋 ～君 想ふ～
+
+* 倉木麻衣
+* 名探偵コナン から紅の恋歌 主題歌
+* https://www.uta-net.com/song/227640/
+
+寄り添う二人に 君がオーバーラップ<br>
+色なき風に 思い馳せて<br>
+触れた手の温もり 今も…<br>
+Stop 時間を止めて<br>
+
+そう いつの日だって<br>
+君の言葉 忘れないの<br>
+会いたい時に 会えない<br>
+会いたい時に 会えない<br>
+切なくて もどかしい<br>
+
+から紅に染まる渡月橋<br>
+導かれる日 願って<br>
+川の流れに祈りを込めて<br>
+I've been thinking about you<br>
+I've been thinking about you<br>
+いつも こころ 君のそば<br>
+
+いにしえの景色 変わりなく<br>
+今 この瞳に映し出す<br>
+彩りゆく 季節越えて<br>
+Stock 覚えていますか？<br>
+
+ねぇ いつになったら<br>
+また 巡り会えるのかな<br>
+会いたい時に 会えない<br>
+会いたい時に 会えない<br>
+この胸を 焦がすの<br>
+
+から紅に水くくるとき<br>
+君との想い つなげて<br>
+川の流れに祈りを込めて<br>
+I've been thinking about you<br>
+I've been thinking about you<br>
+いつも 君を 探してる<br>
+
+君となら 不安さえ<br>
+どんな時も消えていくよ<br>
+いつになったら 優しく<br>
+抱きしめられるのかな<br>
+
+から紅の紅葉達さえ<br>
+熱い思いを 告げては<br>
+ゆらり揺れて歌っています<br>
+I've been thinking about you<br>
+I've been thinking about you<br>
+いつも いつも 君 想ふ<br>
