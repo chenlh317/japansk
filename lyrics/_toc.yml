@@ -22,8 +22,9 @@ parts:
 
   - caption: By opus
     chapters:
-      - file: by_opus/higurashi_no_naku_koro_ni
+      - file: by_opus/evangelion
       - file: by_opus/gundam_seed
+      - file: by_opus/higurashi_no_naku_koro_ni
       - file: by_opus/love_hina
       - file: by_opus/monogatari_series
       - file: by_opus/school_days
