@@ -1,10 +1,14 @@
 
-# White Album 2
+# White Album 2 <!-- omit in toc -->
+
+- [White Love](#white-love)
+- [届かない恋](#届かない恋)
+
 
 ## White Love
 
 * SPEED
-* 資生堂「ティセラ」 
+* 資生堂「ティセラ」
 * https://www.uta-net.com/song/10091/
 
 果てしない あの雲の彼方へ<br>
