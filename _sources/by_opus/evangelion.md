@@ -1,5 +1,8 @@
 
-# Evangelion
+# Evangelion <!-- omit in toc -->
+
+- [Beautiful World](#beautiful-world)
+- [残酷な天使のテーゼ](#残酷な天使のテーゼ)
 
 
 ## Beautiful World
