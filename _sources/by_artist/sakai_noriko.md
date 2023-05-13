@@ -11,8 +11,8 @@
 
 ## 碧いうさぎ
 
-* 星の金貨 主題歌
-* https://www.uta-net.com/song/8561/
+ - 星の金貨 主題歌
+ - https://www.uta-net.com/song/8561/
 
 あとどれくらい 切なくなれば<br>
 あなたの声が聴こえるかしら<br>
@@ -41,7 +41,7 @@
 
 ## Here I am ～泣きたい時は泣けばいい～
 
-* https://www.uta-net.com/song/9130/
+ - https://www.uta-net.com/song/9130/
 
 あなたの頬にこぼれ落ちる<br>
 涙を拭かせて<br>
@@ -79,7 +79,7 @@
 
 ## あなたが満ちてゆく
 
-* https://www.uta-net.com/song/53096/
+ - https://www.uta-net.com/song/53096/
 
 夢を見てるあなたの 腕を抜け出して<br>
 そっと出かける 月曜日の朝<br>
@@ -113,7 +113,7 @@
 
 ## 夢冒険
 
-* https://www.uta-net.com/song/4702/
+ - https://www.uta-net.com/song/4702/
 
 心に冒険を 夢を抱きしめたくて<br>
 そんな君の傍 見守ってたい<br>
@@ -150,7 +150,7 @@
 
 ## 横顔
 
-* https://www.uta-net.com/song/10336/
+ - https://www.uta-net.com/song/10336/
 
 あなたは生まれたての赤ん坊のよう<br>
 その手は今何かをつかもうとする<br>
@@ -184,7 +184,7 @@
 
 ## 鏡のドレス
 
-* https://www.uta-net.com/song/9400/
+ - https://www.uta-net.com/song/9400/
 
 突然 泣き出して あなたを困らせた<br>
 抱いてくれるのに おびえていた<br>

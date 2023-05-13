@@ -12,9 +12,9 @@
 
 ## 恋待草
 
-* 作詞：伊達歩
-* 作曲：小林亜星
-* https://www.uta-net.com/song/84793/
+ - 作詞：伊達歩
+ - 作曲：小林亜星
+ - https://www.uta-net.com/song/84793/
 
 もしも私が 紫の<br>
 春行く風に なれるなら<br>
@@ -53,7 +53,7 @@
 
 ## れんげ草の恋
 
-* https://www.uta-net.com/movie/84792/
+ - https://www.uta-net.com/movie/84792/
 
 わかってました そうよ私は<br>
 忘れられた訳じゃありません<br>
@@ -88,7 +88,7 @@
 
 ## 月见草
 
-* https://www.uta-net.com/song/94754/
+ - https://www.uta-net.com/song/94754/
 
 月見草の丘で ふたりだけの式をあげ<br>
 そっとかわす くちづけ<br>
@@ -113,9 +113,9 @@
 
 ## すみれ色の涙
 
-* https://www.uta-net.com/song/2760/
-* 解釈: https://bandshijin.com/sumireirononamida/
-* 歌詞の意味: https://plaza.rakuten.co.jp/katuppe/diary/202111100000/
+ - https://www.uta-net.com/song/2760/
+ - 解釈: https://bandshijin.com/sumireirononamida/
+ - 歌詞の意味: https://plaza.rakuten.co.jp/katuppe/diary/202111100000/
 
 すみれって すみれって<br>
 ブルーな恋人どうしが<br>
@@ -139,7 +139,7 @@
 
 ## 雪物語
 
-* https://www.bilibili.com/video/BV1YU4y137nk/
+ - https://www.bilibili.com/video/BV1YU4y137nk/
 
 雪はなぜ白いのですか<br>
 雪はなぜ優しいのですか<br>
@@ -164,11 +164,11 @@
 
 ## シェルブールの雨傘
 
-* Les Parapluies de Cherbourg
-* 作詞：Jacques Demy
-* 訳詞: 片桐和子
-* 作曲：MICHEL LEGRAND
-* https://www.kkbox.com/jp/ja/song/4qzD9U5MWUFouOa9EV
+ - Les Parapluies de Cherbourg
+ - 作詞：Jacques Demy
+ - 訳詞: 片桐和子
+ - 作曲：MICHEL LEGRAND
+ - https://www.kkbox.com/jp/ja/song/4qzD9U5MWUFouOa9EV
 
 いつの日にも あなただけ<br>
 待ち続けて 生きてゆく<br>
@@ -216,9 +216,9 @@ Oh je t'aime ne me quitte pas<br>
 
 ## 甘い生活
 
-* 野口五郎
-* https://www.uta-net.com/song/348/
-* [歌詞の意味を徹底解釈](https://otokake.com/matome/hrwt1X)
+ - 野口五郎
+ - https://www.uta-net.com/song/348/
+ - [歌詞の意味を徹底解釈](https://otokake.com/matome/hrwt1X)
 
 あなたと揃いの モーニング・カップは<br>
 このまま誰かにあげよか<br>

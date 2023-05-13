@@ -8,8 +8,8 @@
 
 ## 折鶴
 
-* 千葉紘子
-* https://www.uta-net.com/song/1132/
+ - 千葉紘子
+ - https://www.uta-net.com/song/1132/
 
 誰が教えてくれたのか 忘れたけれど折鶴を<br>
 無邪気だったあの頃 今は願いごと<br>
@@ -37,8 +37,8 @@
 
 ## 氷雨(ひさめ)
 
-* 日野美歌
-* https://www.uta-net.com/song/42679/
+ - 日野美歌
+ - https://www.uta-net.com/song/42679/
 
 飲ませて下さい もう少し<br>
 今夜は帰らない 帰りたくない<br>
@@ -71,7 +71,7 @@
 
 ## 立待岬
 
-* https://www.uta-net.com/song/2975/
+ - https://www.uta-net.com/song/2975/
 
 北の岬に 咲く浜茄子(はまなす)の<br>
 花は紅(くれない) 未練の色よ<br>

@@ -10,7 +10,7 @@
 
 ## 潮騒
 
-* https://www.uta-net.com/movie/33416/
+ - https://www.uta-net.com/movie/33416/
 
 誰もいない 港に立ち<br>
 潮騒を聞けば<br>
@@ -40,7 +40,7 @@
 
 ## 寝物語
 
-* https://ameblo.jp/bumimasshochan/entry-12651111811.html
+ - https://ameblo.jp/bumimasshochan/entry-12651111811.html
 
 愛してるわと そう言ったとき<br>
 あなたはふっと 私を強く抱きしめた<br>
@@ -67,7 +67,7 @@
 
 ## リバイバル
 
-* https://www.uta-net.com/song/585/
+ - https://www.uta-net.com/song/585/
 
 降りしきる雨の中を<br>
 足早に通り過ぎた<br>
@@ -97,7 +97,7 @@
 
 ## 一葉舟
 
-* https://www.uta-net.com/song/187736/
+ - https://www.uta-net.com/song/187736/
 
 はぐれて一葉 浮世の河に<br>
 ゆられゆられて 舟となる<br>
@@ -123,7 +123,7 @@
 
 ## 雨の中の二人
 
-* https://www.uta-net.com/song/221371/
+ - https://www.uta-net.com/song/221371/
 
 そぼ降る小雨の中を<br>
 二人はひとつの傘に<br>

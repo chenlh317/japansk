@@ -8,8 +8,8 @@
 
 ## You (詩音)
 
-* 歌：癒月
-* https://j-lyric.net/artist/a04dda5/l0224c1.html
+ - 歌：癒月
+ - https://j-lyric.net/artist/a04dda5/l0224c1.html
 
 あなたは今どこで何をしていますか?<br>
 この空の続く場所にいますか?<br>
@@ -44,9 +44,9 @@
 
 ## 奈落の花
 
-* 島みやえい子
-* ひぐらしのなく頃に 解 オープニング
-* https://www.uta-net.com/song/57903/
+ - 島みやえい子
+ - ひぐらしのなく頃に 解 オープニング
+ - https://www.uta-net.com/song/57903/
 
 さぁ 忘れましょう その未来が<br>
 また 血ぬられてゆくなんて<br>
@@ -81,11 +81,11 @@
 
 ## 対象a
 
-* anNina
-* ひぐらしのなく頃に 解 エンディング
-* 作詞：interface
-* 作曲：inazawa
-* https://www.uta-net.com/song/90553/
+ - anNina
+ - ひぐらしのなく頃に 解 エンディング
+ - 作詞：interface
+ - 作曲：inazawa
+ - https://www.uta-net.com/song/90553/
 
 あなたの亡骸に土をかける<br>
 それが禁じられていたとしても<br>
