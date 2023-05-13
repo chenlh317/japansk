@@ -16,6 +16,7 @@
 - [オレンジ](#オレンジ)
 - [ラブソング (Love song)](#ラブソング-love-song)
 - [赤い花 白い花](#赤い花-白い花)
+- [Magia](#magia)
 - [and I'm home](#and-im-home)
 - [夕顔](#夕顔)
 - [片翼の鳥](#片翼の鳥)
@@ -24,12 +25,12 @@
 
 ## キミガタメ
 
-* うたわれるもの エンディング
-* Suara
-* 作詞：須谷尚子
-* 作曲：下川直哉
-* https://www.uta-net.com/song/59732/
-* https://www.bilibili.com/video/BV1qx411H7EZ
+ - うたわれるもの エンディング
+ - Suara
+ - 作詞：須谷尚子
+ - 作曲：下川直哉
+ - https://www.uta-net.com/song/59732/
+ - https://www.bilibili.com/video/BV1qx411H7EZ
 
 きみの瞳に映る わたしは何色ですか<br>
 赤深き望むなら 渡そう陽の光を<br>
@@ -67,12 +68,12 @@
 
 ## 蜉蝣-かげろう
 
-* BUCK-TICK
-* xxxHOLiC エンディング
-* 作詞：櫻井敦司
-* 作曲：今井寿・BUCK-TICK
-* https://www.uta-net.com/song/44433/
-* https://japan-anime-song.com/wp/2019/10/25/horikku-songs/
+ - BUCK-TICK
+ - xxxHOLiC エンディング
+ - 作詞：櫻井敦司
+ - 作曲：今井寿・BUCK-TICK
+ - https://www.uta-net.com/song/44433/
+ - https://japan-anime-song.com/wp/2019/10/25/horikku-songs/
 
 薄紅乱れて 真夏の夜の夢々 飛び立つ蜉蝣 恋焦がれる<br>
 
@@ -105,9 +106,9 @@
 
 ## 恋
 
-* 中孝介
-* 源氏物語千年紀 Genji エンディング
-* https://www.uta-net.com/song/77702/
+ - 中孝介
+ - 源氏物語千年紀 Genji エンディング
+ - https://www.uta-net.com/song/77702/
 
 せめて一度くらい<br>
 振り向いて欲しかった<br>
@@ -148,8 +149,8 @@
 
 ## 源氏千年物語
 
-* 歌・作詞・作曲：菅井えり
-* https://zh.followlyrics.com/lyrics/353801/yuan-shi-qian-nian-wu-yu-Genji-millennia-story
+ - 歌・作詞・作曲：菅井えり
+ - https://zh.followlyrics.com/lyrics/353801/yuan-shi-qian-nian-wu-yu-Genji-millennia-story
 
 光 葵 紫の上、末積花 花散里<br>
 朧月夜 明石の上 匂宮 浮舟 薫<br>
@@ -178,7 +179,7 @@
 
 ## 今日の日はさようなら
 
-* https://www.uta-net.com/song/1614/
+ - https://www.uta-net.com/song/1614/
 
 いつまでも 絶えることなく<br>
 友達でいよう<br>
@@ -199,10 +200,10 @@
 
 ## Love Destiny
 
-* 堀江由衣
-* シスタープリンセス オープニング
-* 作詞/曲：伊藤千夏
-* https://www.uta-net.com/song/51082/
+ - 堀江由衣
+ - シスタープリンセス オープニング
+ - 作詞/曲：伊藤千夏
+ - https://www.uta-net.com/song/51082/
 
 アイタイ LoveLoveLoveLoveのに<br>
 アエナイ LoveLoveLove 今夜は<br>
@@ -251,8 +252,8 @@ It's my last destiny<br>
 
 ## Bad Apple!!
 
-* https://zh.touhouwiki.net/index.php?title=%E6%AD%8C%E8%AF%8D:Bad_Apple!!&variant=zh
-* https://dic.nicovideo.jp/a/bad%20apple%21%21%20feat.%20nomico
+ - https://zh.touhouwiki.net/index.php?title=%E6%AD%8C%E8%AF%8D:Bad_Apple!!&variant=zh
+ - https://dic.nicovideo.jp/a/bad%20apple%21%21%20feat.%20nomico
 
 流れてく時の中ででも 気だるさがほらグルグル廻って<br>
 私から離れる心も見えないわ そう知らない<br>
@@ -298,9 +299,9 @@ It's my last destiny<br>
 
 ## 渡月橋 ～君 想ふ～
 
-* 倉木麻衣
-* 名探偵コナン から紅の恋歌 主題歌
-* https://www.uta-net.com/song/227640/
+ - 倉木麻衣
+ - 名探偵コナン から紅の恋歌 主題歌
+ - https://www.uta-net.com/song/227640/
 
 寄り添う二人に 君がオーバーラップ<br>
 色なき風に 思い馳せて<br>
@@ -353,8 +354,8 @@ I've been thinking about you<br>
 
 ## いけないボーダーライン
 
-* マクロスΔ 挿入歌
-* https://www.uta-net.com/song/207724/
+ - マクロスΔ 挿入歌
+ - https://www.uta-net.com/song/207724/
 
 見つめ合って恋をして<br>
 無我夢中で追いかけて<br>
@@ -406,9 +407,9 @@ I've been thinking about you<br>
 
 ## filament
 
-* 妖精帝國
-* 未来日記 エンディング
-* https://www.uta-net.com/song/125154/
+ - 妖精帝國
+ - 未来日記 エンディング
+ - https://www.uta-net.com/song/125154/
 
 あとどれくらい失えば 高鳴る鼓動許される?<br>
 
@@ -460,9 +461,9 @@ I've been thinking about you<br>
 
 ## はるのとなり
 
-* 佐々木恵梨
-* ゆるキャン△ SEASON2 エンディング
-* https://www.uta-net.com/song/296954/
+ - 佐々木恵梨
+ - ゆるキャン△ SEASON2 エンディング
+ - https://www.uta-net.com/song/296954/
 
 そよ風に吹かれて<br>
 お家に帰ろう<br>
@@ -513,9 +514,9 @@ I've been thinking about you<br>
 
 ## まどろみの約束
 
-* 千反田える(佐藤聡美)＆伊原摩耶花(茅野愛衣)
-* 氷菓 エンディング
-* https://www.uta-net.com/song/129990/
+ - 千反田える(佐藤聡美)＆伊原摩耶花(茅野愛衣)
+ - 氷菓 エンディング
+ - https://www.uta-net.com/song/129990/
 
 今夜恋にかわる しあわせな夢で会おう<br>
 きっと ねえ 見つけてね<br>
@@ -563,9 +564,9 @@ I've been thinking about you<br>
 
 ## オレンジ
 
-* 7!!
-* 四月は君の嘘 エンディング
-* https://www.uta-net.com/song/179745/
+ - 7!!
+ - 四月は君の嘘 エンディング
+ - https://www.uta-net.com/song/179745/
 
 小さな肩を並べて歩いた<br>
 何でもない事で笑い合い 同じ夢を見つめていた<br>
@@ -604,9 +605,9 @@ I've been thinking about you<br>
 
 ## ラブソング (Love song)
 
-* テレサ・ワーグナー(石見舞菜香)
-* 多田くんは恋をしない エンディング
-* https://www.uta-net.com/song/249724/
+ - テレサ・ワーグナー(石見舞菜香)
+ - 多田くんは恋をしない エンディング
+ - https://www.uta-net.com/song/249724/
 
 いつまでも続いてゆくと 僕はずっと思ってたんだよ<br>
 あの日君がキレイすぎるわけを 僕は何も知らなかった<br>
@@ -653,10 +654,10 @@ I've been thinking about you<br>
 
 ## 赤い花 白い花
 
-* どろろ 劇中使用曲「赤い花白い花」（第五話、第六話）
-* 作詞・作曲 - 中林三恵
-* 歌 - ミオ（CV:水樹奈々）
-* https://www.uta-net.com/song/107892/
+ - どろろ 劇中使用曲「赤い花白い花」（第五話、第六話）
+ - 作詞・作曲 - 中林三恵
+ - 歌 - ミオ（CV:水樹奈々）
+ - https://www.uta-net.com/song/107892/
 
 赤い花つんで あの人にあげよ<br>
 あの人の髪に この花さしてあげよ<br>
@@ -669,11 +670,77 @@ I've been thinking about you<br>
 咲いてゆれるだろう お月さんのように<br>
 
 
+## Magia
+
+- Kalafina
+- 魔法少女まどか☆マギカ エンディング
+- 作詞：梶浦由記
+- 作曲：梶浦由記
+- https://www.uta-net.com/song/108075/
+
+いつか君が瞳に灯す愛の光が<br>
+時を超えて<br>
+滅び急ぐ世界の夢を<br>
+確かに一つ壊すだろう<br>
+
+躊躇いを飲み干して<br>
+君が望むモノは何?<br>
+こんな欲深い憧れの行方に<br>
+儚い明日はあるの?<br>
+
+子供の頃夢に見てた<br>
+古の魔法のように<br>
+闇さえ砕く力で<br>
+微笑む君に会いたい<br>
+怯えるこの手の中には<br>
+手折られた花の勇気<br>
+想いだけが頼る全て<br>
+光を呼び覚ます<br>
+願い<br>
+
+いつか君も誰かの為に<br>
+強い力を望むのだろう<br>
+愛が胸を捉えた夜に<br>
+未知の言葉が生まれて来る<br>
+
+迷わずに行けるなら<br>
+心が砕けてもいいわ<br>
+いつも目の前の哀しみに<br>
+立ち向かう為の<br>
+呪文が欲しい<br>
+
+君はまだ夢見る記憶<br>
+私は眠らない明日<br>
+二人が出会う奇跡を<br>
+勝ち取る為に進むわ<br>
+怯えるこの手の中には<br>
+手折られた花の刃<br>
+想いだけが生きる全て<br>
+心に振りかざす<br>
+願い<br>
+
+囚われた太陽の輝く<br>
+不思議の国の本が好きだった頃<br>
+願いはきっと叶うと<br>
+教えるお伽噺を<br>
+信じた<br>
+
+静かに咲き乱れていた<br>
+古の魔法優しく<br>
+世界を変える力が<br>
+その手にあると囁く<br>
+終わらない夢を見よう<br>
+君と行く時の中で<br>
+想いだけが生きる全て<br>
+命を作るのは<br>
+願い<br>
+
+
 ## and I'm home
 
-* 美樹さやか(喜多村英梨)＆佐倉杏子(野中藍)
-* 魔法少女まどか☆マギカ エンディング
-* https://www.uta-net.com/song/118259/
+ - 美樹さやか(喜多村英梨)＆佐倉杏子(野中藍)
+ - 魔法少女まどか☆マギカ エンディング
+ - https://www.uta-net.com/song/118259/
 
 錆び付いた心、<br>
 音もない世界、何を見てるの?<br>
@@ -724,9 +791,9 @@ I've been thinking about you<br>
 
 ## 夕顔
 
-* 能登麻美子
-* School Rumble イメージソング
-* https://www.uta-net.com/song/86207/
+ - 能登麻美子
+ - School Rumble イメージソング
+ - https://www.uta-net.com/song/86207/
 
 庭に咲き始めた夕顔に<br>
 水を打ってあげたら<br>
@@ -769,9 +836,9 @@ I've been thinking about you<br>
 
 ## 片翼の鳥
 
-* 志方あきこ
-* うみねこのなく頃に オープニング
-* https://www.uta-net.com/song/83719/
+ - 志方あきこ
+ - うみねこのなく頃に オープニング
+ - https://www.uta-net.com/song/83719/
 
 Il giudizio finale sta per essere emesso<br>
 Nessuno puo emendarsi dal peccato che scorre nelle vene<br>
@@ -831,9 +898,9 @@ Impossibile arrivare al vero segreto se non ci si accorge di tutto l' amore<br>
 
 ## sister's noise
 
-* fripSide
-* とある科学の超電磁砲S オープニング
-* https://www.uta-net.com/song/145835/
+ - fripSide
+ - とある科学の超電磁砲S オープニング
+ - https://www.uta-net.com/song/145835/
 
 誰よりも近くにいた その声は聴こえなくて(sister's noise... I find it out...)<br>
 刻み続けていた時の中で やっと君に逢えたから<br>

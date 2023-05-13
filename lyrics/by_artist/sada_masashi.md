@@ -8,12 +8,12 @@
 
 ## 無縁坂
 
-* https://www.uta-net.com/song/50449/
+ - https://www.uta-net.com/song/50449/
 
 無縁坂の意味
 
-* https://blog.goo.ne.jp/yumika734/e/dc59c364f33521f84183e2d44f937399
-* http://www.tapthepop.net/machinouta/49453
+ - https://blog.goo.ne.jp/yumika734/e/dc59c364f33521f84183e2d44f937399
+ - http://www.tapthepop.net/machinouta/49453
 
 母がまだ若い頃 僕の手をひいて<br>
 この坂を登る度 いつもため息をついた<br>
@@ -46,8 +46,8 @@
 
 ## 精霊流し
 
-* https://www.uta-net.com/song/50432/
-* 解釈: http://www.tapthepop.net/day/33262
+ - https://www.uta-net.com/song/50432/
+ - 解釈: http://www.tapthepop.net/day/33262
 
 去年のあなたの想い出が<br>
 テープレコーダーから こぼれています<br>
@@ -86,7 +86,7 @@
 
 ## 秋桜
 
-* https://www.uta-net.com/song/1937/
+ - https://www.uta-net.com/song/1937/
 
 淡紅の秋桜が秋の日の<br>
 何気ない陽溜りに揺れている<br>

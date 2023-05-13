@@ -12,7 +12,7 @@
 
 ## あなたと共に生きてゆく
 
-* https://www.uta-net.com/song/283/
+ - https://www.uta-net.com/song/283/
 
 陽だまりの中で 手をつないで歩いた<br>
 いつもと同じ街並 今日は輝いて見える<br>
@@ -44,7 +44,7 @@
 
 ## つぐない
 
-* https://www.uta-net.com/song/3105/
+ - https://www.uta-net.com/song/3105/
 
 窓に西陽が あたる部屋は<br>
 いつもあなたの 匂いがするわ<br>
@@ -77,7 +77,7 @@
 
 ## ふるさとはどこですか
 
-* https://www.uta-net.com/song/38333/
+ - https://www.uta-net.com/song/38333/
 
 ふるさとはどこですかと<br>
 あなたはきいた<br>
@@ -105,7 +105,7 @@
 
 ## 別れの予感
 
-* https://www.uta-net.com/song/4969/
+ - https://www.uta-net.com/song/4969/
 
 泣き出してしまいそう 痛いほど好きだから<br>
 どこへも行かないで 息を止めてそばにいて<br>
@@ -139,9 +139,9 @@
 
 ## 昴〈すばる〉
 
-* 作詞：谷村新司
-* 作曲：谷村新司
-* https://www.uta-net.com/song/2752/
+ - 作詞：谷村新司
+ - 作曲：谷村新司
+ - https://www.uta-net.com/song/2752/
 
 目を閉じて 何も見えず 哀しくて目を開ければ<br>
 荒野に向かう道より 他に見えるものはなし<br>
@@ -171,7 +171,7 @@
 
 ## 時の流れに身をまかせ
 
-* https://www.uta-net.com/song/3251/
+ - https://www.uta-net.com/song/3251/
 
 もしも あなたと逢えずにいたら<br>
 わたしは何を してたでしょうか<br>
@@ -204,7 +204,7 @@
 
 ## ある愛の詩 (Love story)
 
-* https://www.uta-net.com/song/171883/
+ - https://www.uta-net.com/song/171883/
 
 海よりも 美しい愛があるのを<br>
 おしえてくれたのは あなた<br>

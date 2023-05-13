@@ -7,9 +7,9 @@
 
 ## White Love
 
-* SPEED
-* 資生堂「ティセラ」
-* https://www.uta-net.com/song/10091/
+ - SPEED
+ - 資生堂「ティセラ」
+ - https://www.uta-net.com/song/10091/
 
 果てしない あの雲の彼方へ<br>
 私をつれていって<br>
@@ -66,9 +66,9 @@
 
 ## 届かない恋
 
-* 上原れな
-* WHITE ALBUM2 -closing chapter- 挿入歌
-* https://www.uta-net.com/song/125989/
+ - 上原れな
+ - WHITE ALBUM2 -closing chapter- 挿入歌
+ - https://www.uta-net.com/song/125989/
 
 孤独なふりをしてるの? なぜだろう 気になっていた<br>
 気づけば いつのまにか 誰より 惹かれていた<br>

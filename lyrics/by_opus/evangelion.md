@@ -7,9 +7,9 @@
 
 ## Beautiful World
 
-* 宇多田ヒカル
-* ヱヴァンゲリヲン新劇場版：序 エンディング
-* https://www.uta-net.com/song/55539/
+ - 宇多田ヒカル
+ - ヱヴァンゲリヲン新劇場版：序 エンディング
+ - https://www.uta-net.com/song/55539/
 
 It's only love<br>
 
@@ -65,9 +65,9 @@ Beautiful boy<br>
 
 ## 残酷な天使のテーゼ
 
-* 高橋洋子
-* 新世紀エヴァンゲリオン オープニング
-* https://www.uta-net.com/song/9307/
+ - 高橋洋子
+ - 新世紀エヴァンゲリオン オープニング
+ - https://www.uta-net.com/song/9307/
 
 残酷な天使のように 少年よ神話になれ<br>
 

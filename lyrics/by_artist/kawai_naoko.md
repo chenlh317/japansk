@@ -18,7 +18,7 @@
 
 ## Invitation
 
-* https://s.awa.fm/track/0d41e9986fab00691d13
+ - https://s.awa.fm/track/0d41e9986fab00691d13
 
 ペナントだらけの あなたの部屋に<br>
 こうして訪れる時が 来ると思ってた<br>
@@ -43,8 +43,8 @@
 
 ## 夢の跡から
 
-* 八島義郎
-* https://www.uta-net.com/song/126860/
+ - 八島義郎
+ - https://www.uta-net.com/song/126860/
 
 一輪ざしで開いたポッピー<br>
 お前の夢はどんな夢<br>
@@ -68,9 +68,9 @@
 
 ## 十六夜物語
 
-* 作詞：吉元由美
-* 作曲：河合奈保子
-* https://www.uta-net.com/song/638/
+ - 作詞：吉元由美
+ - 作曲：河合奈保子
+ - https://www.uta-net.com/song/638/
 
 恋に落ちた女(ひと)は月ですか<br>
 満ちては欠ける 夢をかさねて<br>
@@ -102,8 +102,8 @@
 
 ## 終夜の蛍
 
-* https://sonichits.com/video/%E6%B2%B3%E5%90%88%E5%A5%88%E4%BF%9D%E5%AD%90/%E7%B5%82%E5%A4%9C%E3%81%AE%E8%9B%8D
-* https://www.youtube.com/watch?v=Vq_I1ZpiTTo
+ - https://sonichits.com/video/%E6%B2%B3%E5%90%88%E5%A5%88%E4%BF%9D%E5%AD%90/%E7%B5%82%E5%A4%9C%E3%81%AE%E8%9B%8D
+ - https://www.youtube.com/watch?v=Vq_I1ZpiTTo
 
 夏の花をちぎるたび<br>
 ほら吐息が散るように<br>
@@ -131,7 +131,7 @@
 
 ## 愛してる
 
-* https://www.uta-net.com/movie/179609/
+ - https://www.uta-net.com/movie/179609/
 
 彼女があなたのこと好きだって知ってるの<br>
 やりきれなさにひとり いつも立ち尽くしている<br>
@@ -171,7 +171,7 @@
 
 ## 風の船
 
-* http://ginnotake.music.coocan.jp/nkwords14.html
+ - http://ginnotake.music.coocan.jp/nkwords14.html
 
 いつのまに秋風 素肌の腕の<br>
 うぶ毛に小さな 風のうずまき<br>
@@ -201,7 +201,7 @@
 
 ## 鳥の詩
 
-* https://www.oricon.co.jp/prof/224563/lyrics/I023639/
+ - https://www.oricon.co.jp/prof/224563/lyrics/I023639/
 
 あなたがいた頃は 笑いさざめき<br>
 誰もが幸福に見えていたけど<br>
@@ -230,7 +230,7 @@
 
 ## 晩夏に人を愛すると
 
-* https://petitlyrics.com/lyrics/2987549
+ - https://petitlyrics.com/lyrics/2987549
 
 晩夏に人を愛すると<br>
 哀しみだけが 深くなる<br>
@@ -259,7 +259,7 @@
 
 ## 霧情
 
-* https://www.uta-net.com/song/253869/
+ - https://www.uta-net.com/song/253869/
 
 それでも…<br>
 それでも…<br>
@@ -325,7 +325,7 @@
 
 ## 霧の降る夕闇
 
-* https://www.bilibili.com/video/BV1SF411w7qG/
+ - https://www.bilibili.com/video/BV1SF411w7qG/
 
 オランダ坂に春の海 腕に抱かれて<br>
 唐寺(からてら)のいらかに寄(よ)り添(そ)う<br>
@@ -353,9 +353,9 @@
 
 ## 疑問符
 
-* 作詞：来生えつこ
-* 作曲：来生たかお
-* https://www.uta-net.com/song/1589/
+ - 作詞：来生えつこ
+ - 作曲：来生たかお
+ - https://www.uta-net.com/song/1589/
 
 恋 謎 いつも疑問符<br>
 夜 窓 雨は降る降る<br>
@@ -385,9 +385,9 @@
 
 ## ハーフムーン・セレナーデ
 
-* 作詞：吉元由美
-* 作曲：河合奈保子
-* https://www.uta-net.com/song/3585/
+ - 作詞：吉元由美
+ - 作曲：河合奈保子
+ - https://www.uta-net.com/song/3585/
 
 あなたのもとへ 届くなら<br>
 水面(みなも)に散った 琥珀(きん)の枯れ葉を<br>
@@ -429,7 +429,7 @@
 
 ## 再会
 
-* https://www.uta-net.com/song/42634/
+ - https://www.uta-net.com/song/42634/
 
 逢えなくなって 初めて知った<br>
 海より深い恋ごころ<br>

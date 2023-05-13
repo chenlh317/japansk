@@ -16,12 +16,13 @@
 - [走れ風と共に](#走れ風と共に)
 - [白い約束](#白い約束)
 - [野菊の墓](#野菊の墓)
+- [ありがとう あなた](#ありがとう-あなた)
 
 
 ## 悲願花
 
-* 词/曲：谷村新司
-* https://j-lyric.net/artist/a0013c2/l01ec52.html
+ - 词/曲：谷村新司
+ - https://j-lyric.net/artist/a0013c2/l01ec52.html
 
 気のない言葉の やりとりに<br>
 そぞろ歩きの 夏の夜<br>
@@ -46,7 +47,7 @@
 
 ## 山鳩
 
-* https://www.uta-net.com/song/71433/
+ - https://www.uta-net.com/song/71433/
 
 泣(な)かせて下(くだ)さい その胸(むね)で<br>
 泪(なみだ)の泉(いずみ)も 枯(か)れるほど<br>
@@ -69,8 +70,8 @@
 
 ## 赤い運命
 
-* 赤い運命 主題歌
-* https://www.uta-net.com/song/71432/
+ - 赤い運命 主題歌
+ - https://www.uta-net.com/song/71432/
 
 誰かが私を 呼んでいる<br>
 小さく淋しく そしてなつかしく<br>
@@ -100,10 +101,10 @@
 
 ## いい日旅立ち
 
-* JR「いい日旅立ち」
-* 作詞：谷村新司
-* 作曲：谷村新司
-* https://www.uta-net.com/song/443/
+ - JR「いい日旅立ち」
+ - 作詞：谷村新司
+ - 作曲：谷村新司
+ - https://www.uta-net.com/song/443/
 
 雪解け間近の北の空に向かい<br>
 過ぎ去りし日々の夢を叫ぶ時<br>
@@ -131,7 +132,7 @@
 
 ## ささやかな欲望
 
-* https://www.uta-net.com/song/6838/
+ - https://www.uta-net.com/song/6838/
 
 青い落葉を舞い散らして<br>
 時間通りにバスが着いた<br>
@@ -160,7 +161,7 @@
 
 ## 伊豆の踊子
 
-* https://www.uta-net.com/song/71436/
+ - https://www.uta-net.com/song/71436/
 
 通り雨往く 峠の茶屋に<br>
 晴れて道連れ 旅の空<br>
@@ -185,7 +186,7 @@
 
 ## 冬の色
 
-* https://www.uta-net.com/song/3983/
+ - https://www.uta-net.com/song/3983/
 
 あなたから許された 口紅の色は<br>
 からたちの花よりも 薄い匂いです<br>
@@ -216,7 +217,7 @@
 
 ## 初恋草紙
 
-* https://www.uta-net.com/song/7616/
+ - https://www.uta-net.com/song/7616/
 
 口紅だけはさしましょう<br>
 冬の光りが集まるよう<br>
@@ -250,7 +251,7 @@
 
 ## 子守呗 (ララバイ)
 
-* [Link](https://www.flashlyrics.com/lyrics/%E5%B1%B1%E5%8F%A3%E7%99%BE%E6%81%B5/%E5%AD%90%E5%AE%88%E5%94%84%EF%BC%88%E3%83%A9%E3%83%A9%E3%83%90%E3%82%A4%EF%BC%89-45)
+ - [Link](https://www.flashlyrics.com/lyrics/%E5%B1%B1%E5%8F%A3%E7%99%BE%E6%81%B5/%E5%AD%90%E5%AE%88%E5%94%84%EF%BC%88%E3%83%A9%E3%83%A9%E3%83%90%E3%82%A4%EF%BC%89-45)
 
 ひゅるひゅるひゅるひゅる 風がなきます<br>
 ひゅるひゅるひゅるひゅる 空がなきます<br>
@@ -288,7 +289,7 @@
 
 ## 忘れな草をあなたに
 
-* https://www.uta-net.com/song/233524/
+ - https://www.uta-net.com/song/233524/
 
 別れても 別れても 心の奥に<br>
 いつまでも いつまでも<br>
@@ -313,7 +314,7 @@
 
 ## 愛染橋
 
-* https://www.uta-net.com/song/65/
+ - https://www.uta-net.com/song/65/
 
 春一番が吹き荒れた後<br>
 花を敷いた路地へ<br>
@@ -351,7 +352,7 @@
 
 ## 空蝉
 
-* https://www.uta-net.com/song/58496/
+ - https://www.uta-net.com/song/58496/
 
 あのひとどこまで追いかけたって<br>
 幸せ戻る訳じゃない<br>
@@ -380,7 +381,7 @@ mu…………<br>
 
 ## 走れ風と共に
 
-* https://www.uta-net.com/song/71430/
+ - https://www.uta-net.com/song/71430/
 
 走れ風と共に 悲しみ捨てて<br>
 愛を胸に抱いて 明日へ急げ<br>
@@ -411,7 +412,7 @@ mu…………<br>
 
 ## 白い約束
 
-* https://www.uta-net.com/song/7615/
+ - https://www.uta-net.com/song/7615/
 
 白く透き通る 雪が降る<br>
 音もしなやかに 雪が降る<br>
@@ -439,7 +440,7 @@ mu…………<br>
 
 ## 野菊の墓
 
-* https://www.uta-net.com/song/289382/
+ - https://www.uta-net.com/song/289382/
 
 私は十七 あなたは十五<br>
 姉さん気どりの 里の秋<br>
@@ -466,3 +467,39 @@ mu…………<br>
 
 お墓に咲いた 野菊の花は<br>
 私のこぼす 泪なの<br>
+
+
+## ありがとう あなた
+
+- 赤い疑惑 主題歌
+- https://www.uta-net.com/song/39592/
+
+私のせいなら　許してください<br>
+あなたをこんなに苦しめたことを<br>
+私のことなど　これきり忘れて<br>
+明るい陽なたを　歩いてほしい<br>
+
+枯葉がひとつずつこぼれるたびに<br>
+悲しいお別れ近づいてます<br>
+泣いたり笑ったり　けんかをしたり<br>
+あなたといるかぎり素直になれました<br>
+
+“ありがとう　あなた”<br>
+
+あとどのくらい　愛されますか<br>
+あとどのくらい　生きられますか<br>
+
+私のせいなら　許してください<br>
+あなたを知らずに傷つけたことを<br>
+私はひとりで　どうにかなるから<br>
+いい人かならず　みつけてほしい<br>
+
+小石をひとつずつならべるように<br>
+いろんな想い出数えています<br>
+人から愛される　幸福の意味<br>
+あなたは手をとって教えてくれました<br>
+
+“ありがとう　あなた”<br>
+
+あとどのくらい　愛されますか<br>
+あとどのくらい　生きられますか<br>

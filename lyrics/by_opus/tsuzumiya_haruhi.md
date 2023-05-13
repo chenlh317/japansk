@@ -4,14 +4,14 @@
 - [God knows...](#god-knows)
 - [優しい忘却](#優しい忘却)
 
-* https://ja.wikipedia.org/wiki/%E6%B6%BC%E5%AE%AE%E3%83%8F%E3%83%AB%E3%83%92%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA
+ - https://ja.wikipedia.org/wiki/%E6%B6%BC%E5%AE%AE%E3%83%8F%E3%83%AB%E3%83%92%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA
 
 
 ## God knows...
 
-* 涼宮ハルヒ(平野綾)
-* 涼宮ハルヒの憂鬱 挿入歌
-* https://www.uta-net.com/song/44151/
+ - 涼宮ハルヒ(平野綾)
+ - 涼宮ハルヒの憂鬱 挿入歌
+ - https://www.uta-net.com/song/44151/
 
 渇いた心で駆け抜ける<br>
 ごめんね何もできなくて<br>
@@ -63,9 +63,9 @@ my way 重なるよ<br>
 
 ## 優しい忘却
 
-* 茅原実里
-* 劇場版 涼宮ハルヒの消失 主題歌
-* https://www.uta-net.com/song/90961/
+ - 茅原実里
+ - 劇場版 涼宮ハルヒの消失 主題歌
+ - https://www.uta-net.com/song/90961/
 
 望むことは何？<br>
 わたしが問い掛ける<br>
