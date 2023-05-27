@@ -18,6 +18,11 @@ Command: `ghp-import -n -p -f lyrics/_build/html`
 
 Then sync both `master` and `gh-pages` branches.
 
+## Batch file
+
+- Run from Explorer `build_lyrics.bat`.
+- From VSCode PowerShell: `cmd.exe -/c "build_lyrics.bat"`.
+
 ## Publish
 
 [GitHug Pages](https://pages.github.com/)
