@@ -37,6 +37,8 @@ def remove_empty_line_break(file_name):
             else:
                 f.write(line)
 
+    return None
+
 
 def process_all_files(root_dir, ext):
     """
@@ -51,6 +53,8 @@ def process_all_files(root_dir, ext):
             if file.endswith(ext):
 
                 remove_empty_line_break(os.path.join(subdir, file))
+
+    return None
 
 
 if __name__ == "__main__":
