@@ -9,8 +9,8 @@
 
 ## 涙そうそう
 
- - 涙そうそう 主題歌
- - https://www.uta-net.com/song/51752/
+- 涙そうそう 主題歌
+- https://www.uta-net.com/song/51752/
 
 古いアルバムめくり ありがとうってつぶやいた<br>
 いつもいつも胸の中 励ましてくれる人よ<br>
@@ -32,7 +32,7 @@
 
 ## 島唄
 
- - https://www.uta-net.com/song/2452/
+- https://www.uta-net.com/song/2452/
 
 でいごの花が咲き 風を呼び 嵐が来た<br>
 
@@ -65,7 +65,7 @@
 
 ## 花
 
- - https://www.uta-net.com/song/88575/
+- https://www.uta-net.com/song/88575/
 
 川は流れて どこどこ行くの<br>
 人も流れて どこどこ行くの<br>
@@ -102,8 +102,8 @@
 
 ## 未来へ
 
- - Kiroro
- - https://www.uta-net.com/song/10398/
+- Kiroro
+- https://www.uta-net.com/song/10398/
 
 ほら 足元を見てごらん<br>
 これがあなたの歩む道<br>

@@ -24,8 +24,8 @@ Then sync both `master` and `gh-pages` branches.
 
 ## Template
 
- - 東山奈央
- - https://www.bilibili.com/read/cv5759633
+- 東山奈央
+- https://www.bilibili.com/read/cv5759633
 
 五月雨[^1]は緑色<br>
 悲しくさせたよ一人の午後は<br>

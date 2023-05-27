@@ -3,13 +3,13 @@
 
 - [初恋](#初恋)
 
- - https://zh.wikipedia.org/wiki/%E6%9C%88%E8%89%B2%E7%9C%9F%E7%BE%8E
+- https://zh.wikipedia.org/wiki/%E6%9C%88%E8%89%B2%E7%9C%9F%E7%BE%8E
 
 
 ## 初恋
 
- - 東山奈央
- - https://www.uta-net.com/song/3626/
+- 東山奈央
+- https://www.uta-net.com/song/3626/
 
 五月雨は緑色 悲しくさせたよ一人の午後は<br>
 恋をして淋しくて 届かぬ想いを暖めていた<br>

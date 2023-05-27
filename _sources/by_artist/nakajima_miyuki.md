@@ -7,7 +7,7 @@
 
 ## 雨…
 
- - https://www.uta-net.com/song/54555/
+- https://www.uta-net.com/song/54555/
 
 そうよ だましたのは私 心こわれたのは貴方<br>
 どうせあなたも嘘つきな旅人と思ってたのよ<br>
@@ -42,7 +42,7 @@
 
 ## 雪
 
- - https://www.uta-net.com/song/54562/
+- https://www.uta-net.com/song/54562/
 
 雪 気がつけばいつしか<br>
 なぜ こんな夜に降るの<br>
