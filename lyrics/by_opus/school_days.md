@@ -10,8 +10,8 @@
 
 ## ワルツ (Waltz)
 
- - School Days エンディング
- - https://www.uta-net.com/song/74110/
+- School Days エンディング
+- https://www.uta-net.com/song/74110/
 
 ゆらり渦巻いた風の波 刹那に光る<br>
 決して忘れない 二人みつめあった記憶<br>
@@ -43,8 +43,8 @@
 
 ## あなたが…いない
 
- - School Days エンディング
- - https://www.uta-net.com/song/49565/
+- School Days エンディング
+- https://www.uta-net.com/song/49565/
 
 笑顔がゆらぐ<br>
 声が震える<br>
@@ -95,8 +95,8 @@
 
 ## 悲しみの向こうへ
 
- - School Days 挿入歌
- - https://www.uta-net.com/song/69155/
+- School Days 挿入歌
+- https://www.uta-net.com/song/69155/
 
 悲しみの向こうへと 辿り着けるなら<br>
 僕はもう要らないよ ぬくもりも明日も<br>
@@ -122,8 +122,8 @@ Why...? 反芻(くりかえ)す言葉 ついえた約束は<br>
 
 ## 涙の理由
 
- - School Days エンディング
- - https://www.uta-net.com/song/70348/
+- School Days エンディング
+- https://www.uta-net.com/song/70348/
 
 痛みが胸を刺すの<br>
 それでも嘘重ねた<br>
@@ -170,8 +170,8 @@ Why...? 反芻(くりかえ)す言葉 ついえた約束は<br>
 
 ## 記憶の海
 
- - School Days エンディング
- - https://www.uta-net.com/song/72004/
+- School Days エンディング
+- https://www.uta-net.com/song/72004/
 
 繰り返す言葉は今も<br>
 あなたへ届くようにと願ってる<br>

@@ -12,11 +12,11 @@
 
 ## 荒城の月
 
- - 作詞：土井晩翠
- - 作曲：滝廉太郎
- - 編曲：山田耕筰
- - https://www.uta-net.com/song/13917/
- - https://baike.baidu.com/item/%E8%8D%92%E5%9F%8E%E4%B9%8B%E6%9C%88/9615289
+- 作詞：土井晩翠
+- 作曲：滝廉太郎
+- 編曲：山田耕筰
+- https://www.uta-net.com/song/13917/
+- https://baike.baidu.com/item/%E8%8D%92%E5%9F%8E%E4%B9%8B%E6%9C%88/9615289
 
 春 高楼の 花の宴<br>
 めぐる盃(さかづき) かげさして<br>
@@ -61,8 +61,8 @@
 
 ## 赤とんぼ
 
- - https://www.uta-net.com/song/13915/
- - https://zh.wikipedia.org/wiki/%E7%B4%85%E8%9C%BB%E8%9C%93_(%E7%AB%A5%E8%AC%A0)
+- https://www.uta-net.com/song/13915/
+- https://zh.wikipedia.org/wiki/%E7%B4%85%E8%9C%BB%E8%9C%93_(%E7%AB%A5%E8%AC%A0)
 
 夕(ゆう)焼け小焼けの 赤とんぼ<br>
 負(お)われて見たのは いつの日か<br>
@@ -79,8 +79,8 @@
 
 ## 四季の歌
 
- - 作詞/曲：荒木とよひさ
- - https://www.uta-net.com/song/2406/
+- 作詞/曲：荒木とよひさ
+- https://www.uta-net.com/song/2406/
 
 春を愛する人は 心清き人<br>
 すみれの花のような 僕の友だち<br>
@@ -99,8 +99,8 @@
 
 ## 青い宝
 
- - やなわらばー
- - https://www.uta-net.com/song/133026/
+- やなわらばー
+- https://www.uta-net.com/song/133026/
 
 青い空 青い海 蒼い風がある<br>
 あの場所に また行きたい また戻りたい<br>
@@ -131,13 +131,13 @@
 
 ## 神田川
 
- - 石川ひとみ
- - https://www.uta-net.com/song/85113/
+- 石川ひとみ
+- https://www.uta-net.com/song/85113/
 
 歌詞の意味を考察:
 
- - https://kamoshika01.com/20248.html
- - https://utaten.com/specialArticle/index/7559
+- https://kamoshika01.com/20248.html
+- https://utaten.com/specialArticle/index/7559
 
 貴方は もう忘れたかしら<br>
 赤い手拭 マフラーにして<br>
@@ -166,9 +166,9 @@
 
 ## カサネテク
 
- - 中村千尋
- - https://www.uta-net.com/song/229176/
- - https://www.mison.cn/riyu/yule/4956.html
+- 中村千尋
+- https://www.uta-net.com/song/229176/
+- https://www.mison.cn/riyu/yule/4956.html
 
 SNSで相手を検索 予習は常にぬかりなく<br>
 友達チョイスは躊躇なく キャラ被りは絶対NG<br>
@@ -246,8 +246,8 @@ SNSで相手を検索 予習は常にぬかりなく<br>
 
 ## 極楽浄土
 
- - GARNiDELiA
- - https://www.uta-net.com/song/213112/
+- GARNiDELiA
+- https://www.uta-net.com/song/213112/
 
 月明かり昇る刻<br>
 灯る赤提灯<br>

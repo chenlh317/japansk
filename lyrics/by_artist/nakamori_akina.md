@@ -8,7 +8,7 @@
 
 ## 難破船
 
- - https://www.uta-net.com/song/3488/
+- https://www.uta-net.com/song/3488/
 
 たかが恋なんて 忘れればいい<br>
 泣きたいだけ 泣いたら<br>
@@ -48,9 +48,9 @@
 
 ## 駅
 
- - 竹内まりや
- - グッバイ・ママ 主題歌
- - https://www.uta-net.com/song/859/
+- 竹内まりや
+- グッバイ・ママ 主題歌
+- https://www.uta-net.com/song/859/
 
 見覚えのある レインコート<br>
 黄昏の駅で 胸が震えた<br>
@@ -84,7 +84,7 @@
 
 ## スローモーション
 
- - https://www.uta-net.com/song/2768/
+- https://www.uta-net.com/song/2768/
 
 砂の上 刻むステップ ほんのひとり遊び<br>
 振り向くと遠く人影 渚を駆けて来る<br>

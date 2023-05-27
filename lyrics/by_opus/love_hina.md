@@ -6,14 +6,14 @@
 - [約束](#約束)
 
 
- - https://lawton.pixnet.net/blog/post/43041363
+- https://lawton.pixnet.net/blog/post/43041363
 
 
 ## 君さえいれば
 
- - 林原めぐみ
- - ラブひな エンディング
- - https://www.uta-net.com/song/70515/
+- 林原めぐみ
+- ラブひな エンディング
+- https://www.uta-net.com/song/70515/
 
 I'm a dreamer<br>
 夜明けの光そそぐ彼の地はどこ?<br>
@@ -39,10 +39,10 @@ I'm a dreamer<br>
 
 ## be for you，be for me
 
- - 堀江由衣
- - ラブひなAgain エンディング
- - 作詞/曲：伊藤千夏
- - https://www.uta-net.com/song/74600/
+- 堀江由衣
+- ラブひなAgain エンディング
+- 作詞/曲：伊藤千夏
+- https://www.uta-net.com/song/74600/
 
 カラカラ渇いてる胸の中<br>
 ふと立ち止まり 気が付いたから<br>
@@ -77,9 +77,9 @@ I'm a dreamer<br>
 
 ## 約束
 
- - 堀江由衣
- - ラブひな イメージソング
- - https://www.uta-net.com/song/70511/
+- 堀江由衣
+- ラブひな イメージソング
+- https://www.uta-net.com/song/70511/
 
 夕暮れ 小さな 影がはしゃいで<br>
 私を 通り過ぎ 家路へ帰って行く<br>
