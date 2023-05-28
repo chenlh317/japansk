@@ -193,7 +193,7 @@
 ## perfect slumbers
 
 - 羽川翼(堀江由衣)
-- 猫物語（黒） オープニング
+- 猫物語(黒) オープニング
 - https://www.uta-net.com/song/143241/
 
 黒い闇の中<br>
