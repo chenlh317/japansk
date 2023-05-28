@@ -47,10 +47,8 @@ def remove_empty_br(
         str
     """
 
-    msg = f"Removed empty line break marks in {file_w_path}: Line {line_nr}"
-
-    # remove <br> if that's the only thing in the line
     if line in ("<br>\n", "<br>"):
+        msg = f"Removed line break marks in {file_w_path}: Line {line_nr}"
         print(msg)
         line = line.replace("<br>", "")
         return line
