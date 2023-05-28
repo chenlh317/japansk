@@ -32,7 +32,7 @@ def process_all_files(root_dir: Path, ext: tuple):
             if file.endswith(ext):
 
                 file_w_path = os.path.join(subdir, file)
-                
+
                 remove_empty_br(file_w_path)
 
                 replace_special_characters(file_w_path)
