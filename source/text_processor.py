@@ -1,17 +1,8 @@
 
-"""
-Remove redundant <br> in .md files.
-
-Run in terminal with `python remove_empty_br.py`.
-
-"""
-
-import os
-
 from pathlib import Path
 
 
-def remove_empty_line_break(file_name: Path):
+def remove_empty_br(file_name: Path):
     """
     Search for and remove redundant line breaks `<br>` and `<br>\n`.
 
@@ -46,32 +37,36 @@ def remove_empty_line_break(file_name: Path):
     return None
 
 
-def process_all_files(root_dir: Path, ext: tuple):
+def replace_special_characters(file_name: Path):
     """
-    Loop all files and process.
-    Filter by extensions.
+    Replace non-half-width characters with half-width.
 
     Args:
-        root_dir(Path): directory to search
-        ext(tuple): tuple of file extensions to include in the search
+        file_name(Path): file to process
     Returns:
         None
     """
 
-    for subdir, _, files in os.walk(root_dir):
+    lines = []
 
-        for file in files:
+    # read in all lines of the file
+    with open(file_name, "r") as f:
+        lines = f.readlines()
 
-            if file.endswith(ext):
+    # char to replace
+    char_replace_dict = {
+        "　": " ",
+    }
 
-                remove_empty_line_break(os.path.join(subdir, file))
+    with open(file_name, "w") as f:
+
+        # check redundant line breaks for each line
+        for _, line in enumerate(lines):
+
+            for k, v in char_replace_dict.items():
+
+                line = line.replace(k, v)
+
+            f.write(line)
 
     return None
-
-
-if __name__ == "__main__":
-
-    root_dir = Path("lyrics")
-    ext = (".md",)
-
-    process_all_files(root_dir, ext)
