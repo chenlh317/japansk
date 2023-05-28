@@ -1,72 +1,58 @@
+"""
+Text processors.
+"""
 
 from pathlib import Path
 
 
-def remove_empty_br(file_name: Path):
+def replace_special_char(line: str):
     """
-    Search for and remove redundant line breaks `<br>` and `<br>\n`.
+    Replace full-width characters with half-width,
+    as well as other special characters.
 
     Args:
-        file_name(Path): file to process
+        line(str): line to process
     Returns:
-        None
+        str
     """
-
-    lines = []
-
-    # read in all lines of the file
-    with open(file_name, "r") as f:
-        lines = f.readlines()
-
-    with open(file_name, "w") as f:
-
-        # check redundant line breaks for each line
-        for line_nr, line in enumerate(lines):
-
-            msg = f"Removed empty line break in {file_name}: Line {line_nr}"
-
-            # removed <br> if that's the only thing in the line
-            if line == "<br>\n":
-                print(msg)
-                f.write("\n")
-            elif line == "<br>":
-                print(msg)
-            else:
-                f.write(line)
-
-    return None
-
-
-def replace_special_char(file_name: Path):
-    """
-    Replace non-half-width characters with half-width.
-
-    Args:
-        file_name(Path): file to process
-    Returns:
-        None
-    """
-
-    lines = []
-
-    # read in all lines of the file
-    with open(file_name, "r") as f:
-        lines = f.readlines()
 
     # char to replace
     char_replace_dict = {
         "　": " ",
     }
 
-    with open(file_name, "w") as f:
+    for k, v in char_replace_dict.items():
 
-        # check redundant line breaks for each line
-        for _, line in enumerate(lines):
+        line = line.replace(k, v)
 
-            for k, v in char_replace_dict.items():
+    return line
 
-                line = line.replace(k, v)
 
-            f.write(line)
+def remove_empty_br(
+    file_w_path: Path,
+    line_nr: int,
+    line: str,
+):
+    """
+    Search for and remove redundant line break
+    marks `<br>` and `<br>\n`.
 
-    return None
+    Args:
+        file_w_path(Path): file to process
+        line_nr(int):
+        line(str): line to process
+    Returns:
+        str
+    """
+
+    msg = f"Removed empty line break marks in {file_w_path}: Line {line_nr}"
+
+    # remove <br> if that's the only thing in the line
+    if line == "<br>\n":
+        print(msg)
+        return "\n"
+    elif line == "<br>":
+        print(msg)
+        return ""
+    else:
+        return line

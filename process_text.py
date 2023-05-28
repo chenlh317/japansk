@@ -1,6 +1,9 @@
 
 """
-Remove redundant <br> in .md files.
+Batch text processor for .md files. E.g.
+
+- Replace special characters.
+- Remove redundant line break marks.
 
 Run in terminal with `python process_text.py`.
 
@@ -33,10 +36,22 @@ def process_all_files(root_dir: Path, ext: tuple):
 
                 file_w_path = os.path.join(subdir, file)
 
-                remove_empty_br(file_w_path)
+                lines = []
 
-                replace_special_char(file_w_path)
+                # read in all lines of the file
+                with open(file_w_path, "r") as f:
+                    
+                    lines = f.readlines()
 
+                with open(file_w_path, "w") as f:
+
+                    for line_nr, line in enumerate(lines):
+
+                        line = replace_special_char(line)
+
+                        line = remove_empty_br(file_w_path, line_nr, line)
+
+                        f.write(line)
     return None
 
 
