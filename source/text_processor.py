@@ -19,6 +19,8 @@ def replace_special_char(line: str):
     # char to replace
     char_replace_dict = {
         "　": " ",
+        "（": "(",
+        "）": ")",
     }
 
     for k, v in char_replace_dict.items():
