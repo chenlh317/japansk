@@ -37,7 +37,7 @@ def remove_empty_br(file_name: Path):
     return None
 
 
-def replace_special_characters(file_name: Path):
+def replace_special_char(file_name: Path):
     """
     Replace non-half-width characters with half-width.
 

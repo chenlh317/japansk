@@ -10,7 +10,7 @@ import os
 
 from pathlib import Path
 
-from source.text_processor import remove_empty_br, replace_special_characters
+from source.text_processor import remove_empty_br, replace_special_char
 
 
 def process_all_files(root_dir: Path, ext: tuple):
@@ -35,7 +35,7 @@ def process_all_files(root_dir: Path, ext: tuple):
 
                 remove_empty_br(file_w_path)
 
-                replace_special_characters(file_w_path)
+                replace_special_char(file_w_path)
 
     return None
 
