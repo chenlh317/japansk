@@ -4,6 +4,7 @@
 title: 东洋歌词摘钞
 author: mir.AI
 logo: pics/logo.png
+copyright: "2023"  # Copyright year to be placed in the footer
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
