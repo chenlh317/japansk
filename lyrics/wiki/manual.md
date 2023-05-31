@@ -27,6 +27,10 @@ Then sync both `master` and `gh-pages` branches.
 
 [GitHug Pages](https://pages.github.com/)
 
+## Render PDF
+
+Use command `jb build lyrics/ --builder pdfhtml`.
+
 ## Template
 
 - 東山奈央
