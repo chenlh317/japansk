@@ -1,7 +1,11 @@
 
 # Manual
 
-## Copy
+## Video download
+
+[You-get](https://you-get.org/)
+
+## Text copy
 
 Chrome plug-in:
 [Simple allow copy](https://chrome.google.com/webstore/detail/simple-allow-copy/aefehdhdciieocakfobpaaolhipkcpgc).
@@ -25,7 +29,7 @@ Then sync both `master` and `gh-pages` branches.
 
 ## Publish
 
-[GitHug Pages](https://pages.github.com/)
+[GitHub Pages](https://pages.github.com/)
 
 ## Render PDF
 
