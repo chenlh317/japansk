@@ -1,7 +1,8 @@
 
 REM Format and build lyrics, and process with ghp-import
 
-REM Run in VSCode terminal with cmd.exe -/c "build_lyrics.bat"
+REM Run in VSCode terminal with below
+REM cmd.exe -/c "build_lyrics.bat"
 
 
 python process_text.py
