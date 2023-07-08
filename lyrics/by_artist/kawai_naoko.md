@@ -138,7 +138,7 @@
 
 ## 愛してる
 
-- https://www.uta-net.com/movie/179609/
+- https://www.uta-net.com/ song/179609/
 
 彼女があなたのこと好きだって知ってるの<br>
 やりきれなさにひとり いつも立ち尽くしている<br>

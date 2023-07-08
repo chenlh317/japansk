@@ -10,7 +10,7 @@
 - 南里侑香
 - 作詞：梶浦由記
 - 作曲：梶浦由記
-- https://www.uta-net.com/movie/166265/
+- https://www.uta-net.com/ song/166265/
 
 風さそう木陰に俯せて泣いてる<br>
 見も知らぬ私を私が見ていた<br>
