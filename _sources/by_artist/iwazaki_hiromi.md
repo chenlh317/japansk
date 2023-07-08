@@ -75,7 +75,7 @@
 
 ## れんげ草の恋
 
-- https://www.uta-net.com/movie/84792/
+- https://www.uta-net.com/ song/84792/
 
 わかってました そうよ私は<br>
 忘れられた訳じゃありません<br>

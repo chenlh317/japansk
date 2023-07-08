@@ -54,7 +54,7 @@
 
 - 木村弓
 - 千と千尋の神隠し 主題歌
-- https://www.uta-net.com/movie/32874/
+- https://www.uta-net.com/ song/32874/
 
 青空に線を引く<br>
 ひこうき雲の白さは<br>
