@@ -10,7 +10,7 @@
 
 ## 潮騒
 
-- https://www.uta-net.com/ song/33416/
+- https://www.uta-net.com/song/33416/
 
 誰もいない 港に立ち<br>
 潮騒を聞けば<br>
