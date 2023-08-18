@@ -11,9 +11,9 @@
 - Audio
   1. Convert to mp3
   2. Format mp3 file
-   - Artist
-   - Album
-   - File name
+     - Artist
+     - Album
+     - File name
   3. Archive to PC folder
   4. Copy to mobile same folder
   5. Add to Muzio playlist
