@@ -386,14 +386,8 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#video-download">Video download</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#text-copy">Text copy</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#build">Build</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#deploy">Deploy</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#batch-file">Batch file</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#publish">Publish</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#render-pdf">Render PDF</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#template">Template</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#instruction">Instruction</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tools">Tools</a></li>
 </ul>
             </nav>
         </div>
@@ -407,74 +401,70 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="manual">
 <h1>Manual<a class="headerlink" href="#manual" title="Permalink to this heading">#</a></h1>
-<section id="video-download">
-<h2>Video download<a class="headerlink" href="#video-download" title="Permalink to this heading">#</a></h2>
-<p><a class="reference external" href="https://you-get.org/">You-get</a></p>
-</section>
-<section id="text-copy">
-<h2>Text copy<a class="headerlink" href="#text-copy" title="Permalink to this heading">#</a></h2>
-<p>Chrome plug-in:
-<a class="reference external" href="https://chrome.google.com/webstore/detail/simple-allow-copy/aefehdhdciieocakfobpaaolhipkcpgc">Simple allow copy</a>.</p>
-</section>
-<section id="build">
-<h2>Build<a class="headerlink" href="#build" title="Permalink to this heading">#</a></h2>
-<p><a class="reference external" href="https://jupyterbook.org/en/stable/intro.html">Jupyter Book</a>.
-Command: <code class="docutils literal notranslate"><span class="pre">jb</span> <span class="pre">build</span> <span class="pre">lyrics</span></code></p>
-</section>
-<section id="deploy">
-<h2>Deploy<a class="headerlink" href="#deploy" title="Permalink to this heading">#</a></h2>
-<p><a class="reference external" href="https://jupyterbook.org/en/stable/publish/gh-pages.html#option-2-automatically-push-your-build-files-with-ghp-import">ghp-import</a>.
-Command: <code class="docutils literal notranslate"><span class="pre">ghp-import</span> <span class="pre">-n</span> <span class="pre">-p</span> <span class="pre">-f</span> <span class="pre">lyrics/_build/html</span></code></p>
-<p>Then sync both <code class="docutils literal notranslate"><span class="pre">master</span></code> and <code class="docutils literal notranslate"><span class="pre">gh-pages</span></code> branches.</p>
-</section>
-<section id="batch-file">
-<h2>Batch file<a class="headerlink" href="#batch-file" title="Permalink to this heading">#</a></h2>
+<section id="instruction">
+<h2>Instruction<a class="headerlink" href="#instruction" title="Permalink to this heading">#</a></h2>
+<ul>
+<li><p>Video</p>
+<ol class="arabic simple">
+<li><p>Bookmark</p></li>
+<li><p>Download</p></li>
+<li><p>Archive to PC folder</p></li>
+</ol>
+</li>
+<li><p>Audio</p>
+<ol class="arabic simple">
+<li><p>Convert to mp3</p></li>
+<li><p>Format mp3 file</p></li>
+</ol>
 <ul class="simple">
-<li><p>Run from Explorer <code class="docutils literal notranslate"><span class="pre">build_lyrics.bat</span></code>.</p></li>
-<li><p>From VSCode PowerShell: <code class="docutils literal notranslate"><span class="pre">cmd.exe</span> <span class="pre">-/c</span> <span class="pre">&quot;build_lyrics.bat&quot;</span></code>.</p></li>
+<li><p>Artist</p></li>
+<li><p>Album</p></li>
+<li><p>File name</p></li>
+</ul>
+<ol class="arabic simple" start="3">
+<li><p>Archive to PC folder</p></li>
+<li><p>Copy to mobile same folder</p></li>
+<li><p>Add to Muzio playlist</p></li>
+</ol>
+</li>
+<li><p>Lyrics</p>
+<ol class="arabic simple">
+<li><p>Find lyrics</p></li>
+<li><p>Add lyrics to this site</p></li>
+<li><p>Render and sync site</p></li>
+</ol>
+</li>
 </ul>
 </section>
-<section id="publish">
-<h2>Publish<a class="headerlink" href="#publish" title="Permalink to this heading">#</a></h2>
-<p><a class="reference external" href="https://pages.github.com/">GitHub Pages</a></p>
-</section>
-<section id="render-pdf">
-<h2>Render PDF<a class="headerlink" href="#render-pdf" title="Permalink to this heading">#</a></h2>
-<p>Use command <code class="docutils literal notranslate"><span class="pre">jb</span> <span class="pre">build</span> <span class="pre">lyrics/</span> <span class="pre">--builder</span> <span class="pre">pdfhtml</span></code>.</p>
-</section>
-<section id="template">
-<h2>Template<a class="headerlink" href="#template" title="Permalink to this heading">#</a></h2>
+<section id="tools">
+<h2>Tools<a class="headerlink" href="#tools" title="Permalink to this heading">#</a></h2>
 <ul class="simple">
-<li><p>東山奈央</p></li>
-<li><p><a class="reference external" href="https://www.bilibili.com/read/cv5759633">https://www.bilibili.com/read/cv5759633</a></p></li>
+<li><p>Video download: <a class="reference external" href="https://you-get.org/">You-get</a></p></li>
+<li><p>Text copy: Chrome plug-in</p>
+<ul>
+<li><p><a class="reference external" href="https://chrome.google.com/webstore/detail/simple-allow-copy/aefehdhdciieocakfobpaaolhipkcpgc">Simple allow copy</a>.</p></li>
 </ul>
-<p>五月雨<a class="footnote-reference brackets" href="#id2" id="id1" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a>は緑色<br>
-悲しくさせたよ一人の午後は<br>
-恋をして淋しくて<br>
-届かぬ想いを暖めていた<br>
-好きだよと言えずに 初恋は<br>
-ふりこ細工の心<br>
-放課後の校庭を 走る君がいた<br>
-遠くで僕はいつでも君を探してた<br>
-浅い夢だから 胸をはなれない<br></p>
-<p>夕映えはあんず色<br>
-帰り道一人口笛吹いて<br>
-名前さえ呼べなくて<br>
-とらわれた心見つめていたよ<br>
-好きだよと言えずに 初恋は<br>
-ふりこ細工の心<br>
-風に舞った花びらが 水面を乱すように<br>
-愛という字書いてみては<br>
-ふるえていたあの頃<br>
-浅い夢だから 胸をはなれない<br></p>
-<p>放課後の校庭を 走る君がいた<br>
-遠くで僕はいつでも君を探してた<br>
-浅い夢だから 胸をはなれない<br></p>
-<hr class="footnotes docutils" />
-<aside class="footnote brackets" id="id2" role="note">
-<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id1">1</a><span class="fn-bracket">]</span></span>
-<p>さみだれ</p>
-</aside>
+</li>
+<li><p>Build: <a class="reference external" href="https://jupyterbook.org/en/stable/intro.html">Jupyter Book</a></p>
+<ul>
+<li><p>Command: <code class="docutils literal notranslate"><span class="pre">jb</span> <span class="pre">build</span> <span class="pre">lyrics</span></code></p></li>
+</ul>
+</li>
+<li><p>Deploy: <a class="reference external" href="https://jupyterbook.org/en/stable/publish/gh-pages.html#option-2-automatically-push-your-build-files-with-ghp-import">ghp-import</a></p>
+<ul>
+<li><p>Command: <code class="docutils literal notranslate"><span class="pre">ghp-import</span> <span class="pre">-n</span> <span class="pre">-p</span> <span class="pre">-f</span> <span class="pre">lyrics/_build/html</span></code></p></li>
+<li><p>Then sync both <code class="docutils literal notranslate"><span class="pre">master</span></code> and <code class="docutils literal notranslate"><span class="pre">gh-pages</span></code> branches.</p></li>
+</ul>
+</li>
+<li><p>Batch file</p>
+<ul>
+<li><p>Run from Explorer <code class="docutils literal notranslate"><span class="pre">build_lyrics.bat</span></code></p></li>
+<li><p>From VSCode PowerShell: <code class="docutils literal notranslate"><span class="pre">cmd.exe</span> <span class="pre">-/c</span> <span class="pre">&quot;build_lyrics.bat&quot;</span></code></p></li>
+</ul>
+</li>
+<li><p>Publish: <a class="reference external" href="https://pages.github.com/">GitHub Pages</a></p></li>
+<li><p>Render PDF: <code class="docutils literal notranslate"><span class="pre">jb</span> <span class="pre">build</span> <span class="pre">lyrics/</span> <span class="pre">--builder</span> <span class="pre">pdfhtml</span></code></p></li>
+</ul>
 </section>
 </section>
 
@@ -536,14 +526,8 @@ Command: <code class="docutils literal notranslate"><span class="pre">ghp-import
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#video-download">Video download</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#text-copy">Text copy</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#build">Build</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#deploy">Deploy</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#batch-file">Batch file</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#publish">Publish</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#render-pdf">Render PDF</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#template">Template</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#instruction">Instruction</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tools">Tools</a></li>
 </ul>
   </nav></div>
 
