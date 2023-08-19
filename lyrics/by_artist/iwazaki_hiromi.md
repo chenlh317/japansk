@@ -30,6 +30,10 @@
 - [メラニーに](#メラニーに)
 - [赤い糸](#赤い糸)
 - [つぶやけば愛](#つぶやけば愛)
+- [そばに置いて](#そばに置いて)
+- [恋におちて](#恋におちて)
+- [愛燦燦](#愛燦燦)
+- [日暮れのマティーニ](#日暮れのマティーニ)
 
 
 ## 恋待草
@@ -1054,3 +1058,161 @@ Remember Me, Remember Me<br>
 そしていつかあなたにたどりつけるように<br>
 まわれよ まわれよ 季節の中で<br>
 めぐり逢う日がくるように<br>
+
+
+## そばに置いて
+
+- https://www.uta-net.com/song/94751/
+
+あなたの心の かた隅でもいいの<br>
+そばに置いて 邪魔は決してしないわ<br>
+優しい言葉を かけてくれなくても<br>
+見つめるだけならば いいでしょう<br>
+
+愛の深さが 測れるものならば<br>
+息を止めたまま 眠り続けて<br>
+死んでも かまわない<br>
+私の魂は あなたなしでは<br>
+生きては ゆけないから<br>
+あなた そばに置いて そばに置いて<br>
+
+あなたの心の 荷物になるのなら<br>
+そっと後ろ 歩くだけでもいいの<br>
+ふりむかなくても 背中が見えていれば<br>
+声かけて 呼んだりしないわ<br>
+
+愛のわがままが それでも重いなら<br>
+胸を切りさいて この命さえ<br>
+すてても かまわない<br>
+私の魂は あなたの為に<br>
+生まれたものだから<br>
+
+息を止めたまま 眠り続けて<br>
+
+
+## 恋におちて
+
+- https://www.uta-net.com/song/64639/
+
+もしも願いが叶うなら<br>
+吐息を白いバラに変えて<br>
+逢えない日には 部屋じゅうに<br>
+飾りましょう 貴方を想いながら<br>
+
+Daring, I want you 逢いたくて<br>
+ときめく恋に 駆け出しそうなの<br>
+迷子のように立ちすくむ<br>
+私をすぐに 届けたくて<br>
+
+ダイヤル回して<br>
+手を止めた<br>
+I'm just a woman, Fall in love<br>
+
+If my wishes can be true<br>
+Will you change my sighs<br>
+to roses, whiter roses decorate<br>
+them for you<br>
+
+Thinkin' 'bout you every night<br>
+and find out where I am<br>
+I am not livin' in your heart<br>
+
+Daring, I need you どうしても<br>
+口に出せない 願いがあるのよ<br>
+土曜の夜と 日曜の貴方が<br>
+いつも欲しいから<br>
+
+ダイヤル回して<br>
+手を止めた<br>
+I'm just a woman, Fall in love<br>
+
+Daring, You love me 今すぐに<br>
+貴方の声が 聞きたくなるのよ<br>
+両手で頬を押さえても<br>
+途方に暮れる夜が嫌い<br>
+
+ダイヤル回して<br>
+手を止めた<br>
+I'm just a woman, Fall in love<br>
+
+Don't you remember<br>
+When You were here<br>
+without a thinking<br>
+We were caught in fire<br>
+I've got a love song<br>
+but Where it goes<br>
+three loving hearts are<br>
+pullin' apart of one<br>
+Can't stop you, Can't hold you<br>
+Can't wait no more<br>
+I'm just a woman fall in love<br>
+I'm just a woman fall in love<br>
+
+
+## 愛燦燦
+
+- https://www.uta-net.com/song/103246/
+
+雨 潸潸と この身に落ちて<br>
+わずかばかりの運の悪さを 恨んだりして<br>
+人は哀しい 哀しいものですね<br>
+
+それでも過去達は 優しく睫毛に憩う<br>
+人生って 不思議なものですね<br>
+
+風 散散と この身に荒れて<br>
+思いどおりにならない夢を 失くしたりして<br>
+人はかよわい かよわいものですね<br>
+
+それでも未来達は 人待ち顔して微笑む<br>
+人生って 嬉しいものですね<br>
+
+愛 燦燦と この身に降って<br>
+心秘そかな嬉し涙を 流したりして<br>
+人はかわいい かわいいものですね<br>
+
+ああ 過去達は 優しく睫毛に憩う<br>
+人生って 不思議なものですね<br>
+
+ああ 未来達は 人待ち顔して微笑む<br>
+人生って 嬉しいものですね<br>
+
+
+## 日暮れのマティーニ
+
+- https://j-lyric.net/artist/a000487/l01657a.html
+
+辛口のマティーニ 並べてあなたと<br>
+話の続きを楽しんでると<br>
+生まれる前から 知っていたような<br>
+不思議な気持になれる<br>
+
+さざ波に似ている 心のふれ合い<br>
+おたがい 云いたいことがわかる<br>
+このしあわせには 覚えがある<br>
+恋していた日のものよ...覚えてる<br>
+
+聞かせて下さい 恋について<br>
+いつかはそれとなく わかるけど<br>
+おねがいあなたの 過ぎた昔<br>
+愛した思い出は およそでいいの<br>
+
+片隅でピアノが かすかにはずんで<br>
+グラスの向うに 海の日暮れ<br>
+前にもこうして ここにいたような<br>
+なつかしいほどの気分<br>
+
+こそばゆい目をして うながしてもだめ<br>
+私の話は長くなるわ<br>
+寄り道したのも いろいろだけど<br>
+忘れていいことばかり...何もかも<br>
+云わせて下さい 愛について<br>
+悩みのない人は いないから<br>
+ひとりで淋しく 嘆くよりも<br>
+二人で向き合って 生きてみたいの<br>
+
+云わせて下さい 愛について<br>
+悩みのない人は いないから<br>
+ひとりで淋しく 嘆くよりも<br>
+二人で向き合って 生きてみたいの<br>
+わかるでしょう?<br>
