@@ -5,10 +5,20 @@ REM Run in VSCode terminal with below
 REM cmd.exe -/c "build_lyrics.bat"
 
 
-python process_text.py
+@REM python process_text.py
 
-jb build lyrics
+@REM jb build lyrics
 
-ghp-import -n -p -f lyrics/_build/html
+@REM ghp-import -n -p -f lyrics/_build/html
+
+git checkout main
+git add .
+git commit -m "batch file w git cmd"
+
+git checkout gh-pages
+git add .
+git commit -m "sync pages"
+
+git checkout main
 
 cmd /k
