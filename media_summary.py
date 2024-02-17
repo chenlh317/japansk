@@ -65,6 +65,9 @@ def get_media_summary(media_folders: Path, output_name: str):
 
     media_summary.to_excel(output_name)
 
+    # open folder
+    os.startfile(os.getcwd())
+
     return None
 
 
