@@ -11,6 +11,7 @@ parts:
       - file: by_artist/iwazaki_hiromi
       - file: by_artist/kashiwabara_yoshie
       - file: by_artist/kawai_naoko
+      - file: by_artist/koyanagi_rumiko
       - file: by_artist/mori_masako
       - file: by_artist/nakajima_miyuki
       - file: by_artist/nakamori_akina

@@ -22,6 +22,7 @@
   1. Find lyrics
   2. Add lyrics to this site
   3. Render and sync site
+  4. URL: https://chenlh317.github.io/japansk/
 
 ## Tools
 
