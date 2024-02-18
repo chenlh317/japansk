@@ -5,6 +5,7 @@ Run with `python media_summary.py`
 """
 
 import os
+from datetime import datetime
 from pathlib import Path
 
 import eyed3
@@ -15,11 +16,11 @@ from mutagen.mp3 import MP3
 
 def get_media_summary(media_folders: Path, output_name: str):
     """
-    Get media esp. Mp3 info.
+    Get media esp. Mp3 info. Write summary to Excel.
 
     Args:
         media_folders(Path): file path including all folders to check
-        output_name(str): Excel file name
+        output_name(str): Excel file name without timestamp
     Returns:
         None
     """
@@ -44,7 +45,6 @@ def get_media_summary(media_folders: Path, output_name: str):
         # loop files
         for subdir, _, files in os.walk(folder_dir):
             for file in files:
-
                 if file.endswith(".mp3"):
                     file_w_path = os.path.join(subdir, file)
 
@@ -63,7 +63,10 @@ def get_media_summary(media_folders: Path, output_name: str):
                         bitrate,
                     ]
 
-    media_summary.to_excel(output_name)
+    # get timestamp and write to Excel
+    dt_now = datetime.now()
+    dt_string = dt_now.strftime("%Y-%m-%d_%H.%M.%S")
+    media_summary.to_excel(f"{dt_string}_{output_name}", index=False)
 
     # open folder
     os.startfile(os.getcwd())
