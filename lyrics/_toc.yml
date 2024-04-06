@@ -7,6 +7,7 @@ root: index
 parts:
   - caption: By artist
     chapters:
+      - file: by_artist/ishikawa_sayuri
       - file: by_artist/itsuwa_mayumi
       - file: by_artist/iwazaki_hiromi
       - file: by_artist/kashiwabara_yoshie

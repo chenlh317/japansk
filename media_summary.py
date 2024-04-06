@@ -30,11 +30,13 @@ def get_media_summary(media_folders: Path, output_name: str):
         folder_list = f.readlines()
 
     # initiate result df
-    media_summary = pd.DataFrame({
-        "Album": [],
-        "Title": [],
-        "bitrate": [],
-    })
+    media_summary = pd.DataFrame(
+        {
+            "Album": [],
+            "Title": [],
+            "bitrate": [],
+        }
+    )
 
     # loop folders
     for folder_dir in folder_list:

@@ -1,4 +1,3 @@
-
 """
 Batch text processor for .md files. E.g.
 
