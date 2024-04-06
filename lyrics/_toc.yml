@@ -19,6 +19,7 @@ parts:
       - file: by_artist/natsugawa_rimi
       - file: by_artist/sakai_noriko
       - file: by_artist/sada_masashi
+      - file: by_artist/takada_mizue
       - file: by_artist/teresa_teng_li_chun
       - file: by_artist/yamaguchi_momoe
 
