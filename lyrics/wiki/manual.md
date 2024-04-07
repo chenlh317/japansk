@@ -26,7 +26,9 @@
 
 ## Tools
 
-- Video download: [You-get](https://you-get.org/)
+- Video download:
+  - [You-get](https://you-get.org/)
+  - [BiliBili Downloader](https://chromewebstore.google.com/detail/bilibili-downloader/hpblinpebjlcdcmpmfkbioliagcppmof)
 - Text copy: Chrome plug-in
   - [Simple allow copy](https://chrome.google.com/webstore/detail/simple-allow-copy/aefehdhdciieocakfobpaaolhipkcpgc).
 - Build: [Jupyter Book](https://jupyterbook.org/en/stable/intro.html)
