@@ -14,7 +14,7 @@ import pandas as pd
 from mutagen.mp3 import MP3
 
 
-def get_media_summary(media_folders: Path, output_name: str):
+def get_media_summary(media_folders: Path, output_name: str) -> None:
     """
     Get media esp. Mp3 info. Write summary to Excel.
 

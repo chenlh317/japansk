@@ -15,7 +15,7 @@ from pathlib import Path
 from source.text_processor import remove_empty_br, replace_special_char
 
 
-def process_all_files(root_dir: Path, ext_filter: tuple):
+def process_all_files(root_dir: Path, ext_filter: tuple) -> None:
     """
     Loop all files and process.
     Filter by extensions.
