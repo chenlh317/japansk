@@ -3,6 +3,6 @@ flake8>=6.0.0
 ghp-import>=2.1.0
 jupyter-book>=0.15.1
 mutagen>=1.47.0
+openpyxl>=3.1.2
 pandas>=2.2.0
 pyarrow>=15.0.0
-openpyxl>=3.1.2
