@@ -14,9 +14,9 @@
      - Artist
      - Album
      - File name
-  3. Archive to PC folder
-  4. Copy to mobile same folder
-  5. Add to Muzio playlist
+  3. Archive to PC folders
+  4. Copy to mobile same folders
+  5. Add to mobile playlists
 
 - Lyrics
   1. Find lyrics
@@ -29,6 +29,7 @@
 - Video download:
   - [You-get](https://you-get.org/)
   - [BiliBili Downloader](https://chromewebstore.google.com/detail/bilibili-downloader/hpblinpebjlcdcmpmfkbioliagcppmof)
+  - `m3u8` files to (combined) `mp4`: `ffmpeg -i source_name.m3u8 -c copy target_name.mp4`
 - Text copy: Chrome plug-in
   - [Simple allow copy](https://chrome.google.com/webstore/detail/simple-allow-copy/aefehdhdciieocakfobpaaolhipkcpgc).
 - Build: [Jupyter Book](https://jupyterbook.org/en/stable/intro.html)
