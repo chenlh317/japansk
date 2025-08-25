@@ -79,6 +79,6 @@ def get_media_summary(media_folders: Path, output_name: str) -> None:
 if __name__ == "__main__":
 
     get_media_summary(
-        "media_folders.txt",
+        Path("media_folders.txt"),
         "Media_Summary.xlsx",
     )

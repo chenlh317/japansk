@@ -33,7 +33,7 @@ def process_all_files(root_dir: Path, ext_filter: tuple) -> None:
 
             if file.endswith(ext_filter):
 
-                file_w_path = os.path.join(subdir, file)
+                file_w_path = Path(os.path.join(subdir, file))
 
                 lines = []
 
