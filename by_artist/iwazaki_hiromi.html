@@ -16,33 +16,30 @@
     document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
     document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
   </script>
-  <!--
-    this give us a css class that will be invisible only if js is disabled
-  -->
-  <noscript>
-    <style>
-      .pst-js-only { display: none !important; }
-
-    </style>
-  </noscript>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
-<link href="../_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+  <link href="../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
 
-    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
-    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=a3416100" />
+  
+  <link href="../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=eba8b062" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
   
-  <!-- So that users can add custom icons -->
-  <script src="../_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
-<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
 
     <script src="../_static/documentation_options.js?v=9eb32ce0"></script>
     <script src="../_static/doctools.js?v=9a2dae69"></script>
@@ -68,7 +65,6 @@
     <link rel="prev" title="五輪真弓" href="itsuwa_mayumi.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-  <meta name="docsearch:version" content="" />
   </head>
   
   
@@ -84,8 +80,19 @@
     <i class="fa-solid fa-arrow-up"></i>Back to top</button>
 
   
-  <dialog id="pst-search-dialog">
-    
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
 <form class="bd-search d-flex align-items-center"
       action="../search.html"
       method="get">
@@ -93,6 +100,7 @@
   <input type="search"
          class="form-control"
          name="q"
+         id="search-input"
          placeholder="Search this book..."
          aria-label="Search this book..."
          autocomplete="off"
@@ -100,8 +108,8 @@
          autocapitalize="off"
          spellcheck="false"/>
   <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
-</form>
-  </dialog>
+</form></div>
+  </div>
 
   <div class="pst-async-banner-revealer d-none">
   <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
@@ -117,8 +125,7 @@
       
       
       
-      <dialog id="pst-primary-sidebar-modal"></dialog>
-      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+      <div class="bd-sidebar-primary bd-sidebar">
         
 
   
@@ -148,17 +155,21 @@
     
     
     <img src="../_static/logo.png" class="logo__image only-light" alt="东洋歌词摘钞 - Home"/>
-    <img src="../_static/logo.png" class="logo__image only-dark pst-js-only" alt="东洋歌词摘钞 - Home"/>
+    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt="东洋歌词摘钞 - Home"/>`);</script>
   
   
 </a></div>
         <div class="sidebar-primary-item">
 
-<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
- <i class="fa-solid fa-magnifying-glass"></i>
- <span class="search-button__default-text">Search</span>
- <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
-</button></div>
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
         <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
         
@@ -217,14 +228,9 @@
   
   
   <div class="sidebar-primary-items__end sidebar-primary__section">
-      <div class="sidebar-primary-item">
-<div id="ethical-ad-placement"
-      class="flat"
-      data-ea-publisher="readthedocs"
-      data-ea-type="readthedocs-sidebar"
-      data-ea-manual="true">
-</div></div>
   </div>
+  
+  <div id="rtd-footer-container"></div>
 
 
       </div>
@@ -368,16 +374,24 @@
 
 
 
-<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
-  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
-  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
-  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
-</button>
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
 
 
-<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <i class="fa-solid fa-magnifying-glass fa-lg"></i>
-</button>
+  </button>
+`);
+</script>
 <button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <span class="fa-solid fa-list"></span>
 </button>
@@ -439,6 +453,11 @@
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id37">銀河伝説</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id38">逃亡者</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id39">恋夏期</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id40">別れのブルース</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id41">さよなら夏のリサ</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id42">好きにならずにいられない</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id43">緋衣草</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#annie-laurie">アニーローリー Annie Laurie</a></li>
 </ul>
             </nav>
         </div>
@@ -491,6 +510,11 @@
 <li><p><a class="reference internal" href="#id37">銀河伝説</a></p></li>
 <li><p><a class="reference internal" href="#id38">逃亡者</a></p></li>
 <li><p><a class="reference internal" href="#id39">恋夏期</a></p></li>
+<li><p><a class="reference internal" href="#id40">別れのブルース</a></p></li>
+<li><p><a class="reference internal" href="#id41">さよなら夏のリサ</a></p></li>
+<li><p><a class="reference internal" href="#id42">好きにならずにいられない</a></p></li>
+<li><p><a class="reference internal" href="#id43">緋衣草</a></p></li>
+<li><p><a class="reference internal" href="#annie-laurie">アニーローリー Annie Laurie</a></p></li>
 </ul>
 <section id="id2">
 <h2>恋待草<a class="headerlink" href="#id2" title="Link to this heading">#</a></h2>
@@ -1650,6 +1674,127 @@ I’m just a woman fall in love<br></p>
 <p>どんな想いでここにいるでしょう<br>
 いつまでもはなさないで下さい<br></p>
 </section>
+<section id="id40">
+<h2>別れのブルース<a class="headerlink" href="#id40" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.uta-net.com/song/13821/">https://www.uta-net.com/song/13821/</a></p></li>
+</ul>
+<p>窓を開ければ 港が見える<br>
+メリケン波止場の 灯が見える<br>
+夜風 潮風 恋風のせて<br>
+今日の出船は どこへ行く<br>
+むせぶ心よ はかない恋よ<br>
+踊るブルースの 切なさよ<br></p>
+<p>腕にいかりの 入れずみほって<br>
+やくざに強い マドロスの<br>
+お国言葉は 違っていても<br>
+恋には弱い すすり泣き<br>
+二度と逢えない 心と心<br>
+踊るブルースの 切なさよ<br></p>
+</section>
+<section id="id41">
+<h2>さよなら夏のリサ<a class="headerlink" href="#id41" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.uta-net.com/song/78801/">https://www.uta-net.com/song/78801/</a></p></li>
+</ul>
+<p>風に連れもどされてゆく ひとりきりの白い夏の日<br></p>
+<p>テラスの椅子で うたた寝してた<br>
+おだやかな 昼下り<br>
+特別な愛 終わった後の<br>
+私だけの Holiday<br></p>
+<p>時が行く速さにも 味方してもらうから平気よ<br></p>
+<p>風に連れもどされてゆく 恋に落ちたさりげない出逢い<br>
+初めての朝そしてずっと ふたりきりの同じ夏の日<br></p>
+<p>雲が流れて 陽差しが翳る<br>
+吹く風も 冷えてくる<br>
+あなたの愛が 見えなくなった<br>
+秋に少し似てる<br></p>
+<p>時が行くなにもかも 想い出という記憶に変えて<br></p>
+<p>風に連れもどされてゆく 別れを告げられて泣いた夜<br>
+死ぬことさえ考えてた 冬の海をここで見ていた<br></p>
+<p>時が行く速さにも 味方してもらうから平気よ<br></p>
+<p>新しい木々の匂いを 胸に深く深呼吸をして<br>
+まだ少しだけ想ってる あなたのこと忘れてみるわ<br></p>
+<p>風に連れもどされてゆく あなたに出会うまえの夏の日<br>
+あふれる陽差しをさけてた ひとりきりの私がいたわ<br></p>
+<p>La La La…<br>
+あなたのこと忘れてみるわ<br>
+La La La…<br></p>
+</section>
+<section id="id42">
+<h2>好きにならずにいられない<a class="headerlink" href="#id42" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.uta-net.com/song/6279/">https://www.uta-net.com/song/6279/</a></p></li>
+</ul>
+<p>好きにならずにいられない<br>
+高なる胸 忘れられない<br>
+好きにならずにいられない<br>
+誰のために する恋じゃないもの<br></p>
+<p>逢いたくて 逢えないから<br>
+もっとそばにいたい<br>
+ほっておいても 綺麗になるよと<br>
+想いをじらすの<br></p>
+<p>あなたが 誰のものでも同じ<br>
+恋をすれば わるい娘に帰る<br></p>
+<p>好きにならずにいられない<br>
+はずむ声に 夢の響き<br>
+好きにならずにいられない<br>
+恋のためにただ めざめたように<br></p>
+<p>逢うたびに 気になるほど<br>
+みちがえられて みたい<br>
+ほっておいたら 季節が心を<br>
+さらってゆくよと<br></p>
+<p>瞳と瞳があった そのとき二人<br>
+踊るように熱く熱く 抱いてね<br></p>
+<p>好きにならずにいられない<br>
+なにもかもが 忘れられない<br>
+好きにならずにいられない<br>
+恋のために ただめざめたように<br></p>
+<p>好きにならずにいられない<br>
+高なる胸 忘れられない<br>
+好きにならずにいられない<br>
+誰のために する恋じゃないもの<br></p>
+</section>
+<section id="id43">
+<h2>緋衣草<a class="headerlink" href="#id43" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://j-lyric.net/artist/a000487/l017460.html">https://j-lyric.net/artist/a000487/l017460.html</a></p></li>
+</ul>
+<p>サルビアの 花の朱紅さに<br>
+つきあげる あなたへの愛<br>
+振りむけば ふりむくだけ<br>
+みじめになる 愛と知りつつ<br>
+私はうたう あなたへの愛<br>
+朱紅く燃える サルビアのように<br>
+炎の花 サルビアのように<br>
+ラララ ラララ……<br></p>
+<p>サルビアの 花が咲くたびに<br>
+甦える 馴れ初めの頃<br>
+手をのばせば いつもそこに<br>
+あなたがいた 夢を両腕に<br>
+私はうたう ひとすじの愛<br>
+朱紅く燃える サルビアのように<br>
+炎の花 サルビアのように<br></p>
+</section>
+<section id="annie-laurie">
+<h2>アニーローリー Annie Laurie<a class="headerlink" href="#annie-laurie" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="http://utasenka.seesaa.net/article/135590159.html">http://utasenka.seesaa.net/article/135590159.html</a></p></li>
+<li><p><a class="reference external" href="https://www.worldfolksong.com/songbook/scotland/annie-laurie.html">https://www.worldfolksong.com/songbook/scotland/annie-laurie.html</a></p></li>
+</ul>
+<p>なつかし川辺に 露はあれど<br>
+いとしのアニー・ローリー いまやいずこ<br>
+君にあいし 時はゆけど<br>
+いとしのアニー・ローリー 夢忘れじ<br></p>
+<p>雪のひたいよ やさしうなじ<br>
+輝くひとみは 清く澄みし<br>
+くらぶもなき うるわしさよ<br>
+いとしのアニー・ローリー 夢忘れじ<br></p>
+<p>葉蔭の露にも たとうみ足<br>
+たそがれそよぐか 風のみ声<br>
+うるわしさよ 愛のことば<br>
+いとしのアニー・ローリー 夢忘れじ<br></p>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -1707,8 +1852,7 @@ I’m just a woman fall in love<br></p>
             
             
               
-                <dialog id="pst-secondary-sidebar-modal"></dialog>
-                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
 
 
   <div class="sidebar-secondary-item">
@@ -1755,6 +1899,11 @@ I’m just a woman fall in love<br></p>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id37">銀河伝説</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id38">逃亡者</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id39">恋夏期</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id40">別れのブルース</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id41">さよなら夏のリサ</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id42">好きにならずにいられない</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id43">緋衣草</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#annie-laurie">アニーローリー Annie Laurie</a></li>
 </ul>
   </nav></div>
 
@@ -1803,8 +1952,8 @@ By mir.AI
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script defer src="../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
-<script defer src="../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
+  <script src="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
 
   <footer class="bd-footer">
   </footer>

@@ -16,33 +16,30 @@
     document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
     document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
   </script>
-  <!--
-    this give us a css class that will be invisible only if js is disabled
-  -->
-  <noscript>
-    <style>
-      .pst-js-only { display: none !important; }
-
-    </style>
-  </noscript>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
-<link href="../_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+  <link href="../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
 
-    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
-    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=a3416100" />
+  
+  <link href="../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=eba8b062" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
   
-  <!-- So that users can add custom icons -->
-  <script src="../_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
-<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
 
     <script src="../_static/documentation_options.js?v=9eb32ce0"></script>
     <script src="../_static/doctools.js?v=9a2dae69"></script>
@@ -68,7 +65,6 @@
     <link rel="prev" title="Ghibli" href="ghibli.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-  <meta name="docsearch:version" content="" />
   </head>
   
   
@@ -84,8 +80,19 @@
     <i class="fa-solid fa-arrow-up"></i>Back to top</button>
 
   
-  <dialog id="pst-search-dialog">
-    
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
 <form class="bd-search d-flex align-items-center"
       action="../search.html"
       method="get">
@@ -93,6 +100,7 @@
   <input type="search"
          class="form-control"
          name="q"
+         id="search-input"
          placeholder="Search this book..."
          aria-label="Search this book..."
          autocomplete="off"
@@ -100,8 +108,8 @@
          autocapitalize="off"
          spellcheck="false"/>
   <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
-</form>
-  </dialog>
+</form></div>
+  </div>
 
   <div class="pst-async-banner-revealer d-none">
   <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
@@ -117,8 +125,7 @@
       
       
       
-      <dialog id="pst-primary-sidebar-modal"></dialog>
-      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+      <div class="bd-sidebar-primary bd-sidebar">
         
 
   
@@ -148,17 +155,21 @@
     
     
     <img src="../_static/logo.png" class="logo__image only-light" alt="东洋歌词摘钞 - Home"/>
-    <img src="../_static/logo.png" class="logo__image only-dark pst-js-only" alt="东洋歌词摘钞 - Home"/>
+    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt="东洋歌词摘钞 - Home"/>`);</script>
   
   
 </a></div>
         <div class="sidebar-primary-item">
 
-<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
- <i class="fa-solid fa-magnifying-glass"></i>
- <span class="search-button__default-text">Search</span>
- <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
-</button></div>
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
         <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
         
@@ -217,14 +228,9 @@
   
   
   <div class="sidebar-primary-items__end sidebar-primary__section">
-      <div class="sidebar-primary-item">
-<div id="ethical-ad-placement"
-      class="flat"
-      data-ea-publisher="readthedocs"
-      data-ea-type="readthedocs-sidebar"
-      data-ea-manual="true">
-</div></div>
   </div>
+  
+  <div id="rtd-footer-container"></div>
 
 
       </div>
@@ -368,16 +374,24 @@
 
 
 
-<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
-  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
-  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
-  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
-</button>
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
 
 
-<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <i class="fa-solid fa-magnifying-glass fa-lg"></i>
-</button>
+  </button>
+`);
+</script>
 <button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <span class="fa-solid fa-list"></span>
 </button>
@@ -419,6 +433,11 @@
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id15">寝た子を起こす子守唄</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id16">わたしが蜉蝣</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id17">竹田の子守唄</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id18">夏色片想い</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id19">かあさんの歌</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id20">南から南から</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id21">人生いろいろ</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id22">雪の華</a></li>
 </ul>
             </nav>
         </div>
@@ -451,6 +470,11 @@
 <li><p><a class="reference internal" href="#id15">寝た子を起こす子守唄</a></p></li>
 <li><p><a class="reference internal" href="#id16">わたしが蜉蝣</a></p></li>
 <li><p><a class="reference internal" href="#id17">竹田の子守唄</a></p></li>
+<li><p><a class="reference internal" href="#id18">夏色片想い</a></p></li>
+<li><p><a class="reference internal" href="#id19">かあさんの歌</a></p></li>
+<li><p><a class="reference internal" href="#id20">南から南から</a></p></li>
+<li><p><a class="reference internal" href="#id21">人生いろいろ</a></p></li>
+<li><p><a class="reference internal" href="#id22">雪の華</a></p></li>
 </ul>
 <section id="id2">
 <h2>荒城の月<a class="headerlink" href="#id2" title="Link to this heading">#</a></h2>
@@ -1006,6 +1030,197 @@
 向うに見えるは 親の家<br>
 向うに見えるは 親の家<br></p>
 </section>
+<section id="id18">
+<h2>夏色片想い<a class="headerlink" href="#id18" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>菊池桃子</p></li>
+<li><p><a class="reference external" href="https://www.uta-net.com/song/3388/">https://www.uta-net.com/song/3388/</a></p></li>
+</ul>
+<p>木洩(こも)れ陽が眩(まぶ)しい 微風(そよかぜ)の坂道<br>
+偶然に逢えたと あなたは思っている<br></p>
+<p>片想いずっと 続くつもりで<br>
+立ち止まる春を そっと見つめた<br></p>
+<p>ありがとう さり気ない<br>
+明るい陽射し 今目ざめた<br></p>
+<p>聞いて un deux trois 恋のリ・ズ・ム<br>
+あなたの胸まで 届けたい<br>
+そして Avec Toi 耳を澄まし<br>
+ふたりの メロディー 気付いてね<br></p>
+<p>夕焼けのため息 はずかしさふき消し<br>
+気まぐれな天使は 白い羽根たたんだ<br></p>
+<p>片思い同志 微笑んだ時<br>
+大切な愛の奇蹟がおきる<br></p>
+<p>不思議だわ ためらいも<br>
+あなたのそばで 透き通るの<br></p>
+<p>それは un deux trois 恋のま・ほ・う<br>
+あなたの願いに 答えたい<br>
+そして Avec Toi まぶた閉じて<br>
+やさしい勇気を信じるわ<br></p>
+<p>きっと un deux trois 恋のリ・ズ・ム<br>
+あなたの胸まで 届けたい<br>
+そして Avec Toi 耳を澄まし<br>
+ふたりの メロディーきかせてね<br></p>
+</section>
+<section id="id19">
+<h2>かあさんの歌<a class="headerlink" href="#id19" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.uta-net.com/song/6125/">https://www.uta-net.com/song/6125/</a></p></li>
+</ul>
+<p>かあさんが<br>
+夜なべをして<br>
+手袋あんでくれた<br>
+木枯らし吹いちゃ<br>
+冷たかろうて<br>
+せっせとあんだだよ<br>
+ふるさとの<br>
+便りはとどく<br>
+いろりのにおいがした<br></p>
+<p>かあさんが<br>
+麻糸つむぐ<br>
+一日つむぐ<br>
+おとうは土間で<br>
+わら打ち仕事<br>
+お前も がんばれよ<br>
+ふるさとの冬は<br>
+さみしい<br>
+せめてラジオ<br>
+聞かせたい<br></p>
+<p>かあさんの<br>
+あかぎれ痛い<br>
+生みそを すりこむ<br>
+根雪もとけりゃ<br>
+もうすぐ春だで<br>
+畑が待ってるよ<br>
+小川のせせらぎが<br>
+聞こえる<br>
+なつかしさが<br>
+しみとおる<br>
+なつかしさが<br>
+しみとおる<br></p>
+</section>
+<section id="id20">
+<h2>南から南から<a class="headerlink" href="#id20" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://j-lyric.net/artist/a05408a/l021653.html">https://j-lyric.net/artist/a05408a/l021653.html</a></p></li>
+</ul>
+<p>南から 南から<br>
+とんで来た来た 渡り鳥<br>
+うれしそうに 楽しそうに<br>
+富士のお山を 眺めてる<br>
+茜の空 晴れやかに<br>
+のぼる朝日 いさましい<br>
+その姿 見た心<br>
+ちょっとひとこと 聞かせてよ<br></p>
+<p>南から 南から<br>
+そよぐ そよそよ 南風<br>
+さわやかに なごやかに<br>
+村の鎮守の 森をゆく<br>
+深みどり 色もこく<br>
+娘十八 神詣で<br>
+その姿 見た心<br>
+ちょっとひとこと 聞かせてよ<br></p>
+<p>南から 南から<br>
+遠く海越え 来た人は<br>
+村里に 町かどに<br>
+なびく日の丸 たのもしく<br>
+じっと眺めて 涙ぐむ<br>
+強いお国 日本の<br>
+その姿 見た心<br>
+ちょっとひとこと 聞かせてよ<br></p>
+</section>
+<section id="id21">
+<h2>人生いろいろ<a class="headerlink" href="#id21" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>島倉千代子</p></li>
+<li><p>人生いろいろ オープニング</p></li>
+</ul>
+<p>死んでしまおうなんて<br>
+悩んだりしたわ<br>
+バラもコスモスたちも<br>
+枯れておしまいと<br>
+髪をみじかくしたり<br>
+つよく小指をかんだり<br>
+自分ばかりを責めて<br>
+泣いてすごしたわ<br>
+ねぇおかしいでしょ若いころ<br>
+ねぇ滑稽でしょ若いころ<br>
+笑いばなしに涙がいっぱい<br>
+涙の中に若さがいっぱい<br>
+人生いろいろ 男もいろいろ<br>
+女だっていろいろ 咲き乱れるの<br></p>
+<p>恋は突然くるわ<br>
+別れもそうね<br>
+そしてこころを乱し<br>
+神に祈るのよ<br>
+どんな大事な恋も<br>
+軽いあそびでも<br>
+一度なくしてわかる<br>
+胸のときめきよ<br>
+いまかがやくのよ私たち<br>
+いまとびたつのよ私たち<br>
+笑いばなしに希望がいっぱい<br>
+希望の中に若さがいっぱい<br>
+人生いろいろ 男もいろいろ<br>
+女だっていろいろ 咲き乱れるの<br></p>
+<p>人生いろいろ 男もいろいろ<br>
+女だっていろいろ 咲き乱れるの<br>
+人生いろいろ 男もいろいろ<br>
+女だっていろいろ 咲き乱れるの<br></p>
+</section>
+<section id="id22">
+<h2>雪の華<a class="headerlink" href="#id22" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>中島美嘉</p></li>
+<li><p>明治製菓「galbo」</p></li>
+<li><p><a class="reference external" href="https://www.uta-net.com/song/17920/">https://www.uta-net.com/song/17920/</a></p></li>
+</ul>
+<p>のびた人陰(かげ)を 舗道に並べ<br>
+夕闇のなかをキミと歩いてる<br>
+手を繋いでいつまでもずっと<br>
+そばにいれたなら泣けちゃうくらい<br></p>
+<p>風が冷たくなって<br>
+冬の匂いがした<br>
+そろそろこの街に<br>
+キミと近付ける季節がくる<br></p>
+<p>今年、最初の雪の華を<br>
+2人寄り添って<br>
+眺めているこの瞬間(とき)に<br>
+シアワセがあふれだす<br>
+甘えとか弱さじゃない<br>
+ただ、キミを愛してる<br>
+心からそう思った<br></p>
+<p>キミがいると どんなことでも<br>
+乗りきれるような気持ちになってる<br>
+こんな日々がいつまでもきっと<br>
+続いてくことを祈っているよ<br></p>
+<p>風が窓を揺らした<br>
+夜は揺り起こして<br>
+どんな悲しいことも<br>
+ボクが笑顔へと変えてあげる<br></p>
+<p>舞い落ちてきた雪の華が<br>
+窓の外ずっと<br>
+降りやむことを知らずに<br>
+ボクらの街を染める<br>
+誰かのために何かを<br>
+したいと思えるのが<br>
+愛ということを知った<br></p>
+<p>もし、キミを失ったとしたなら<br>
+星になってキミを照らすだろう<br>
+笑顔も 涙に濡れてる夜も<br>
+いつもいつでもそばにいるよ<br></p>
+<p>今年、最初の雪の華を<br>
+2人寄り添って<br>
+眺めているこの瞬間(とき)に<br>
+シアワセがあふれだす<br>
+甘えとか弱さじゃない<br>
+ただ、キミとずっと<br>
+このまま一緒にいたい<br>
+素直にそう思える<br></p>
+<p>この街に降り積もってく<br>
+真っ白な雪の華<br>
+2人の胸にそっと想い出を描くよ<br>
+これからもキミとずっと…<br></p>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -1063,8 +1278,7 @@
             
             
               
-                <dialog id="pst-secondary-sidebar-modal"></dialog>
-                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
 
 
   <div class="sidebar-secondary-item">
@@ -1091,6 +1305,11 @@
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id15">寝た子を起こす子守唄</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id16">わたしが蜉蝣</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id17">竹田の子守唄</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id18">夏色片想い</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id19">かあさんの歌</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id20">南から南から</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id21">人生いろいろ</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id22">雪の華</a></li>
 </ul>
   </nav></div>
 
@@ -1139,8 +1358,8 @@ By mir.AI
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script defer src="../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
-<script defer src="../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
+  <script src="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
 
   <footer class="bd-footer">
   </footer>
