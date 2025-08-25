@@ -26,6 +26,11 @@
 
 ## Tools
 
+- Set up virtual environment:
+  - `py -3.13 -m venv venv`
+  - Activate on Windows: `venv\Scripts\activate`
+  - Activate on macOS/Linux: `source venv/bin/activate`
+  - Install dependencies: `pip install -r requirements.txt`
 - Video download:
   - [You-get](https://you-get.org/)
   - [BiliBili Downloader](https://chromewebstore.google.com/detail/bilibili-downloader/hpblinpebjlcdcmpmfkbioliagcppmof)
