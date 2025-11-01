@@ -42,7 +42,7 @@ def slice_mp3_audio(
 
 if __name__ == "__main__":
     slice_mp3_audio(
-        song_path=Path("hiromi.mp3"),
-        start_second=586,
-        end_second=701,
+        song_path=Path("kokia.mp3"),
+        start_second=0,
+        end_second=338,
     )
