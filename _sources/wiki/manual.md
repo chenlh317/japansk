@@ -26,7 +26,14 @@
 
 ## Tools
 
+- Set up virtual environment:
+  - `py -3.13 -m venv venv`
+  - Activate on Windows: `venv\Scripts\activate`
+  - Activate on macOS/Linux: `source venv/bin/activate`
+  - Install dependencies: `pip install -r requirements.txt`
 - Video download:
+  - [yt-dlp](https://www.pythoncentral.io/yt-dlp-download-youtube-videos/)
+    - [Pass cookies to yt-dlp](https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp)
   - [You-get](https://you-get.org/)
   - [BiliBili Downloader](https://chromewebstore.google.com/detail/bilibili-downloader/hpblinpebjlcdcmpmfkbioliagcppmof)
   - `m3u8` files to (combined) `mp4`: `ffmpeg -i source_name.m3u8 -c copy target_name.mp4`

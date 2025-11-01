@@ -467,8 +467,21 @@ document.write(`
 <section id="tools">
 <h2>Tools<a class="headerlink" href="#tools" title="Link to this heading">#</a></h2>
 <ul class="simple">
+<li><p>Set up virtual environment:</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">py</span> <span class="pre">-3.13</span> <span class="pre">-m</span> <span class="pre">venv</span> <span class="pre">venv</span></code></p></li>
+<li><p>Activate on Windows: <code class="docutils literal notranslate"><span class="pre">venv\Scripts\activate</span></code></p></li>
+<li><p>Activate on macOS/Linux: <code class="docutils literal notranslate"><span class="pre">source</span> <span class="pre">venv/bin/activate</span></code></p></li>
+<li><p>Install dependencies: <code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">-r</span> <span class="pre">requirements.txt</span></code></p></li>
+</ul>
+</li>
 <li><p>Video download:</p>
 <ul>
+<li><p><a class="reference external" href="https://www.pythoncentral.io/yt-dlp-download-youtube-videos/">yt-dlp</a></p>
+<ul>
+<li><p><a class="reference external" href="https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp">Pass cookies to yt-dlp</a></p></li>
+</ul>
+</li>
 <li><p><a class="reference external" href="https://you-get.org/">You-get</a></p></li>
 <li><p><a class="reference external" href="https://chromewebstore.google.com/detail/bilibili-downloader/hpblinpebjlcdcmpmfkbioliagcppmof">BiliBili Downloader</a></p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">m3u8</span></code> files to (combined) <code class="docutils literal notranslate"><span class="pre">mp4</span></code>: <code class="docutils literal notranslate"><span class="pre">ffmpeg</span> <span class="pre">-i</span> <span class="pre">source_name.m3u8</span> <span class="pre">-c</span> <span class="pre">copy</span> <span class="pre">target_name.mp4</span></code></p></li>
