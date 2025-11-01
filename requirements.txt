@@ -1,3 +1,4 @@
+audioop-lts>=0.2.2  # substitution for pyaudioop which is obsolete since Python 3.11
 eyed3>=0.9.8
 ffmpeg>=1.4
 flake8>=7.3.0
