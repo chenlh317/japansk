@@ -38,11 +38,11 @@ def process_all_files(root_dir: Path, ext_filter: tuple) -> None:
                 lines = []
 
                 # read in all lines of the file as list
-                with open(file_w_path, "r") as f:
+                with open(file_w_path, "r", encoding="utf-8") as f:
 
                     lines = f.readlines()
 
-                with open(file_w_path, "w") as f:
+                with open(file_w_path, "w", encoding="utf-8") as f:
 
                     for line_nr, line in enumerate(lines):
 
