@@ -11,18 +11,12 @@ python process_text.py
 
 jb build lyrics
 
+REM ghp-import automatically pushes to gh-pages branch
 ghp-import -n -p -f lyrics/_build/html
 
-git checkout main
+REM Commit and push source files from main branch
 git add .
 git commit -m "updates"
 git push origin main
-
-git checkout gh-pages
-git add .
-git commit -m "sync pages"
-git push origin gh-pages
-
-git checkout main
 
 cmd /k
