@@ -43,6 +43,11 @@ parts:
       - file: by_type/ghibli
       - file: by_type/uta
 
+  - caption: Other
+    chapters:
+      - file: other/chansons_francaises
+      - file: other/canciones_espanolas
+
   - caption: Wiki
     chapters:
     - file: wiki/manual
