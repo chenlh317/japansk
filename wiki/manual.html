@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=eba8b062" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css?v=6644e6bb" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
   
@@ -61,7 +61,7 @@
     <link rel="icon" href="../_static/tokyo_tower_favicon-32x32.png"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="prev" title="歌" href="../by_type/uta.html" />
+    <link rel="prev" title="Canciones Españolas" href="../other/canciones_espanolas.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -216,6 +216,10 @@
 <li class="toctree-l1"><a class="reference internal" href="../by_type/eiga.html">映画 <!-- omit in toc --></a></li>
 <li class="toctree-l1"><a class="reference internal" href="../by_type/ghibli.html">Ghibli <!-- omit in toc --></a></li>
 <li class="toctree-l1"><a class="reference internal" href="../by_type/uta.html">歌 <!-- omit in toc --></a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Other</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../other/canciones_espanolas.html">Canciones Españolas</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Wiki</span></p>
 <ul class="current nav bd-sidenav">
@@ -471,7 +475,7 @@ document.write(`
 <li><p>Set up virtual environment:</p>
 <ul>
 <li><p><code class="docutils literal notranslate"><span class="pre">py</span> <span class="pre">-3.13</span> <span class="pre">-m</span> <span class="pre">venv</span> <span class="pre">venv</span></code></p></li>
-<li><p>Activate on Windows: <code class="docutils literal notranslate"><span class="pre">venv\Scripts\activate</span></code></p></li>
+<li><p>Activate on Windows: <code class="docutils literal notranslate"><span class="pre">venv/Scripts/activate</span></code></p></li>
 <li><p>Activate on macOS/Linux: <code class="docutils literal notranslate"><span class="pre">source</span> <span class="pre">venv/bin/activate</span></code></p></li>
 <li><p>Install dependencies: <code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">-r</span> <span class="pre">requirements.txt</span></code></p></li>
 </ul>
@@ -480,12 +484,13 @@ document.write(`
 <ul>
 <li><p><a class="reference external" href="https://www.pythoncentral.io/yt-dlp-download-youtube-videos/">yt-dlp</a></p>
 <ul>
+<li><p>Command example: <code class="docutils literal notranslate"><span class="pre">yt-dlp</span> <span class="pre">-f</span> <span class="pre">bestvideo+bestaudio</span> <span class="pre">--merge-output-format</span> <span class="pre">mp4</span> <span class="pre">-o</span> <span class="pre">&quot;C:/Users/chenl/Desktop/%(title)s.%(ext)s&quot;</span> <span class="pre">&lt;video_url&gt;</span></code></p></li>
 <li><p><a class="reference external" href="https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp">Pass cookies to yt-dlp</a></p></li>
 </ul>
 </li>
 <li><p><a class="reference external" href="https://you-get.org/">You-get</a></p></li>
 <li><p><a class="reference external" href="https://chromewebstore.google.com/detail/bilibili-downloader/hpblinpebjlcdcmpmfkbioliagcppmof">BiliBili Downloader</a></p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">m3u8</span></code> files to (combined) <code class="docutils literal notranslate"><span class="pre">mp4</span></code>: <code class="docutils literal notranslate"><span class="pre">ffmpeg</span> <span class="pre">-i</span> <span class="pre">source_name.m3u8</span> <span class="pre">-c</span> <span class="pre">copy</span> <span class="pre">target_name.mp4</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">m3u8</span></code> files to (combined) <code class="docutils literal notranslate"><span class="pre">mp4</span></code>: <code class="docutils literal notranslate"><span class="pre">ffmpeg</span> <span class="pre">-i</span> <span class="pre">index.m3u8</span> <span class="pre">-c</span> <span class="pre">copy</span> <span class="pre">target_name.mp4</span></code></p></li>
 </ul>
 </li>
 <li><p>Text copy: Chrome plug-in</p>
@@ -547,12 +552,12 @@ document.write(`
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="../by_type/uta.html"
+       href="../other/canciones_espanolas.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">歌 <!-- omit in toc --></p>
+        <p class="prev-next-title">Canciones Españolas</p>
       </div>
     </a>
 </div>
