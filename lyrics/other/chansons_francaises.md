@@ -1,5 +1,13 @@
 
-# Chansons Françaises
+# Chansons Françaises <!-- omit in toc -->
+
+- [Le temps des cerises](#le-temps-des-cerises)
+- [Comme un soleil](#comme-un-soleil)
+- [Hymne à l’amour](#hymne-à-lamour)
+- [Je chante avec toi liberté](#je-chante-avec-toi-liberté)
+- [La bohème](#la-bohème)
+- [Encore une fois](#encore-une-fois)
+
 
 ## Le temps des cerises
 
