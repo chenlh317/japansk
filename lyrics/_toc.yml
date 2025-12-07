@@ -45,8 +45,8 @@ parts:
 
   - caption: Other
     chapters:
-      - file: other/chansons_francaises
       - file: other/canciones_espanolas
+      - file: other/chansons_francaises
 
   - caption: Wiki
     chapters:
