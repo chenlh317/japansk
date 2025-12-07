@@ -192,3 +192,59 @@ La bohème, la bohème<br>
 On était jeunes, on était fous<br>
 La bohème, la bohème<br>
 Ça ne veut plus rien dire du tout<br>
+
+
+## Encore une fois
+
+- Hélène Ségara
+- https://genius.com/Helene-segara-encore-une-fois-lyrics
+
+J'ai jamais vu d'amour fragile<br>
+J'ai toujours donné tout<br>
+Toute seule au bout de moi<br>
+J't'envoie ces quelques mots<br>
+
+Moi je suis celle qui s'est perdue<br>
+Contre ta peau<br>
+Quand on s'cachait près des bateaux<br>
+Pour mettr' nos corps à nu<br>
+
+Un jour y'a comme ça des gnes qui passent<br>
+C'est la vie qui grandit<br>
+On s'comprend pas toujours soi-même<br>
+Et un jour<br>
+On aime<br>
+
+{Refrain:}<br>
+Oh non non non<br>
+On s'oublie pas comme ça<br>
+Tu n'le sais pas<br>
+Mais j'garde en moi des bouts de toi<br>
+Non non non<br>
+On n'oublie pas tout ça<br>
+C'est notre histoire d'amour<br>
+J'voudrai la vivre encore une fois<br>
+
+Et face aux vagues de l'océan<br>
+Tu m'as tendue la main<br>
+Pour m'emmener doucement<br>
+Jusqu'au premier matin<br>
+
+J'avançais toujours vers toi<br>
+Comme une étoile qui danse<br>
+Et le temps a mis ses ailes<br>
+Pour me voler mon innocence<br>
+
+Un jour y'a comme ça des gens qui passent<br>
+Des regards qu'on garde en soi<br>
+Des rires qu'on oublie pas<br>
+Parce qu'un jour<br>
+On aime<br>
+
+{au Refrain}<br>
+
+Un jour y'a comme ça des gnes qui passent<br>
+C'est la vie qui grandit<br>
+On s'comprend pas toujours soi-même<br>
+Et un jour<br>
+On aime...<br>
