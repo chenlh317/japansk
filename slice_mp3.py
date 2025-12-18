@@ -47,7 +47,7 @@ def slice_mp3_audio(
 
 if __name__ == "__main__":
     slice_mp3_audio(
-        song_path=Path("kokia.mp3"),
+        song_path=Path("./raw_media/kokia.mp3"),
         start_second=0,
         end_second=218,
     )
