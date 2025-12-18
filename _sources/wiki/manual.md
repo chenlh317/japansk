@@ -9,14 +9,15 @@
   3. Archive to PC folder
 
 - Audio
-  1. Convert to mp3
-  2. Format mp3 file
+  1. Convert videos to mp3, with `video_to_mp3.py`
+  2. Slice mp3 if needed, with `slice_mp3.py`
+  3. Format mp3 file
      - Artist
      - Album
      - File name
-  3. Archive to PC folders
-  4. Copy to mobile same folders
-  5. Add to mobile playlists
+  4. Archive to PC folders
+  5. Copy to mobile same folders
+  6. Add to mobile playlists
 
 - Lyrics
   1. Find lyrics
@@ -32,7 +33,7 @@
   - Activate on macOS/Linux: `source venv/bin/activate`
   - Install dependencies: `pip install -r requirements.txt`
 - Video download:
-  - [yt-dlp](https://www.pythoncentral.io/yt-dlp-download-youtube-videos/)
+  - [yt-dlp](https://www.pythoncentral.io/yt-dlp-download-youtube-videos/) (Recommended)
     - Command example: `yt-dlp -f bestvideo+bestaudio --merge-output-format mp4 -o "C:/Users/chenl/Desktop/%(title)s.%(ext)s" <video_url>`
     - [Pass cookies to yt-dlp](https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp)
   - [You-get](https://you-get.org/)
