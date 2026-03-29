@@ -50,7 +50,7 @@ def convert_videos_to_mp3(
 
     for video_file in input_directory.iterdir():
         if video_file.suffix.lower() in video_extensions:
-            print(f"Processing file: {video_file.name}")
+            print(f"\nProcessing file: {video_file.name}")
 
             start_time: Optional[float] = None
             end_time: Optional[float] = None
