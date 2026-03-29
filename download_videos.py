@@ -61,6 +61,6 @@ def download_videos(yaml_path: str, output_path: str) -> None:
 if __name__ == "__main__":
 
     yaml_file: str = "videos.yaml"
-    output: str = "./downloads"
+    output: str = "./raw_media"
 
     download_videos(yaml_file, output)
