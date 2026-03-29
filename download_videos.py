@@ -43,7 +43,7 @@ def download_videos(yaml_path: str, output_path: str) -> None:
 
     output_dir: Path = Path(output_path)
     output_dir.mkdir(parents=True, exist_ok=True)
-    output_template: str = str(output_dir / "%(title)s.%(ext)s")
+    output_template: str = str(output_dir / "%(title)s [%(id)s].%(ext)s")
 
     for url in urls:
         url = clean_url(url)
