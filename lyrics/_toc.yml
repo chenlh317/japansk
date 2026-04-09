@@ -12,9 +12,12 @@ parts:
       - file: by_artist/iwazaki_hiromi
       - file: by_artist/kashiwabara_yoshie
       - file: by_artist/kawai_naoko
+      - file: by_artist/kubota_saki
+      - file: by_artist/matsutoya_yumi
       - file: by_artist/kokia
       - file: by_artist/koyanagi_rumiko
       - file: by_artist/mori_masako
+      - file: by_artist/murashita_kozo
       - file: by_artist/nakajima_miyuki
       - file: by_artist/nakamori_akina
       - file: by_artist/natsugawa_rimi
@@ -22,6 +25,7 @@ parts:
       - file: by_artist/sada_masashi
       - file: by_artist/takada_mizue
       - file: by_artist/teresa_teng_li_chun
+      - file: by_artist/yakushimaru_hiroko
       - file: by_artist/yamaguchi_momoe
 
   - caption: By opus

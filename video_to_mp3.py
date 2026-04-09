@@ -80,7 +80,7 @@ def convert_videos_to_mp3(
 
 if __name__ == "__main__":
 
-    input_dir = Path("./raw_media")  # Specify your input directory here
+    input_dir = Path("./new")  # Specify your input directory here
 
     start_end_times: Dict[Path, Tuple[Optional[float], Optional[float]]] = {
         # Path("./raw_media/いつも何度でも／木村 弓.mp4"): (30, 90),  # Example entry

@@ -21,6 +21,8 @@
 - [季節はずれの恋人](#季節はずれの恋人)
 - [木枯らしの乙女たち](#木枯らしの乙女たち)
 - [Wings of My Heart](#wings-of-my-heart)
+- [千年庭園](#千年庭園)
+- [パリは悲しみに燃え](#パリは悲しみに燃え)
 
 
 ## Invitation
@@ -718,3 +720,60 @@
 まっすぐに私のままで<br>
 愛することと 愛されること<br>
 あなたが そして教えてくれた<br>
+
+
+## 千年庭園
+
+- https://www.uta-net.com/song/362908/
+
+人は宇宙(コスモス)の花片(はなびら)<br>
+shade of wide shade of wide<br>
+咲くよ千年の庭園<br>
+thousand nights thousand times<br>
+
+水時計が時を刻む翡翠(ひすい)の闇<br>
+風の息に揺れ<br>
+
+人は宇宙(コスモス)の花片(はなびら)<br>
+shade of wide shade of wide<br>
+果てぬ千年の夢見て<br>
+thousand nights thousand times<br>
+
+ゴンドラから手を差しのべ黄金(きん)の水面<br>
+浮かべたのは誰<br>
+
+移ろいゆく彼岸(きしべ)の風景(いろ)飾るように<br>
+時の河に燃え<br>
+
+人は宇宙(コスモス)の花片(はなびら)<br>
+shade of wide shade of wide<br>
+
+
+## パリは悲しみに燃え
+
+- https://www.uta-net.com/song/362923/
+
+長い影が Sacré-Cœur の<br>
+鐘の音に静かに振り向く<br>
+パリの街は深い悲しみ<br>
+隠すように黄金に昏(く)れて<br>
+
+Mon amour mémoire en été tous ces moments<br>
+愛は mémoire 昨日を閉じこめたまま<br>
+絹の水面をサヨナラのゴンドラ<br>
+La Seine 滑ってゆくわ<br>
+
+枯葉が舞う舗道に二人…<br>
+カフェに残るため息を集め<br>
+パリの街は美しく燃え<br>
+悲しみさえ忘れるように<br>
+
+Mon amour mémoire en été tous ces moments<br>
+愛は mémoire あなたからサヨナラ言って<br>
+ここで送るわ 優しい背中を<br>
+憶えていたいから……<br>
+
+Mon amour mémoire en été tous ces moments<br>
+愛は mémoire 昨日を閉じこめたまま<br>
+絹の水面をサヨナラのゴンドラ<br>
+La Seine 滑ってゆくわ<br>
