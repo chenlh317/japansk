@@ -16,41 +16,44 @@
     document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
     document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
   </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
-<link href="../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
-<link href="../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
-
-  
-  <link href="../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
-  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+  <link href="../_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
 
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=03e43079" />
-    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=eba8b062" />
-    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=3c74b3bc" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=9c3e77be" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css?v=6644e6bb" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
   
+  <!-- So that users can add custom icons -->
+  <script src="../_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
-<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
-  <script src="../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
 
     <script src="../_static/documentation_options.js?v=9eb32ce0"></script>
     <script src="../_static/doctools.js?v=9a2dae69"></script>
     <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
     <script src="../_static/copybutton.js?v=f281be69"></script>
-    <script src="../_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?v=fab101a9"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
-    <script src="../_static/togglebutton.js?v=4a39c7ea"></script>
+    <script src="../_static/togglebutton.js?v=b8b12719"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script src="../_static/design-tabs.js?v=f930bc37"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
@@ -65,6 +68,7 @@
     <link rel="prev" title="鄧麗君 (テレサ・テン)" href="teresa_teng_li_chun.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
   </head>
   
   
@@ -80,19 +84,8 @@
     <i class="fa-solid fa-arrow-up"></i>Back to top</button>
 
   
-  <input type="checkbox"
-          class="sidebar-toggle"
-          id="pst-primary-sidebar-checkbox"/>
-  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
-  
-  <input type="checkbox"
-          class="sidebar-toggle"
-          id="pst-secondary-sidebar-checkbox"/>
-  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
-  
-  <div class="search-button__wrapper">
-    <div class="search-button__overlay"></div>
-    <div class="search-button__search-container">
+  <dialog id="pst-search-dialog">
+    
 <form class="bd-search d-flex align-items-center"
       action="../search.html"
       method="get">
@@ -100,7 +93,6 @@
   <input type="search"
          class="form-control"
          name="q"
-         id="search-input"
          placeholder="Search this book..."
          aria-label="Search this book..."
          autocomplete="off"
@@ -108,8 +100,8 @@
          autocapitalize="off"
          spellcheck="false"/>
   <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
-</form></div>
-  </div>
+</form>
+  </dialog>
 
   <div class="pst-async-banner-revealer d-none">
   <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
@@ -125,7 +117,8 @@
       
       
       
-      <div class="bd-sidebar-primary bd-sidebar">
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
         
 
   
@@ -155,21 +148,17 @@
     
     
     <img src="../_static/logo.png" class="logo__image only-light" alt="东洋歌词摘钞 - Home"/>
-    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt="东洋歌词摘钞 - Home"/>`);</script>
+    <img src="../_static/logo.png" class="logo__image only-dark pst-js-only" alt="东洋歌词摘钞 - Home"/>
   
   
 </a></div>
         <div class="sidebar-primary-item">
 
- <script>
- document.write(`
-   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <i class="fa-solid fa-magnifying-glass"></i>
-    <span class="search-button__default-text">Search</span>
-    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
-   </button>
- `);
- </script></div>
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button></div>
         <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
         
@@ -238,9 +227,14 @@
   
   
   <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
   </div>
-  
-  <div id="rtd-footer-container"></div>
 
 
       </div>
@@ -370,7 +364,7 @@
 
 
 <button onclick="toggleFullScreen()"
-  class="btn btn-sm btn-fullscreen-button"
+  class="btn btn-sm btn-fullscreen-button pst-navbar-icon"
   title="Fullscreen mode"
   data-bs-placement="bottom" data-bs-toggle="tooltip"
 >
@@ -384,25 +378,17 @@
 
 
 
-<script>
-document.write(`
-  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
-    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
-    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
-  </button>
-`);
-</script>
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button>
 
 
-<script>
-document.write(`
-  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <i class="fa-solid fa-magnifying-glass fa-lg"></i>
-  </button>
-`);
-</script>
-<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+</button>
+<button class="sidebar-toggle secondary-toggle btn btn-sm pst-navbar-icon" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <span class="fa-solid fa-list"></span>
 </button>
 </div></div>
@@ -427,6 +413,27 @@ document.write(`
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#woman-w">Woman “Wの悲劇”より</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">セーラー服と機関銃</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#destiny">DESTINY</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#you-raise-me-up-inori-version">ユーレイズミーアップ～祈りヴァージョン You Raise Me Up (Inori Version)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">うたかた</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">きみの月光</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">コール</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">ステキな恋の忘れ方</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">はるか</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#moon-river">ムーン・リバー Moon River</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">メイン・テーマ</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id9">僕の宝物</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id10">天に星. 地に花</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id11">愛しい</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id12">愛のバラード</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id13">探偵物語</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id14">未完成</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id15">水色星座</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id16">皆勤賞</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id17">紳士同盟</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id18">語りつぐ愛に</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id19">追憶</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id20">黄昏のビギン</a></li>
 </ul>
             </nav>
         </div>
@@ -443,6 +450,27 @@ document.write(`
 <ul class="simple">
 <li><p><a class="reference internal" href="#woman-w">Woman “Wの悲劇”より</a></p></li>
 <li><p><a class="reference internal" href="#id2">セーラー服と機関銃</a></p></li>
+<li><p><a class="reference internal" href="#destiny">DESTINY</a></p></li>
+<li><p><a class="reference internal" href="#you-raise-me-up-inori-version">ユーレイズミーアップ～祈りヴァージョン You Raise Me Up (Inori Version)</a></p></li>
+<li><p><a class="reference internal" href="#id3">うたかた</a></p></li>
+<li><p><a class="reference internal" href="#id4">きみの月光</a></p></li>
+<li><p><a class="reference internal" href="#id5">コール</a></p></li>
+<li><p><a class="reference internal" href="#id6">ステキな恋の忘れ方</a></p></li>
+<li><p><a class="reference internal" href="#id7">はるか</a></p></li>
+<li><p><a class="reference internal" href="#moon-river">ムーン・リバー Moon River</a></p></li>
+<li><p><a class="reference internal" href="#id8">メイン・テーマ</a></p></li>
+<li><p><a class="reference internal" href="#id9">僕の宝物</a></p></li>
+<li><p><a class="reference internal" href="#id10">天に星. 地に花</a></p></li>
+<li><p><a class="reference internal" href="#id11">愛しい</a></p></li>
+<li><p><a class="reference internal" href="#id12">愛のバラード</a></p></li>
+<li><p><a class="reference internal" href="#id13">探偵物語</a></p></li>
+<li><p><a class="reference internal" href="#id14">未完成</a></p></li>
+<li><p><a class="reference internal" href="#id15">水色星座</a></p></li>
+<li><p><a class="reference internal" href="#id16">皆勤賞</a></p></li>
+<li><p><a class="reference internal" href="#id17">紳士同盟</a></p></li>
+<li><p><a class="reference internal" href="#id18">語りつぐ愛に</a></p></li>
+<li><p><a class="reference internal" href="#id19">追憶</a></p></li>
+<li><p><a class="reference internal" href="#id20">黄昏のビギン</a></p></li>
 </ul>
 <section id="woman-w">
 <h2>Woman “Wの悲劇”より<a class="headerlink" href="#woman-w" title="Link to this heading">#</a></h2>
@@ -503,6 +531,611 @@ document.write(`
 いつの日にか 僕のことを想い出すがいい<br>
 ただ心の片隅にでも 小さくメモして<br></p>
 </section>
+<section id="destiny">
+<h2>DESTINY<a class="headerlink" href="#destiny" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.uta-net.com/song/109206/">https://www.uta-net.com/song/109206/</a></p></li>
+</ul>
+<p>あと5分早く家をでたら<br>
+あなたに会うこともなかった<br>
+偶然でなけりゃ運命ですか<br>
+わたしの未来を<br>
+書きかえてく 出来事<br></p>
+<p>いつか消えていく<br>
+約束はしないで、ただ<br>
+愛してる そのことだけ<br></p>
+<p>あなたを見つめていると急に<br>
+泣きたいくらいに嬉しい<br>
+こんなに素直なわたしがいる<br>
+生まれてきた理由(わけ)を<br>
+探していたの 今日まで<br></p>
+<p>迷うことのない<br>
+確かさのすべてを、そう<br>
+愛してる ただそれだけ<br>
+愛してる<br></p>
+</section>
+<section id="you-raise-me-up-inori-version">
+<h2>ユーレイズミーアップ～祈りヴァージョン You Raise Me Up (Inori Version)<a class="headerlink" href="#you-raise-me-up-inori-version" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.uta-net.com/song/156289/">https://www.uta-net.com/song/156289/</a></p></li>
+</ul>
+<p>うるんだ瞳の奥に<br>
+変わらぬ君の姿<br>
+「どこまで世界は続くの」<br>
+途絶えた日々の言葉<br></p>
+<p>You raise me up so I can stand on mountains<br>
+You raise me up to walk on stormy seas<br>
+I am strong when I am on your shoulders<br>
+You raise me up to more than I can be<br></p>
+<p>霞んだ地平の向こうに<br>
+眠れる星の挿話(そうわ)<br>
+「明けない夜はないよ」と<br>
+あの日の罪が笑う<br></p>
+<p>You raise me up so I can stand on mountains<br>
+You raise me up to walk on stormy seas<br>
+I am strong when I am on your shoulders<br>
+You raise me up to more than I can be<br></p>
+<p>You raise me up so I can stand on mountains<br>
+You raise me up to walk on stormy seas<br>
+I am strong when I am on your shoulders<br>
+You raise me up to more than I can be<br></p>
+<p>凍える嵐の夜も<br>
+まだ見ぬ君へ続く<br>
+教えて 海渡る風<br>
+祈りは時を越える<br></p>
+<p>祈りは時を越える<br></p>
+</section>
+<section id="id3">
+<h2>うたかた<a class="headerlink" href="#id3" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.uta-net.com/song/109202/">https://www.uta-net.com/song/109202/</a></p></li>
+</ul>
+<p>天国に跪くあなたを乗せた舟が<br>
+私の愛から風を集めて<br>
+緩く弧を描き静かに水面を滑る<br>
+答えを見つける鍵を忘れたまま<br></p>
+<p>陽光しを湛えたダイヤモンドの海<br>
+その歌声の様な<br>
+あなたが探した楽園の日々はまだ<br>
+心と共にある<br></p>
+<p>未来を消してまで抱いたものがもしも<br>
+自由と言うなら尚更淋し過ぎる<br></p>
+<p>細波に浮かぶダイヤモンドの泡沫<br>
+そのきらめきの様に<br>
+あなたが望んだ束の間の夢が今<br>
+儚く弾け飛ぶ<br></p>
+<p>私は手を振らない たとえ<br>
+この別れが永遠でも<br></p>
+<p>細波に浮かぶダイヤモンドの泡沫<br>
+そのきらめきの様に<br>
+あなたが望んだ束の間の夢が今<br>
+儚く弾け飛ぶ<br></p>
+<p>陽光しを湛えたダイヤモンドの海<br>
+その歌声の様な<br>
+あなたが探した楽園の日々はまだ<br>
+心と共にある<br></p>
+</section>
+<section id="id4">
+<h2>きみの月光<a class="headerlink" href="#id4" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.uta-net.com/song/349109/">https://www.uta-net.com/song/349109/</a></p></li>
+</ul>
+<p>地球観測 月は深夜<br>
+孤独衛星 きみも見ていますか<br></p>
+<p>たとえば桜が滅んで<br>
+綺麗なすべてが消えたら<br>
+好きとは遠くて届かなくなるよ<br></p>
+<p>心臓の音 海の波音<br>
+光の点滅が重なる<br>
+愛していると伝えなくても信じられる<br>
+地球では<br></p>
+<p>まぶた点滅<br>
+月と揺れるきみの湖<br>
+眠れてますように<br></p>
+<p>真夜中、光が滅んで<br>
+悲しみすべてが滲んで<br>
+あなたの瞼をやさしく撫でてく<br></p>
+<p>小さな光、朝の予感になれたら<br>
+それだけでよかった<br>
+「愛している」はそれだけのため<br>
+愛している きみのこと<br></p>
+<p>やみくも夜空の光を<br>
+増やして照らしていきたい<br>
+あなたの見ている夜景は知らずに<br></p>
+<p>桜の淡い、春の体温の色を<br>
+曇りでも照らして<br>
+「愛している」はそれだけのため<br>
+愛している きみのこと<br></p>
+</section>
+<section id="id5">
+<h2>コール<a class="headerlink" href="#id5" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.uta-net.com/song/219174/">https://www.uta-net.com/song/219174/</a></p></li>
+</ul>
+<p>眠れず 窓の外 夜明けを見てた<br>
+独りぼっちで名前を 呼び続けてた<br>
+生まれた青空は きれいな朝の色<br>
+星も闇も どこかへ 静かに消えた<br></p>
+<p>いま 叫ぶから<br>
+声が聞こえたら すぐ<br>
+ここへ来てほしい<br></p>
+<p>微笑みなら きっと 返せるはずだから<br>
+贈るものは何にも 持たないけれど<br></p>
+<p>ただ 君の手が<br>
+白く暖かい手が 必要さ<br>
+いま そばにいて<br>
+他の誰でもだめさ<br>
+君じゃなきゃだめさ<br></p>
+<p>涙 ぬぐうため<br>
+君の暖かい手が 必要さ<br>
+いま 叫ぶから<br>
+声が聞こえたら すぐ<br>
+ここへ来て いま<br></p>
+</section>
+<section id="id6">
+<h2>ステキな恋の忘れ方<a class="headerlink" href="#id6" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>野蛮人のように 主題歌</p></li>
+<li><p><a class="reference external" href="https://www.uta-net.com/song/2727/">https://www.uta-net.com/song/2727/</a></p></li>
+</ul>
+<p>青くたそがれた頃<br>
+恋に気がついた夜<br>
+街がキラメクまでに<br>
+早く口づけを 遊びのように<br>
+終らせて<br></p>
+<p>悪い大人の歌が<br>
+あまく せつなく響く<br>
+恋がはなやかなうち<br>
+少し さみしそうに あなたのそばで<br>
+踊らせて<br></p>
+<p>あなたに聞いてみたいのは<br>
+ステキな恋の忘れ方<br>
+それとも愛はこの胸に刻まれたの？<br></p>
+<p>遠く流されてゆく<br>
+今はささやいて いつものように<br>
+眠らせて<br></p>
+<p>風が夜空を走り<br>
+星をちりばめてゆく<br>
+あなた 見とれてないで<br>
+強く抱きしめて 遊びのように<br>
+終らせて<br></p>
+<p>あなたに聞いてみたいのは<br>
+ステキな恋の忘れ方<br>
+それとも愛はこの胸に刻まれたの？<br></p>
+<p>遠く流されてゆく<br>
+今はなにもかも 忘れるように<br>
+眠らせて 眠らせて<br></p>
+</section>
+<section id="id7">
+<h2>はるか<a class="headerlink" href="#id7" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.uta-net.com/song/349106/">https://www.uta-net.com/song/349106/</a></p></li>
+</ul>
+<p>どこへ向かうのかも<br>
+知らずに帆をあげた<br>
+孤独な朝焼けを<br>
+人は覚えている<br></p>
+<p>生まれたところへと<br>
+帰るような旅で<br>
+気づいた星空に<br>
+輝いた北極星(ポラリス)<br></p>
+<p>凍てつく風に 荒れる高波<br>
+何度も迷い 渇れた涙<br>
+だけどそのたび 顔をあげれば<br>
+時は耐えず 夢をくれた<br></p>
+<p>心ははるかに続く<br>
+あまねく未来を信じれば<br>
+私がいまいることを<br>
+これでいいと<br>
+抱きしめながら<br></p>
+<p>やすらぐ岸辺には<br>
+綺麗な花も咲く<br>
+それでもまだ沖へ<br>
+憧れを見たがる<br></p>
+<p>出逢いと別れ ただ繰り返し<br>
+時に無力を 嘆きもした<br>
+自分にできる なにかがあると<br>
+舵を切れる 力が欲しい<br></p>
+<p>心にはるかは続く<br>
+いくつも答えを確かめて<br>
+わたしがしてきたことを<br>
+胸の音に<br>
+恥じないように<br></p>
+<p>心ははるかに続く<br>
+あまねく未来を信じれば<br>
+私がいまいることを<br>
+これでいいと<br>
+抱きしめながら<br>
+これでいいと<br>
+ただ抱きしめながら<br></p>
+<p>そこがどこなのかは<br>
+まだわからないけど<br>
+美しい黄昏に<br>
+いつかはたどり着く<br></p>
+</section>
+<section id="moon-river">
+<h2>ムーン・リバー Moon River<a class="headerlink" href="#moon-river" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.uta-net.com/song/219182/">https://www.uta-net.com/song/219182/</a></p></li>
+</ul>
+<p>ムーン・リバー ふるさとの<br>
+海につづく川<br>
+わかれのかなしみ<br>
+流していっておくれ<br></p>
+<p>月の ひかりうけ<br>
+きらめく川面に<br>
+サヨナラの手紙<br>
+折って流そう 紙の小舟<br>
+ムーン・リバー<br></p>
+<p>この世の くるしみ<br>
+流していっておくれ<br></p>
+<p>月の ひかりうけ<br>
+きらめく川面に<br>
+祈りこめ バラの<br>
+花を 散らし 朝を待とう<br>
+ムーン・リバー<br></p>
+</section>
+<section id="id8">
+<h2>メイン・テーマ<a class="headerlink" href="#id8" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>メイン・テーマ 主題歌</p></li>
+<li><p><a class="reference external" href="https://www.uta-net.com/song/4454/">https://www.uta-net.com/song/4454/</a></p></li>
+</ul>
+<p>時は忍び足で 心を横切るの<br>
+もう話す言葉も浮かばない<br></p>
+<p>あっけないKissのあと ヘッド・ライト点して<br>
+蝶のように跳ねる 波を見た<br></p>
+<p>好きと言わない あなたのことを<br>
+息を殺しながら考えてた<br></p>
+<p>愛ってよくわからないけど 傷つく感じが 素敵<br></p>
+<p>笑っちゃう 涙の止め方も知らない<br>
+20年も生きて来たのにね<br></p>
+<p>深入りするなよと ため息の壁なら<br>
+思いきり両手で突き破る<br></p>
+<p>煙草をつけようと マッチをするたびに<br>
+意地悪して 炎吹き消すわ<br></p>
+<p>ドアを開いて 独り 海へ<br>
+あなた車で 背中を見ていて<br></p>
+<p>愛ってよくわからないけど 深呼吸 不思議な気分<br></p>
+<p>わかってる 昨日の賢い私より<br>
+少しだけ綺麗になったこと<br></p>
+<p>笑っちゃう 涙の止め方も知らない<br>
+20年も生きて来たのにね 生きて来たのにね<br></p>
+</section>
+<section id="id9">
+<h2>僕の宝物<a class="headerlink" href="#id9" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>わさお 主題歌</p></li>
+<li><p><a class="reference external" href="https://www.uta-net.com/song/109210/">https://www.uta-net.com/song/109210/</a></p></li>
+</ul>
+<p>僕はここにいるよ<br>
+どんな時でも<br>
+君のこと見守ってる<br>
+僕の宝物<br></p>
+<p>目を閉じて耳をすます<br>
+波と風が寂しさ運ぶ<br>
+一人ぼっち 深呼吸<br></p>
+<p>迷い込んだ 心の闇に<br>
+流した涙が 傷を癒す<br></p>
+<p>僕はここにいるよ<br>
+どんな時でも<br>
+君のこと見守ってる<br>
+僕の宝物<br></p>
+<p>できるなら魔法をかけて<br>
+命に笑顔咲かせてさ<br>
+僕も一緒に笑おう<br></p>
+<p>探していた 光の道を<br>
+ありがとう ただただ伝えたくて<br></p>
+<p>僕はここにいるよ<br>
+どんな時でも<br>
+君のこと見守ってる<br>
+僕の宝物<br></p>
+<p>海の奥に住む魚<br>
+空を自由に飛ぶ鳥<br>
+地を歩き歌う僕ら<br>
+みんな同じ星の上<br></p>
+<p>僕の声が君に<br>
+届くといいな<br>
+僕の君に<br>
+届きますように<br></p>
+</section>
+<section id="id10">
+<h2>天に星. 地に花<a class="headerlink" href="#id10" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.uta-net.com/song/109201/">https://www.uta-net.com/song/109201/</a></p></li>
+</ul>
+<p>優しい人が言いました<br>
+いま天に星、地には花、君に愛を<br></p>
+<p>風はあなたの瞳から<br>
+ふと透き通る絵のように流れてくる<br>
+もうそれ以上は見つめないで<br>
+揺り動かさないで 眠る心<br>
+逃げるように背を向けたあと<br>
+振り向けばあなたは消えていたの<br></p>
+<p>心の裏のキャンバスに<br>
+あの哀しげなまなざしが灼きついてる<br>
+何故あきらめるの？ あの時から<br>
+待ち続けてたのに手紙も無い<br>
+もしも背中から抱かれたら<br>
+いまは違う海を見てるのにね<br></p>
+<p>ラララ…<br>
+ラララ…<br></p>
+<p>優しい人が言いました<br>
+いま天に星、地には花、君に愛を<br>
+いま天に星、地には花、君に愛を<br></p>
+</section>
+<section id="id11">
+<h2>愛しい<a class="headerlink" href="#id11" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.uta-net.com/song/248528/">https://www.uta-net.com/song/248528/</a></p></li>
+</ul>
+<p>うまくいかない今日を 顔を上げてひとり<br>
+正直に生きたしるしが 頬を流れてく<br></p>
+<p>遠い空から見れば まっすぐ来た道も<br>
+頼りなく曲がりくねっているのでしょうね<br></p>
+<p>あなたの愛を胸に 私はいまを生きる<br>
+まわり道も道は道と 笑ってください<br></p>
+<p>俯いてしまうとき 聞こえて来る声<br>
+厳しさはあなたがくれた優しさでした<br></p>
+<p>明日が見えない夜も 私は歩き出せる<br>
+空を見ればいつもそこに あなたがいるから<br></p>
+<p>瞳を閉じれば あの笑顔が灯る<br></p>
+<p>あなたの愛を胸に 私はいまを生きる<br></p>
+<p>明日が見えない夜も 私は歩き出せる<br>
+空を見ればいつもそこに あなたがいるから<br></p>
+<p>あなたがいるから<br></p>
+</section>
+<section id="id12">
+<h2>愛のバラード<a class="headerlink" href="#id12" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.uta-net.com/song/219173/">https://www.uta-net.com/song/219173/</a></p></li>
+</ul>
+<p>死んではいけないと 風が今日もささやく<br>
+水に生える白い花が 胸にしみるけど<br>
+耐えて生きる事も 辛くないの私は<br>
+あなたの名前呼べば 何も怖くないから<br></p>
+<p>涙さえ燃えている 光のさざ波<br>
+愛を感じているから 砂の音も愛おしい<br></p>
+<p>死んではいけないと 長い夜を私は<br>
+あなたの名前呼んで 朝を待つでしょう<br></p>
+<p>涙さえ燃えている 光のさざ波<br>
+愛を信じているから 鳥の影も愛おしい<br></p>
+<p>一人どこにいても そこに見える優しい<br>
+あなたの名前呼んで 明日を待つでしょう<br>
+明日を待つでしょう<br></p>
+</section>
+<section id="id13">
+<h2>探偵物語<a class="headerlink" href="#id13" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>探偵物語 主題歌</p></li>
+<li><p><a class="reference external" href="https://www.uta-net.com/song/3027/">https://www.uta-net.com/song/3027/</a></p></li>
+</ul>
+<p>あんなに激しい潮騒が あなたの背後(うしろ)で黙りこむ<br>
+身動きも出来ないの 見つめられて<br></p>
+<p>夢で叫んだように くちびるは動くけれど<br>
+言葉は風になる<br>
+好きよ……でもね…… たぶん……きっと……<br></p>
+<p>話を外らして歩いても 心はそのまま置き去りね<br>
+昨日からはみ出した 私がいる<br></p>
+<p>波の頁をめくる 時の見えない指さき<br>
+自信はないけれど<br>
+好きよ……でもね…… たぶん……きっと……<br></p>
+<p>まだ早い夏の陽が あとずさるわ<br></p>
+<p>透明な水の底 硝子の破片(かけら)が光る<br>
+だから気をつけてね<br>
+好きよ……でもね…… たぶん……きっと……<br></p>
+<p>夢で叫んだように くちびるは動くけれど<br>
+言葉は風になる<br>
+好きよ……でもね…… たぶん……きっと……<br></p>
+<p>離れて見つめないで<br></p>
+</section>
+<section id="id14">
+<h2>未完成<a class="headerlink" href="#id14" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.uta-net.com/song/109204/">https://www.uta-net.com/song/109204/</a></p></li>
+</ul>
+<p>言えないこと 何かあって<br>
+あなたの目が 夜へ逸(そ)れる<br>
+つけたままの TVの中<br>
+昔に 観た 映画が光る<br>
+出来上がらない パズルのようね<br>
+出来上がらない 音楽のようね<br>
+歌い方を 教えてくださらないから<br>
+最後の小節が いつまでもなぞれない<br>
+歌い方を 教えてくださらないから<br>
+短い歌なのに いつまでも終わらない<br></p>
+<p>ずるい人ね あなたからは<br>
+さよならとは きりだせない<br>
+未完成の 絵をみながら<br>
+グラスの中 鍵をかくすわ<br>
+恋しがられて ゆきたいですか<br>
+ひきとめられて 泣かれたいですか<br>
+歌い方を 教えてくださらないから<br>
+最後の小節が いつまでもなぞれない<br>
+歌い方を 教えてくださらないから<br>
+短い歌なのに いつまでも終わらない<br></p>
+<p>あなたの目のなかで 誰かがおどる<br>
+私の捜せない かけらを持っている<br>
+あなたの目の中で 私が消える<br>
+私はいつまでも かけらを捜してる<br></p>
+<p>歌い方を 教えてくださらないから<br>
+あなたの目のなかで 誰かがおどる<br>
+最後の小節が いつまでもなぞれない<br>
+私の捜せない かけらを持っている<br>
+歌い方を 教えてくださらないから<br>
+あなたの目の中で 私が消える<br>
+短い歌なのに いつまでも終わらない<br>
+私はいつまでも かけらを捜してる<br></p>
+</section>
+<section id="id15">
+<h2>水色星座<a class="headerlink" href="#id15" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.uta-net.com/song/349108/">https://www.uta-net.com/song/349108/</a></p></li>
+</ul>
+<p>ぼくたちはきらきらと砕けてお別れです<br>
+冬の中、雪ときみとぼくで白い星座<br>
+嘘もつけない雪と手を繋ぎ<br>
+さよならきらきらと<br></p>
+<p>全て誰かの恋だった冬が溶けてく<br>
+いつも光は忘れてくためにあるから<br></p>
+<p>土星の輪、きらきらと砕けて、ぼくの指輪<br>
+ひとりきり、なれなくて、砕けて、海の光<br>
+永遠も今、夕陽から届き<br>
+過去だけ遠い国<br></p>
+<p>雪はどれもが忘れてしまった永遠<br>
+きみはぼくらを見失うためにいるから<br></p>
+<p>水色の星、ぼくらの星座の<br>
+心臓、一つだけ<br></p>
+<p>愛が終わって、孤独になるまでの一瞬<br>
+ぼくら、雪より本当のことが言えるよ<br></p>
+</section>
+<section id="id16">
+<h2>皆勤賞<a class="headerlink" href="#id16" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.uta-net.com/song/349105/">https://www.uta-net.com/song/349105/</a></p></li>
+</ul>
+<p>走るのきついけれど<br>
+歩くのならできるな<br>
+朝の遊歩道は<br>
+皆勤賞ものなんだ<br></p>
+<p>無理はね しないけれど<br>
+あきらめもしないんだ<br>
+自分にも慣れたな<br>
+悪くはないかな<br></p>
+<p>すれちがうあの人に<br>
+おはようと言えた朝<br>
+なんか それだけのことで<br>
+この世界もいいね<br></p>
+<p>どうか この地球に<br>
+生きてるすべての人に幸せを<br>
+どうか つらいことが<br>
+誰にも起きずにすごせますように<br>
+そんなことを<br>
+思えるから<br>
+朝が好きなんだ<br></p>
+<p>一つの生き方しか<br>
+誰もが選べないし<br>
+消えてしまいたいほど<br>
+はずかしいことばっか<br></p>
+<p>誇りに思うことも<br>
+少しはあるんだから<br>
+それに時間はまだまだ<br>
+残されてるはずで<br></p>
+<p>どうかこの地球に<br>
+生きてるすべての人に幸せを<br>
+どうかつらいことが<br>
+誰にも起きずに すごせますように<br>
+そんなことを<br>
+思えるから<br>
+朝が好きなんだ<br></p>
+<p>そんなことを<br>
+思いながら<br>
+生きていきたいな<br></p>
+</section>
+<section id="id17">
+<h2>紳士同盟<a class="headerlink" href="#id17" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>紳士同盟 主題歌</p></li>
+<li><p><a class="reference external" href="https://www.uta-net.com/song/2630/">https://www.uta-net.com/song/2630/</a></p></li>
+</ul>
+<p>神様の投げた輪が二人の<br>
+額にゴツンとぶつかったみたい<br>
+運命の悪戯(いたずら)をたぐり寄せたら<br>
+背高のっぽのあなたと また鉢合わせ<br></p>
+<p>どうにかなるわ 騙されて上げる<br>
+あなたなら相手に不足はないわ<br>
+どうにでもなれ 恋は永遠の暇つぶし<br>
+遊びましょうよ……なんてね<br></p>
+<p>カッコつけてエラそうだわ<br>
+あなたの目が眩しくて 照れくさいのよ<br>
+他の人に感じないと約束するわ<br>
+女だてら 紳士同盟<br></p>
+<p>草笛を上手く吹ける人を<br>
+尊敬する癖が今も抜けないの<br>
+唇にそっと乗せなきゃ怪我をする<br>
+愛の囁きも軽めの方が素敵よ<br></p>
+<p>どうにでもして 縛られて上げる<br>
+手綱(たづな)は少しゆるやかに お願い<br>
+どうにでもなれ<br>
+花の生命(いのち)は短いから<br>
+楽しまなきゃね……なんてね<br></p>
+<p>生れてから一度だって嘘をついた<br>
+ことのない私が言うの<br>
+今の気持 変わらないと<br>
+指切りするわ<br>
+二人だけの紳士同盟<br></p>
+<p>カッコつけてエラそうだわ<br>
+あなたの目が眩しくて 照れくさいのよ<br>
+他の人に感じないと約束するわ<br>
+女だてら 紳士同盟<br>
+なんてね なんてね<br></p>
+</section>
+<section id="id18">
+<h2>語りつぐ愛に<a class="headerlink" href="#id18" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>水曜グランドロマン 主題歌</p></li>
+<li><p><a class="reference external" href="https://www.uta-net.com/song/1305/">https://www.uta-net.com/song/1305/</a></p></li>
+</ul>
+<p>雨上り 窓辺に たたずみ<br>
+風のざわめきを 冷たく 感じて<br>
+そっとブラインドを 下ろしかける<br></p>
+<p>夜が包み込む前の うすやみの街<br>
+張りつめた日々 愛も迷ってる<br>
+そんな心へと ためいき落す<br></p>
+<p>夜を行く 足音 孤独に<br>
+人の波間から はぐれて 行きそう<br>
+夢見る時間は すぐに過ぎる<br></p>
+<p>愛を語りつぐために みんな生れる<br>
+言い尽くされた 言葉でもいいさ<br>
+意地悪な星の ささやき 消して<br></p>
+<p>さよなら 悲しめの 思い出の反乱<br>
+心の時計 自分に合わせ<br>
+夢見る時間は すぐに過ぎる<br></p>
+<p>愛を語りつぐために みんな生れた<br>
+待つだけじゃなく 迷うためじゃなく<br>
+彩る月日を 染めてく<br></p>
+<p>語りつぐために 愛も生れる<br>
+言い尽くされた 言葉でもいいさ<br>
+意地悪な星の ささやき 消して<br></p>
+</section>
+<section id="id19">
+<h2>追憶<a class="headerlink" href="#id19" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.uta-net.com/song/219175/">https://www.uta-net.com/song/219175/</a></p></li>
+</ul>
+<p>今 心の中を よぎる水色の想い出よ<br>
+ほほえむ 幸せそうな写真も<br>
+やぶいて 捨てましょう<br>
+こんな別れは 二人の若さのせいかしら<br>
+出直しできるのかしら<br>
+教えて？ だめ？<br></p>
+<p>ただ傷つくだけの 想い出ならもう<br>
+忘れましょうよ 何もかも過ぎたこと<br>
+思い出すなら楽しいことだけ<br></p>
+</section>
+<section id="id20">
+<h2>黄昏のビギン<a class="headerlink" href="#id20" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.uta-net.com/song/156291/">https://www.uta-net.com/song/156291/</a></p></li>
+</ul>
+<p>雨に濡れてた たそがれの街<br>
+あなたと逢った 初めての夜<br>
+ふたりの肩に 銀色の雨<br>
+あなたの唇 濡れていたっけ<br></p>
+<p>傘もささずに 僕達は<br>
+歩きつづけた 雨の中<br>
+あのネオンが ぼやけてた<br></p>
+<p>雨がやんでた たそがれの街<br>
+あなたの瞳に うつる星影<br></p>
+<p>夕空晴れた たそがれの街<br>
+あなたの瞳 夜にうるんで<br></p>
+<p>濡れたブラウス 胸元に<br>
+雨のしずくか ネックレス<br>
+こきざみに ふるえてた<br></p>
+<p>ふたりだけの たそがれの街<br>
+並木の陰の 初めてのキス<br>
+初めてのキス<br></p>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -560,17 +1193,40 @@ document.write(`
             
             
               
-                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
 
 
-  <div class="sidebar-secondary-item">
-  <div class="page-toc tocsection onthispage">
+  <div class="sidebar-secondary-item"><div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
     <i class="fa-solid fa-list"></i> Contents
   </div>
-  <nav class="bd-toc-nav page-toc">
+  <nav id="pst-page-toc-nav" class="page-toc" aria-labelledby="pst-page-navigation-heading-2">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#woman-w">Woman “Wの悲劇”より</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">セーラー服と機関銃</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#destiny">DESTINY</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#you-raise-me-up-inori-version">ユーレイズミーアップ～祈りヴァージョン You Raise Me Up (Inori Version)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">うたかた</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">きみの月光</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">コール</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">ステキな恋の忘れ方</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">はるか</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#moon-river">ムーン・リバー Moon River</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">メイン・テーマ</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id9">僕の宝物</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id10">天に星. 地に花</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id11">愛しい</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id12">愛のバラード</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id13">探偵物語</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id14">未完成</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id15">水色星座</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id16">皆勤賞</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id17">紳士同盟</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id18">語りつぐ愛に</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id19">追憶</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id20">黄昏のビギン</a></li>
 </ul>
   </nav></div>
 
@@ -619,8 +1275,8 @@ By mir.AI
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
-<script src="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+  <script defer src="../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
+<script defer src="../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
 
   <footer class="bd-footer">
   </footer>
