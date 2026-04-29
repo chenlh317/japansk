@@ -1,11 +1,9 @@
 
-# Canciones Españolas <!-- omit in toc -->
+# Canciones Españolas
 
-- [En Aranjuez Con Tu Amor](#en-aranjuez-con-tu-amor)
-- [Duerme la Luna](#duerme-la-luna)
-- [La Llorona](#la-llorona)
-- [Me Gustas Tu](#me-gustas-tu)
-
+```{contents}
+:depth: 3
+```
 
 ## En Aranjuez Con Tu Amor
 

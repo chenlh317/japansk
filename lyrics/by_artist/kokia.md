@@ -1,6 +1,10 @@
 
 # Kokia
 
+```{contents}
+:depth: 3
+```
+
 ## Nostalgia
 
 - 悠久のティアブレイド -Fragments of Memory- オープニング

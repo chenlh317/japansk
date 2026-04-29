@@ -1,16 +1,9 @@
 
-# 物語シリーズ <!-- omit in toc -->
+# 物語シリーズ
 
-- [君の知らない物語](#君の知らない物語)
-- [木枯らしセンティメント](#木枯らしセンティメント)
-- [chocolate insomnia](#chocolate-insomnia)
-- [perfect slumbers](#perfect-slumbers)
-- [sugar sweet nightmare](#sugar-sweet-nightmare)
-- [白金ディスコ](#白金ディスコ)
-
-
-- https://zh.wikipedia.org/wiki/%E7%89%A9%E8%AA%9E%E7%B3%BB%E5%88%97
-
+```{contents}
+:depth: 3
+```
 
 ## 君の知らない物語
 

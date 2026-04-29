@@ -19,10 +19,13 @@ Use when the target page does not yet exist (new artist, new opus, new type).
 
 1. Verify `lyrics/<category>/<basename>.md` does not exist.
 2. Create the file with this skeleton (no trailing whitespace):
-   ```markdown
-   # <heading> <!-- omit in toc -->
+   ````markdown
+   # <heading>
 
+   ```{contents}
+   :depth: 3
    ```
+   ````
 3. Open `lyrics/_toc.yml` and add a line under the matching `caption:` block:
    ```yaml
        - file: <category>/<basename>

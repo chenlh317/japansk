@@ -9,11 +9,12 @@ These files are sources for the Jupyter Book site (`jupyter-book==1.0.3`).
 
 ## File structure
 
-```markdown
-# 艺术家名 <!-- omit in toc -->
+````markdown
+# 艺术家名
 
-- [曲名一](#曲名一)
-- [曲名二](#曲名二)
+```{contents}
+:depth: 3
+```
 
 ## 曲名一
 
@@ -25,17 +26,14 @@ These files are sources for the Jupyter Book site (`jupyter-book==1.0.3`).
 
 第二段第一行<br>
 第二段第二行<br>
-```
+````
 
 ## Rules
 
-- Top-level `# Title` uses `<!-- omit in toc -->` to keep it out of the
-  per-page TOC.
-- Maintain the manual bullet TOC at the top of each file. When adding a song,
-  insert a `- [题目](#题目)` line in alphabetical/release order matching the
-  surrounding entries.
-- Each song heading is `## ` (level 2). The anchor is auto-generated from the
-  heading text — keep the bullet link in sync.
+- Top-level `# Title` is followed by a Jupyter Book `{contents}` directive
+  that auto-generates the per-page TOC. Do **not** add a manual bullet TOC.
+- Each song heading is `## ` (level 2). The `{contents}` directive picks them
+  up automatically — no need to maintain anchor links by hand.
 - Metadata bullets go immediately under the heading, before the lyrics.
   Prefer `https://www.uta-net.com/song/<id>/` as the source link.
 - Lyric lines end with `<br>` (no trailing spaces). Stanzas are separated by

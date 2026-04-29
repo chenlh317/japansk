@@ -1,13 +1,9 @@
 
-# Love Hina <!-- omit in toc -->
+# Love Hina
 
-- [君さえいれば](#君さえいれば)
-- [be for you，be for me](#be-for-yoube-for-me)
-- [約束](#約束)
-
-
-- https://lawton.pixnet.net/blog/post/43041363
-
+```{contents}
+:depth: 3
+```
 
 ## 君さえいれば
 

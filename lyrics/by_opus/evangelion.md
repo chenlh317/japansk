@@ -1,9 +1,9 @@
 
-# Evangelion <!-- omit in toc -->
+# Evangelion
 
-- [Beautiful World](#beautiful-world)
-- [残酷な天使のテーゼ](#残酷な天使のテーゼ)
-
+```{contents}
+:depth: 3
+```
 
 ## Beautiful World
 

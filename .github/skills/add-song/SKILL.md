@@ -21,12 +21,11 @@ Use when the user wants to append a single song to an existing file under
 ## Procedure
 
 1. **Read** the target file. Note:
-   - the bullet TOC ordering (release order vs alphabetical),
+   - existing song ordering (release order vs alphabetical),
    - existing heading style (`## ` level 2),
    - whether stanzas use blank-line separation (they should).
-2. **TOC**: add `- [题目](#题目)` to the top bullet list at the matching
-   position.
-3. **Section**: append:
+2. **Section**: append (the page-level `{contents}` directive will pick up
+   the new heading automatically — no manual TOC entry needed):
    ```markdown
    ## 题目
 
@@ -41,8 +40,8 @@ Use when the user wants to append a single song to an existing file under
    - Each lyric line ends with literal `<br>` and a newline.
    - Blank line between stanzas, with **no** `<br>` on the blank line.
    - Preserve original punctuation.
-4. **Do not** run `process_text.py` or `jb build` unless explicitly asked.
-5. Report back: file path, TOC entry added, and the new heading.
+3. **Do not** run `process_text.py` or `jb build` unless explicitly asked.
+4. Report back: file path and the new heading.
 
 ## Pitfalls
 
