@@ -1,9 +1,9 @@
 
-# White Album 2 <!-- omit in toc -->
+# White Album 2
 
-- [White Love](#white-love)
-- [届かない恋](#届かない恋)
-
+```{contents}
+:depth: 3
+```
 
 ## White Love
 

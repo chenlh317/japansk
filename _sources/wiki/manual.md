@@ -28,9 +28,9 @@
 ## Tools
 
 - Set up virtual environment:
-  - `py -3.13 -m venv venv`
-  - Activate on Windows: `venv/Scripts/activate`
-  - Activate on macOS/Linux: `source venv/bin/activate`
+  - `py -3.13 -m venv .venv`
+  - Activate on Windows: `.venv/Scripts/activate`
+  - Activate on macOS/Linux: `source .venv/bin/activate`
   - Install dependencies: `pip install -r requirements.txt`
 - Video download:
   - [yt-dlp](https://www.pythoncentral.io/yt-dlp-download-youtube-videos/) (Recommended)
@@ -45,7 +45,7 @@
   - Command: `jb build lyrics`
 - Deploy: [ghp-import](https://jupyterbook.org/en/stable/publish/gh-pages.html#option-2-automatically-push-your-build-files-with-ghp-import)
   - Command: `ghp-import -n -p -f lyrics/_build/html`
-  - Then sync both `master` and `gh-pages` branches.
+  - Then sync both `main` and `gh-pages` branches.
 - Batch file
   - Run from Explorer `build_lyrics.bat`
   - From VSCode PowerShell: `cmd.exe -/c "build_lyrics.bat"`
