@@ -51,6 +51,7 @@ parts:
     chapters:
       - file: other/canciones_espanolas
       - file: other/chansons_francaises
+      - file: other/recommendations
 
   - caption: Wiki
     chapters:
