@@ -7,6 +7,7 @@ root: index
 parts:
   - caption: By artist
     chapters:
+      - file: by_artist/baisho_chieko
       - file: by_artist/ishikawa_sayuri
       - file: by_artist/itsuwa_mayumi
       - file: by_artist/iwazaki_hiromi
@@ -27,6 +28,7 @@ parts:
       - file: by_artist/teresa_teng_li_chun
       - file: by_artist/yakushimaru_hiroko
       - file: by_artist/yamaguchi_momoe
+      - file: by_artist/yuki_nae
 
   - caption: By opus
     chapters:
