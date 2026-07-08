@@ -16,44 +16,41 @@
     document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
     document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
   </script>
-  <!--
-    this give us a css class that will be invisible only if js is disabled
-  -->
-  <noscript>
-    <style>
-      .pst-js-only { display: none !important; }
-
-    </style>
-  </noscript>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
-<link href="../_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+  <link href="../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
 
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=03e43079" />
-    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=3c74b3bc" />
-    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=9c3e77be" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=eba8b062" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css?v=8cd3d715" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css?v=6644e6bb" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
   
-  <!-- So that users can add custom icons -->
-  <script src="../_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
-<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
 
     <script src="../_static/documentation_options.js?v=9eb32ce0"></script>
     <script src="../_static/doctools.js?v=9a2dae69"></script>
     <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
     <script src="../_static/copybutton.js?v=f281be69"></script>
-    <script src="../_static/scripts/sphinx-book-theme.js?v=fab101a9"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
-    <script src="../_static/togglebutton.js?v=b8b12719"></script>
+    <script src="../_static/togglebutton.js?v=4a39c7ea"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script src="../_static/design-tabs.js?v=f930bc37"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
@@ -65,10 +62,9 @@
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="五輪真弓" href="itsuwa_mayumi.html" />
-    <link rel="prev" title="东洋歌词摘钞" href="../index.html" />
+    <link rel="prev" title="倍賞千恵子" href="baisho_chieko.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-  <meta name="docsearch:version" content="" />
   </head>
   
   
@@ -84,8 +80,19 @@
     <i class="fa-solid fa-arrow-up"></i>Back to top</button>
 
   
-  <dialog id="pst-search-dialog">
-    
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
 <form class="bd-search d-flex align-items-center"
       action="../search.html"
       method="get">
@@ -93,6 +100,7 @@
   <input type="search"
          class="form-control"
          name="q"
+         id="search-input"
          placeholder="Search this book..."
          aria-label="Search this book..."
          autocomplete="off"
@@ -100,8 +108,8 @@
          autocapitalize="off"
          spellcheck="false"/>
   <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
-</form>
-  </dialog>
+</form></div>
+  </div>
 
   <div class="pst-async-banner-revealer d-none">
   <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
@@ -117,8 +125,7 @@
       
       
       
-      <dialog id="pst-primary-sidebar-modal"></dialog>
-      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+      <div class="bd-sidebar-primary bd-sidebar">
         
 
   
@@ -148,17 +155,21 @@
     
     
     <img src="../_static/logo.png" class="logo__image only-light" alt="东洋歌词摘钞 - Home"/>
-    <img src="../_static/logo.png" class="logo__image only-dark pst-js-only" alt="东洋歌词摘钞 - Home"/>
+    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt="东洋歌词摘钞 - Home"/>`);</script>
   
   
 </a></div>
         <div class="sidebar-primary-item">
 
-<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
- <i class="fa-solid fa-magnifying-glass"></i>
- <span class="search-button__default-text">Search</span>
- <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
-</button></div>
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
         <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
         
@@ -171,16 +182,20 @@
         </ul>
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">By artist</span></p>
 <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="baisho_chieko.html">倍賞千恵子</a></li>
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">石川さゆり</a></li>
 <li class="toctree-l1"><a class="reference internal" href="itsuwa_mayumi.html">五輪真弓</a></li>
 <li class="toctree-l1"><a class="reference internal" href="iwazaki_hiromi.html">岩崎宏美</a></li>
 <li class="toctree-l1"><a class="reference internal" href="kashiwabara_yoshie.html">柏原芳恵</a></li>
+<li class="toctree-l1"><a class="reference internal" href="kato_tokiko.html">加藤登紀子</a></li>
 <li class="toctree-l1"><a class="reference internal" href="kawai_naoko.html">河合奈保子</a></li>
 <li class="toctree-l1"><a class="reference internal" href="kubota_saki.html">久保田 早紀 (aka. 久米小百合)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="matsutoya_yumi.html">松任谷由実</a></li>
 <li class="toctree-l1"><a class="reference internal" href="kokia.html">Kokia</a></li>
 <li class="toctree-l1"><a class="reference internal" href="koyanagi_rumiko.html">小柳ルミ子</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mi_ke.html">Mi-Ke</a></li>
 <li class="toctree-l1"><a class="reference internal" href="mori_masako.html">森昌子</a></li>
+<li class="toctree-l1"><a class="reference internal" href="moriyama_ryoko.html">森山良子</a></li>
 <li class="toctree-l1"><a class="reference internal" href="murashita_kozo.html">村下孝蔵</a></li>
 <li class="toctree-l1"><a class="reference internal" href="nakajima_miyuki.html">中島みゆき</a></li>
 <li class="toctree-l1"><a class="reference internal" href="nakamori_akina.html">中森明菜</a></li>
@@ -189,8 +204,11 @@
 <li class="toctree-l1"><a class="reference internal" href="sada_masashi.html">さだまさし</a></li>
 <li class="toctree-l1"><a class="reference internal" href="takada_mizue.html">高田みづえ</a></li>
 <li class="toctree-l1"><a class="reference internal" href="teresa_teng_li_chun.html">鄧麗君 (テレサ・テン)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="yagami_junko.html">八神純子</a></li>
 <li class="toctree-l1"><a class="reference internal" href="yakushimaru_hiroko.html">薬師丸ひろ子</a></li>
 <li class="toctree-l1"><a class="reference internal" href="yamaguchi_momoe.html">山口百恵</a></li>
+<li class="toctree-l1"><a class="reference internal" href="yuki_nae.html">裕木奈江</a></li>
+<li class="toctree-l1"><a class="reference internal" href="yuki_saori.html">由紀さおり</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">By opus</span></p>
 <ul class="nav bd-sidenav">
@@ -228,14 +246,9 @@
   
   
   <div class="sidebar-primary-items__end sidebar-primary__section">
-      <div class="sidebar-primary-item">
-<div id="ethical-ad-placement"
-      class="flat"
-      data-ea-publisher="readthedocs"
-      data-ea-type="readthedocs-sidebar"
-      data-ea-manual="true">
-</div></div>
   </div>
+  
+  <div id="rtd-footer-container"></div>
 
 
       </div>
@@ -365,7 +378,7 @@
 
 
 <button onclick="toggleFullScreen()"
-  class="btn btn-sm btn-fullscreen-button pst-navbar-icon"
+  class="btn btn-sm btn-fullscreen-button"
   title="Fullscreen mode"
   data-bs-placement="bottom" data-bs-toggle="tooltip"
 >
@@ -379,17 +392,25 @@
 
 
 
-<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
-  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
-  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
-  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
-</button>
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
 
 
-<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <i class="fa-solid fa-magnifying-glass fa-lg"></i>
-</button>
-<button class="sidebar-toggle secondary-toggle btn btn-sm pst-navbar-icon" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  </button>
+`);
+</script>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <span class="fa-solid fa-list"></span>
 </button>
 </div></div>
@@ -417,6 +438,11 @@
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">人間模様</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">一葉恋歌</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">北国の春</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">日々呉々と</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">能登半島</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id9">風の盆恋歌</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id10">大阪つばめ</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id11">暖流</a></li>
 </ul>
             </nav>
         </div>
@@ -429,23 +455,28 @@
                 <article class="bd-article">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="id1">
-<h1><a class="toc-backref" href="#id7" role="doc-backlink">石川さゆり</a><a class="headerlink" href="#id1" title="Link to this heading">#</a></h1>
+<h1><a class="toc-backref" href="#id12" role="doc-backlink">石川さゆり</a><a class="headerlink" href="#id1" title="Link to this heading">#</a></h1>
 <nav class="contents" id="contents">
 <p class="topic-title">Contents</p>
 <ul class="simple">
-<li><p><a class="reference internal" href="#id1" id="id7">石川さゆり</a></p>
+<li><p><a class="reference internal" href="#id1" id="id12">石川さゆり</a></p>
 <ul>
-<li><p><a class="reference internal" href="#id2" id="id8">津軽海峡・冬景色</a></p></li>
-<li><p><a class="reference internal" href="#id3" id="id9">雪幻花</a></p></li>
-<li><p><a class="reference internal" href="#id4" id="id10">人間模様</a></p></li>
-<li><p><a class="reference internal" href="#id5" id="id11">一葉恋歌</a></p></li>
-<li><p><a class="reference internal" href="#id6" id="id12">北国の春</a></p></li>
+<li><p><a class="reference internal" href="#id2" id="id13">津軽海峡・冬景色</a></p></li>
+<li><p><a class="reference internal" href="#id3" id="id14">雪幻花</a></p></li>
+<li><p><a class="reference internal" href="#id4" id="id15">人間模様</a></p></li>
+<li><p><a class="reference internal" href="#id5" id="id16">一葉恋歌</a></p></li>
+<li><p><a class="reference internal" href="#id6" id="id17">北国の春</a></p></li>
+<li><p><a class="reference internal" href="#id7" id="id18">日々呉々と</a></p></li>
+<li><p><a class="reference internal" href="#id8" id="id19">能登半島</a></p></li>
+<li><p><a class="reference internal" href="#id9" id="id20">風の盆恋歌</a></p></li>
+<li><p><a class="reference internal" href="#id10" id="id21">大阪つばめ</a></p></li>
+<li><p><a class="reference internal" href="#id11" id="id22">暖流</a></p></li>
 </ul>
 </li>
 </ul>
 </nav>
 <section id="id2">
-<h2><a class="toc-backref" href="#id8" role="doc-backlink">津軽海峡・冬景色</a><a class="headerlink" href="#id2" title="Link to this heading">#</a></h2>
+<h2><a class="toc-backref" href="#id13" role="doc-backlink">津軽海峡・冬景色</a><a class="headerlink" href="#id2" title="Link to this heading">#</a></h2>
 <ul class="simple">
 <li><p><a class="reference external" href="https://www.uta-net.com/song/3088/">https://www.uta-net.com/song/3088/</a></p></li>
 </ul>
@@ -468,7 +499,7 @@
 ああ津軽海峡・冬景色<br></p>
 </section>
 <section id="id3">
-<h2><a class="toc-backref" href="#id9" role="doc-backlink">雪幻花</a><a class="headerlink" href="#id3" title="Link to this heading">#</a></h2>
+<h2><a class="toc-backref" href="#id14" role="doc-backlink">雪幻花</a><a class="headerlink" href="#id3" title="Link to this heading">#</a></h2>
 <ul class="simple">
 <li><p><a class="reference external" href="https://www.uta-net.com/song/219427/">https://www.uta-net.com/song/219427/</a></p></li>
 </ul>
@@ -489,7 +520,7 @@
 憎い恋しい 雪国の恋<br></p>
 </section>
 <section id="id4">
-<h2><a class="toc-backref" href="#id10" role="doc-backlink">人間模様</a><a class="headerlink" href="#id4" title="Link to this heading">#</a></h2>
+<h2><a class="toc-backref" href="#id15" role="doc-backlink">人間模様</a><a class="headerlink" href="#id4" title="Link to this heading">#</a></h2>
 <ul class="simple">
 <li><p><a class="reference external" href="https://www.uta-net.com/song/18014/">https://www.uta-net.com/song/18014/</a></p></li>
 </ul>
@@ -521,7 +552,7 @@
 そんなあんたが 大好きなのさ<br></p>
 </section>
 <section id="id5">
-<h2><a class="toc-backref" href="#id11" role="doc-backlink">一葉恋歌</a><a class="headerlink" href="#id5" title="Link to this heading">#</a></h2>
+<h2><a class="toc-backref" href="#id16" role="doc-backlink">一葉恋歌</a><a class="headerlink" href="#id5" title="Link to this heading">#</a></h2>
 <ul class="simple">
 <li><p><a class="reference external" href="https://www.uta-net.com/song/20709/">https://www.uta-net.com/song/20709/</a></p></li>
 </ul>
@@ -545,7 +576,7 @@
 一葉―――丸山福山町<br></p>
 </section>
 <section id="id6">
-<h2><a class="toc-backref" href="#id12" role="doc-backlink">北国の春</a><a class="headerlink" href="#id6" title="Link to this heading">#</a></h2>
+<h2><a class="toc-backref" href="#id17" role="doc-backlink">北国の春</a><a class="headerlink" href="#id6" title="Link to this heading">#</a></h2>
 <ul class="simple">
 <li><p><a class="reference external" href="https://www.uta-net.com/song/172465/">https://www.uta-net.com/song/172465/</a></p></li>
 </ul>
@@ -564,6 +595,122 @@
 あにきもおやじ似で 無口なふたりが<br>
 たまには酒でも 飲んでるだろか<br>
 あの故郷へ 帰ろかな帰ろかな<br></p>
+</section>
+<section id="id7">
+<h2><a class="toc-backref" href="#id18" role="doc-backlink">日々呉々と</a><a class="headerlink" href="#id7" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.uta-net.com/song/390888/">https://www.uta-net.com/song/390888/</a></p></li>
+</ul>
+<p>明(あ)かし命の産声(うぶごえ)が 春待つ 故郷(こきょう)にこだまする<br>
+母とつないだ小さな手 黄色帽子が列をなす<br></p>
+<p>昨日と同じ陽が昇り 昨日と同じ夕陽がにじむ<br>
+繰り返すことの喜びを きっと倖(しあわ)せと呼ぶのでしょう<br></p>
+<p>日々呉々(くれぐれ)と揺蕩(たゆた)うことを<br>
+きっと慶(よろこび)と言うのでしょう<br></p>
+<p>あの年に空に還った 齢(よわい)の命に手を合わす<br>
+止めどなく流した涙 今もどこかで雨となる<br></p>
+<p>昨日と違う月を見て 昨日と違う我が身と出会う<br>
+無知(むち)たることを知ることを きっと倖(しあわ)せと呼ぶのでしょう<br>
+愛されるより愛することを きっと慶(よろこび)と言うのでしょう<br></p>
+<p>昨日と同じ陽が昇り 昨日と同じ花が薫(くん)じる<br></p>
+<p>頼り頼らるる喜びを きっと倖せと呼ぶのでしょう<br>
+誰かのために働くことを きっと慶(よろこび)と言うのでしょう<br></p>
+<p>日々呉々(くれぐれ)と揺蕩(たゆた)うことを きっと倖せと呼ぶのでしょう<br></p>
+</section>
+<section id="id8">
+<h2><a class="toc-backref" href="#id19" role="doc-backlink">能登半島</a><a class="headerlink" href="#id8" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.uta-net.com/song/3551/">https://www.uta-net.com/song/3551/</a></p></li>
+</ul>
+<p>夜明け間近北の海は波も荒く<br>
+心細い旅の女泣かせるよう<br>
+ほつれ髪を指に巻いてためいきつき<br>
+通り過ぎる景色ばかり見つめていた<br>
+十九なかばの恋知らず<br>
+十九なかばで恋を知り<br>
+あなたあなたたずねて行く旅は<br>
+夏から秋への能登半島<br></p>
+<p>ここにいると旅の葉書もらった時<br>
+胸の奥で何か急にはじけたよう<br>
+一夜だけの旅の仕度すぐにつくり<br>
+熱い胸にとびこみたい私だった<br>
+十九なかばの恋知らず<br>
+十九なかばで恋を知り<br>
+すべてすべて投げ出し駈けつける<br>
+夏から秋への能登半島<br></p>
+<p>あなたあなたたずねて行く旅は<br>
+夏から秋への能登半島<br></p>
+</section>
+<section id="id9">
+<h2><a class="toc-backref" href="#id20" role="doc-backlink">風の盆恋歌</a><a class="headerlink" href="#id9" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.uta-net.com/song/1291/">https://www.uta-net.com/song/1291/</a></p></li>
+</ul>
+<p>蚊帳の中から 花を見る<br>
+咲いてはかない 酔芙容<br>
+若い日の 美しい<br>
+私を抱いて ほしかった<br>
+しのび逢う恋 風の盆<br></p>
+<p>私あなたの 腕の中<br>
+跳ねてはじけて 鮎になる<br>
+この命 ほしいなら<br>
+いつでも死んで みせますわ<br>
+夜に泣いてる 三味の音<br></p>
+<p>生きて添えない 二人なら<br>
+旅に出ましょう 幻の<br>
+遅すぎた 恋だから<br>
+命をかけて くつがえす<br>
+おわら恋唄 道連れに<br></p>
+</section>
+<section id="id10">
+<h2><a class="toc-backref" href="#id21" role="doc-backlink">大阪つばめ</a><a class="headerlink" href="#id10" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.uta-net.com/song/932/">https://www.uta-net.com/song/932/</a></p></li>
+</ul>
+<p>雨の降る夜は 人恋しくて<br>
+夢がぬれます ネオンがしみる<br>
+とんでゆきたい 抱かれたい<br>
+大阪つばめ<br>
+縁を切る橋 つなぐ橋<br>
+渡りきれない 淀屋橋<br></p>
+<p>声をかければ 他人の空似<br>
+うしろ姿の しあわせばかり<br>
+あなた逢いたい もう一度<br>
+大阪つばめ<br>
+たとえかなわぬ 夢でいい<br>
+両手合わせる 法善寺<br></p>
+<p>にごり水でも 青空うつす<br>
+越えてゆけます あなたがいれば<br>
+ふたりとびたい 春の空<br>
+大阪つばめ<br>
+つたい歩きの とまり木は<br>
+浮いて流れて 北新地<br></p>
+</section>
+<section id="id11">
+<h2><a class="toc-backref" href="#id22" role="doc-backlink">暖流</a><a class="headerlink" href="#id11" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.uta-net.com/song/3031/">https://www.uta-net.com/song/3031/</a></p></li>
+</ul>
+<p>私これで帰りますと席を立った<br>
+急にたずねすみませんと頭下げた<br>
+いいのここで一人にして下されば<br>
+後はぶらり海を見つめ過します<br>
+これで心が晴れました<br>
+あなたなしで生きることに決めました<br>
+沖を走る潮の流れ見つめながら<br>
+私しんみり南国土佐の昼さがり<br></p>
+<p>バスの窓にキラリキラリ 波が光り<br>
+岬までの道がつづく うねりながら<br>
+季節はずれ風がさわぐ海べりを<br>
+私ひとり乗せただけのバスが行く<br>
+これで心が晴れました<br>
+あなたなしで生きることに決めました<br>
+かもめつれて西へ走るフェリーボート<br>
+私ぼんやり南国土佐の昼さがり<br></p>
+<p>これで心が晴れました<br>
+あなたなしで生きることに決めました<br>
+ふり向いては駄目よ駄目よ戻っちゃ駄目<br>
+私はらはら 南国土佐の昼ざかり<br></p>
 </section>
 </section>
 
@@ -598,12 +745,12 @@
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="../index.html"
+       href="baisho_chieko.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">东洋歌词摘钞</p>
+        <p class="prev-next-title">倍賞千恵子</p>
       </div>
     </a>
     <a class="right-next"
@@ -622,22 +769,25 @@
             
             
               
-                <dialog id="pst-secondary-sidebar-modal"></dialog>
-                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
 
 
-  <div class="sidebar-secondary-item"><div
-    id="pst-page-navigation-heading-2"
-    class="page-toc tocsection onthispage">
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
     <i class="fa-solid fa-list"></i> Contents
   </div>
-  <nav id="pst-page-toc-nav" class="page-toc" aria-labelledby="pst-page-navigation-heading-2">
+  <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">津軽海峡・冬景色</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">雪幻花</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">人間模様</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">一葉恋歌</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">北国の春</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">日々呉々と</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">能登半島</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id9">風の盆恋歌</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id10">大阪つばめ</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id11">暖流</a></li>
 </ul>
   </nav></div>
 
@@ -686,8 +836,8 @@ By mir.AI
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script defer src="../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
-<script defer src="../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
+  <script src="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
 
   <footer class="bd-footer">
   </footer>
