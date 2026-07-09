@@ -7,6 +7,7 @@ Usage:
 """
 
 import subprocess
+import sys
 import yaml
 
 from pathlib import Path
@@ -49,7 +50,7 @@ def download_videos(yaml_path: str, output_path: str) -> None:
         url = clean_url(url)
         print(f"\nDownloading: {url}")
         cmd: list[str] = [
-            "yt-dlp",
+            sys.executable, "-m", "yt_dlp",
             "-f", "bestvideo+bestaudio",
             "--merge-output-format", "mp4",
             "-o", output_template,
