@@ -7,8 +7,8 @@
 依据本集已收录的艺术家与作品的整体气质，以下是可能合口味的延伸推荐。
 分组与本书原有的「By artist / By opus / By type」体例呼应。每条仅给出
 艺术家・曲名与简短的关联说明；如需正式收录，请按
-[add-song](../../.github/skills/add-song/SKILL.md) 流程补充
-`https://www.uta-net.com/song/<id>/` 链接与歌词正文。
+[add-song](https://github.com/chenlh317/japansk/blob/master/.github/skills/add-song/SKILL.md)
+流程补充 `https://www.uta-net.com/song/<id>/` 链接与歌词正文。
 
 ## 昭和歌謡・アイドル路線
 
