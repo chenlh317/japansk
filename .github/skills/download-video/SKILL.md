@@ -21,6 +21,11 @@ Use when the user wants to fetch a video for the lyrics/media pipeline.
 
 ## Notes
 
+- **YouTube requires the `deno` JS runtime** (used by `yt-dlp` + `yt-dlp-ejs`
+  to solve JS challenges). If missing, downloads fail with misleading errors
+  such as `This video is not available` — see
+  [setup-environment](../setup-environment/SKILL.md) to install it. Keep
+  `yt-dlp` up to date (`pip install -U yt-dlp`) when extraction breaks.
 - `download_videos.py:clean_url` strips `&list=...` so playlist URLs become
   single-video URLs. Preserve that behavior if you edit it.
 - For age-gated / member-only videos, pass cookies:
