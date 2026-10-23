@@ -11,7 +11,7 @@
 
 Junto a ti, al pasar las horas oh mi amor<br>
 Hay un rumor de fuente de cristal<br>
-Que en el jardi­n parece hablar<br>
+Que en el jardín parece hablar<br>
 En voz baja a las rosas<br>
 
 Dulce amor, esas hojas secas sin color<br>
@@ -22,16 +22,17 @@ Entre un hombre y una mujer, en un atardecer<br>
 Que siempre se recuerda<br>
 
 Oh mi amor, mientras dos se quieran con fervor<br>
-No dejaran las flores de brillar<br>
+No dejarán las flores de brillar<br>
 Ni ha de faltar al mundo paz, ni calor a la tierra<br>
-Yo se bien que hay palabras huecas, sin amor<br>
-Que lleva el viento, y que nadie las oyo con atencion<br>
-Pero otras palabras suenan, oh mi amor al corazon<br>
-Como notas de canto nupcial, y asi­ te quiero hablar<br>
+
+Yo sé bien que hay palabras huecas, sin amor<br>
+Que lleva el viento, y que nadie las oyó con atención<br>
+Pero otras palabras suenan, oh mi amor al corazón<br>
+Como notas de canto nupcial, y así te quiero hablar<br>
 Si en Aranjuez me esperas<br>
 
 Luego al caer la tarde se escucha un rumor<br>
-Es la fuente que alla­ parece hablar con las rosas<br>
+Es la fuente que allá parece hablar con las rosas<br>
 
 En Aranjuez, con tu amor<br>
 
